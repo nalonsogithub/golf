@@ -1,0 +1,16 @@
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (for future analysis scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/

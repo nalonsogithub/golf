@@ -885,6 +885,68 @@ def write_csvs(sessions, combines):
                     w.writerow([c["id"], c["date"], c["score"], c["estimated_handicap"], t["target"], t["target_score"], "", "average"] + [cell(t["average"].get(k)) for k in ccols])
 
 
+def md_to_html(md: str) -> str:
+    """Tiny Markdown -> HTML for REPORT.md (headings, paragraphs, lists, tables, bold)."""
+    import html as _html
+
+    def inline(t):
+        t = _html.escape(t, quote=False)
+        t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
+        t = re.sub(r"`(.+?)`", r"<code>\1</code>", t)
+        return t
+
+    out, para, lst, table = [], [], None, []
+
+    def flush_para():
+        if para:
+            out.append("<p>" + inline(" ".join(para)) + "</p>")
+            para.clear()
+
+    def flush_list():
+        nonlocal lst
+        if lst:
+            tag, items = lst
+            out.append(f"<{tag}>" + "".join(f"<li>{inline(i)}</li>" for i in items) + f"</{tag}>")
+            lst = None
+
+    def flush_table():
+        if table:
+            head = table[0]
+            body = [r for r in table[2:]] if len(table) > 1 and re.match(r"^[\s|:-]+$", table[1]) else table[1:]
+            cells = lambda r: [c.strip() for c in r.strip().strip("|").split("|")]
+            h = "<tr>" + "".join(f"<th class='l'>{inline(c)}</th>" for c in cells(head)) + "</tr>"
+            b = "".join("<tr>" + "".join(f"<td class='l'>{inline(c)}</td>" for c in cells(r)) + "</tr>" for r in body)
+            out.append(f"<table><thead>{h}</thead><tbody>{b}</tbody></table>")
+            table.clear()
+
+    for line in md.splitlines():
+        s = line.rstrip()
+        if s.startswith("|"):
+            flush_para(); flush_list(); table.append(s); continue
+        flush_table()
+        m = re.match(r"^(#{1,3})\s+(.*)", s)
+        if m:
+            flush_para(); flush_list()
+            lvl = len(m.group(1))
+            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>" if lvl > 1 else f"<h1 style='font-size:20px'>{inline(m.group(2))}</h1>")
+            continue
+        m = re.match(r"^(\d+)\.\s+(.*)", s)
+        if m:
+            flush_para()
+            if not lst or lst[0] != "ol": flush_list(); lst = ("ol", [])
+            lst[1].append(m.group(2)); continue
+        m = re.match(r"^[-*]\s+(.*)", s)
+        if m:
+            flush_para()
+            if not lst or lst[0] != "ul": flush_list(); lst = ("ul", [])
+            lst[1].append(m.group(1)); continue
+        if not s.strip():
+            flush_para(); flush_list(); continue
+        para.append(s.strip())
+    flush_para(); flush_list(); flush_table()
+    return "\n".join(out)
+
+
 def debug_dump(path: Path):
     pages = ocr_pdf(path)
     for pno, page in enumerate(pages, start=1):
@@ -943,6 +1005,13 @@ def main():
         "window.TRACKMAN_DATA = " + json.dumps(payload) + ";\n",
         encoding="utf-8",
     )
+    report = ROOT / "REPORT.md"
+    if report.exists():
+        (DASHBOARD_DIR / "findings.js").write_text(
+            "// Generated from REPORT.md by scripts/extract_reports.py -- edit REPORT.md, not this file.\n"
+            "window.TRACKMAN_FINDINGS = " + json.dumps(md_to_html(report.read_text(encoding="utf-8"))) + ";\n",
+            encoding="utf-8",
+        )
     print(f"\nWrote {DATA_DIR / 'sessions.json'}, {DATA_DIR / 'combines.json'}, {DASHBOARD_DIR / 'data.js'}")
     if problems:
         print(f"\n{len(problems)} warning(s):")

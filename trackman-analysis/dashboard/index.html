@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trackman Progress Dashboard</title>
+<style>
+  :root {
+    --bg: #f5f6f8; --card: #ffffff; --ink: #1c1f24; --muted: #6b7280; --line: #e5e7eb;
+    --accent: #f26a1b; --accent-soft: #fde9dc; --good: #1f8a4c; --bad: #c2410c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.45; }
+  header { background: #111418; color: #fff; padding: 22px 28px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 18px; }
+  header h1 { margin: 0; font-size: 22px; letter-spacing: .04em; text-transform: uppercase; }
+  header .sub { color: #b8bec8; font-size: 13px; }
+  main { max-width: 1400px; margin: 0 auto; padding: 20px 24px 60px; }
+  nav.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0 18px; }
+  nav.tabs button { border: 1px solid var(--line); background: #fff; padding: 8px 14px; border-radius: 999px; cursor: pointer; font-size: 14px; color: var(--ink); }
+  nav.tabs button.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+  section.tab { display: none; }
+  section.tab.active { display: block; }
+  .grid { display: grid; gap: 16px; }
+  .grid.kpis { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+  .card h2 { margin: 0 0 6px; font-size: 16px; }
+  .card h3 { margin: 0 0 8px; font-size: 14px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+  .card .note { color: var(--muted); font-size: 13px; margin: 4px 0 10px; }
+  .kpi .val { font-size: 28px; font-weight: 700; }
+  .kpi .delta { font-size: 13px; color: var(--muted); }
+  .kpi .delta.up { color: var(--good); } .kpi .delta.down { color: var(--bad); }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; margin: 4px 0 14px; }
+  .controls label { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+  select, input[type=number] { font: inherit; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; user-select: none; }
+  .chip .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .chip.off { opacity: .4; }
+  .chart-wrap { position: relative; height: 380px; }
+  .chart-wrap.tall { height: 460px; }
+  .chart-wrap.short { height: 280px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  th:first-child, td:first-child, th.l, td.l { text-align: left; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; position: sticky; top: 0; background: #fff; }
+  tr.click { cursor: pointer; } tr.click:hover { background: #fafafa; }
+  .table-scroll { max-height: 520px; overflow: auto; }
+  .two { grid-template-columns: 1fr 1fr; }
+  .three { grid-template-columns: 2fr 1fr; }
+  @media (max-width: 900px) { .two, .three { grid-template-columns: 1fr; } }
+  .stat-list { display: grid; grid-template-columns: auto auto; gap: 4px 14px; font-size: 14px; }
+  .stat-list dt { color: var(--muted); } .stat-list dd { margin: 0; font-weight: 600; text-align: right; }
+  .findings h2 { font-size: 18px; margin: 18px 0 6px; }
+  .findings h3 { font-size: 15px; margin: 16px 0 4px; }
+  .findings p, .findings li { font-size: 14px; }
+  .findings .callout { border-left: 4px solid var(--accent); background: var(--accent-soft); padding: 10px 14px; border-radius: 6px; margin: 10px 0; }
+  .badge { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 999px; background: #eef2f7; color: #374151; margin-left: 6px; }
+  .heat td.h { color: #fff; font-weight: 600; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 30px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Trackman Progress</h1>
+  <div class="sub" id="hdr-sub">loading...</div>
+</header>
+<main>
+  <nav class="tabs" id="tabs">
+    <button data-tab="overview" class="active">Overview</button>
+    <button data-tab="trends">Trends</button>
+    <button data-tab="dispersion">Dispersion</button>
+    <button data-tab="delivery">Path &amp; face</button>
+    <button data-tab="session">Within a session</button>
+    <button data-tab="combine">Combine</button>
+    <button data-tab="sessions">All sessions</button>
+    <button data-tab="findings">Findings</button>
+  </nav>
+
+  <!-- OVERVIEW -->
+  <section class="tab active" id="tab-overview">
+    <div class="controls">
+      <label>Club <select id="ov-club"></select></label>
+      <label>Compare last <input type="number" id="ov-n" value="3" min="1" max="20" style="width:64px"> sessions against the earlier ones</label>
+    </div>
+    <div class="grid kpis" id="ov-kpis"></div>
+    <div class="grid two" style="margin-top:16px">
+      <div class="card">
+        <h3>Carry per session (mean, with 1 SD band)</h3>
+        <div class="chart-wrap short"><canvas id="ov-carry"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Lateral dispersion per session (side SD, yds)</h3>
+        <div class="note">Only sessions exported with the "Side" column (Aug 2025 onward). Lower is tighter.</div>
+        <div class="chart-wrap short"><canvas id="ov-side"></canvas></div>
+      </div>
+    </div>
+    <div class="grid two" style="margin-top:16px">
+      <div class="card">
+        <h3>Club speed and ball speed per session (mph)</h3>
+        <div class="chart-wrap short"><canvas id="ov-speed"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Combine score and estimated handicap</h3>
+        <div class="chart-wrap short"><canvas id="ov-combine"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRENDS -->
+  <section class="tab" id="tab-trends">
+    <div class="card">
+      <div class="controls">
+        <label>Metric <select id="tr-metric"></select></label>
+        <label>Statistic <select id="tr-stat">
+          <option value="mean">Session mean</option>
+          <option value="sd">Session SD (consistency)</option>
+          <option value="median">Session median</option>
+          <option value="min">Session min</option>
+          <option value="max">Session max</option>
+          <option value="pctBig">% shots more than 15 yds offline</option>
+        </select></label>
+        <label><input type="checkbox" id="tr-minn" checked> hide sessions with fewer than 4 shots of the club</label>
+        <div class="chips" id="tr-chips"></div>
+      </div>
+      <div class="chart-wrap tall"><canvas id="tr-chart"></canvas></div>
+      <div class="note" id="tr-note"></div>
+    </div>
+  </section>
+
+  <!-- DISPERSION -->
+  <section class="tab" id="tab-dispersion">
+    <div class="card">
+      <div class="controls">
+        <label>Sessions <select id="di-session"></select></label>
+        <div class="chips" id="di-chips"></div>
+      </div>
+      <div class="grid three">
+        <div class="chart-wrap tall"><canvas id="di-chart"></canvas></div>
+        <div>
+          <h3>Selected shots</h3>
+          <div id="di-stats"></div>
+        </div>
+      </div>
+      <div class="note">Down-range view: x = finishing position left (-) / right (+) of the target line in yards, y = carry. Sessions before Aug 2025 were exported without the Side column and are not shown here.</div>
+    </div>
+  </section>
+
+  <!-- DELIVERY -->
+  <section class="tab" id="tab-delivery">
+    <div class="grid two">
+      <div class="card">
+        <h3>Club path vs face-to-path (deg)</h3>
+        <div class="note">Only sessions exported with path/face columns. Path &gt; 0 = in-to-out; face-to-path &gt; 0 = face open to path (fade/slice spin), &lt; 0 = closed (draw/hook spin).</div>
+        <div class="controls"><div class="chips" id="de-chips"></div></div>
+        <div class="chart-wrap tall"><canvas id="de-chart"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Session averages: path, face-to-path, attack angle, smash</h3>
+        <div class="table-scroll" id="de-table"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WITHIN SESSION -->
+  <section class="tab" id="tab-session">
+    <div class="card">
+      <div class="controls">
+        <label>Session <select id="se-session"></select></label>
+        <label>Club <select id="se-club"></select></label>
+        <label>Metric <select id="se-metric"></select></label>
+        <label>Rolling window <input type="number" id="se-win" value="5" min="1" max="15" style="width:64px"></label>
+      </div>
+      <div class="chart-wrap"><canvas id="se-chart"></canvas></div>
+      <div class="grid two" style="margin-top:14px">
+        <div><h3>First half vs second half</h3><div id="se-halves"></div></div>
+        <div><h3>Shot list</h3><div class="table-scroll" style="max-height:300px" id="se-table"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMBINE -->
+  <section class="tab" id="tab-combine">
+    <div class="grid two">
+      <div class="card">
+        <h3>Combine score and estimated handicap</h3>
+        <div class="chart-wrap short"><canvas id="co-score"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Average distance from pin by target (ft)</h3>
+        <div class="chart-wrap short"><canvas id="co-frompin"></canvas></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h3>Score by target, per Combine</h3>
+      <div class="note">Trackman scores each shot 0-100 from its distance to the target; a target score is the mean of six shots. Cells shaded by score.</div>
+      <div class="table-scroll heat" id="co-heat"></div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h3>Per-shot detail</h3>
+      <div class="controls">
+        <label>Combine <select id="co-select"></select></label>
+      </div>
+      <div class="table-scroll" id="co-shots"></div>
+    </div>
+  </section>
+
+  <!-- SESSIONS -->
+  <section class="tab" id="tab-sessions">
+    <div class="card">
+      <h3>Every session and club (means from shot data)</h3>
+      <div class="table-scroll" id="all-table"></div>
+    </div>
+  </section>
+
+  <!-- FINDINGS -->
+  <section class="tab" id="tab-findings">
+    <div class="card findings" id="findings-body"></div>
+  </section>
+
+  <footer id="footer"></footer>
+</main>
+
+<script src="vendor/chart.umd.js"></script>
+<script src="data.js"></script>
+<script src="findings.js"></script>
+<script>
+(function () {
+  const DATA = window.TRACKMAN_DATA;
+  if (!DATA) { document.getElementById('hdr-sub').textContent = 'data.js not found. Run scripts/extract_reports.py'; return; }
+  const sessions = DATA.sessions.slice().sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  const combines = DATA.combines.slice().sort((a, b) => a.date.localeCompare(b.date));
+
+  // ---------- helpers ----------
+  const CLUB_ORDER = ['Driver', '3Wood', '5Wood', '3Hybrid', '4Hybrid', '4Iron', '5Iron', '6Iron', '7Iron', '8Iron', '9Iron', 'PitchingWedge', 'PW', 'GapWedge', '50Wedge', '52Wedge', '54Wedge', 'SandWedge', '56Wedge', '58Wedge', 'LobWedge', '60Wedge'];
+  const PALETTE = ['#f26a1b', '#2563eb', '#16a34a', '#9333ea', '#dc2626', '#0891b2', '#ca8a04', '#db2777', '#4b5563', '#65a30d', '#7c3aed', '#ea580c'];
+  const clubIndex = c => { const i = CLUB_ORDER.indexOf(c); return i < 0 ? 99 : i; };
+  const allClubs = [...new Set(sessions.flatMap(s => s.clubs.map(c => c.club)))].sort((a, b) => clubIndex(a) - clubIndex(b));
+  const clubColor = {}; allClubs.forEach((c, i) => clubColor[c] = PALETTE[i % PALETTE.length]);
+  const prettyClub = c => c.replace(/(\d)(Iron|Wood|Hybrid|Wedge)/, '$1 $2').replace('PitchingWedge', 'Pitching Wedge').replace('LobWedge', 'Lob Wedge').replace('SandWedge', 'Sand Wedge');
+  const ts = d => new Date(d + 'T12:00:00').getTime();
+  const fmtDate = t => { const d = new Date(t); return d.toLocaleDateString(undefined, { year: '2-digit', month: 'short', day: 'numeric' }); };
+  const vals = (shots, k) => shots.map(s => s[k]).filter(v => v !== null && v !== undefined && !Number.isNaN(v));
+  const mean = a => a.length ? a.reduce((x, y) => x + y, 0) / a.length : null;
+  const sd = a => { if (a.length < 2) return null; const m = mean(a); return Math.sqrt(a.reduce((s, v) => s + (v - m) ** 2, 0) / a.length); };
+  const median = a => { if (!a.length) return null; const s = a.slice().sort((x, y) => x - y); const m = Math.floor(s.length / 2); return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
+  const r1 = v => v === null || v === undefined ? '-' : (Math.round(v * 10) / 10).toFixed(1);
+  const r0 = v => v === null || v === undefined ? '-' : Math.round(v).toString();
+  const r2 = v => v === null || v === undefined ? '-' : v.toFixed(2);
+  const sessionLabel = s => s.date + (s.id.length > 8 ? ' (' + s.id.slice(8) + ')' : '');
+
+  const METRICS = {
+    carry: { label: 'Carry (yds)', unit: 'yds', dec: 1 },
+    total: { label: 'Total (yds)', unit: 'yds', dec: 1 },
+    club_speed: { label: 'Club speed (mph)', unit: 'mph', dec: 1 },
+    ball_speed: { label: 'Ball speed (mph)', unit: 'mph', dec: 1 },
+    smash: { label: 'Smash factor', unit: '', dec: 2 },
+    spin_rate: { label: 'Spin rate (rpm)', unit: 'rpm', dec: 0 },
+    attack_angle: { label: 'Attack angle (deg)', unit: 'deg', dec: 1 },
+    launch_angle: { label: 'Launch angle (deg)', unit: 'deg', dec: 1 },
+    side: { label: 'Side: - left / + right (yds)', unit: 'yds', dec: 1 },
+    curve: { label: 'Curve: - left / + right (yds)', unit: 'yds', dec: 1 },
+    club_path: { label: 'Club path (deg, + in-to-out)', unit: 'deg', dec: 1 },
+    face_to_path: { label: 'Face to path (deg, + open)', unit: 'deg', dec: 1 },
+    face_angle: { label: 'Face angle (deg)', unit: 'deg', dec: 1 },
+    dynamic_loft: { label: 'Dynamic loft (deg)', unit: 'deg', dec: 1 },
+    height: { label: 'Height (ft)', unit: 'ft', dec: 0 },
+  };
+  const metricsPresent = Object.keys(METRICS).filter(k => sessions.some(s => s.clubs.some(c => vals(c.shots, k).length)));
+
+  // per session+club summary
+  function summarize(shots) {
+    const o = { n: shots.length };
+    for (const k of Object.keys(METRICS)) {
+      const v = vals(shots, k);
+      o[k] = { mean: mean(v), sd: sd(v), median: median(v), min: v.length ? Math.min(...v) : null, max: v.length ? Math.max(...v) : null, n: v.length };
+    }
+    const side = vals(shots, 'side');
+    o.pctBig = side.length ? 100 * side.filter(v => Math.abs(v) > 15).length / side.length : null;
+    o.pctLeft = side.length ? 100 * side.filter(v => v < 0).length / side.length : null;
+    return o;
+  }
+  const rows = []; // flat list of {session, club, shots, sum}
+  for (const s of sessions) for (const c of s.clubs) rows.push({ session: s, club: c.club, shots: c.shots, sum: summarize(c.shots), report: c });
+
+  const totalShots = rows.reduce((a, r) => a + r.shots.length, 0);
+  document.getElementById('hdr-sub').textContent = `${sessions.length} range sessions, ${totalShots} shots, ${combines.length} Combines  |  ${sessions[0].date} to ${sessions[sessions.length - 1].date}  |  data generated ${DATA.generated}`;
+  document.getElementById('footer').textContent = 'Add PDFs to reports/ and run scripts/extract_reports.py to refresh. All values normalised to yards / mph / feet; Trackman "normalized" conditions (Premium ball, 25 C, sea level).';
+
+  // ---------- Chart defaults ----------
+  Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+  Chart.defaults.color = '#374151';
+  const timeAxis = (extra = {}) => Object.assign({ type: 'linear', ticks: { callback: v => fmtDate(v), maxTicksLimit: 10 }, grid: { color: '#f0f0f0' } }, extra);
+  const charts = {};
+  function makeChart(id, cfg) { if (charts[id]) charts[id].destroy(); charts[id] = new Chart(document.getElementById(id), cfg); return charts[id]; }
+  const tipTitleDate = items => items.length ? fmtDate(items[0].parsed.x) : '';
+
+  // ---------- Tabs ----------
+  function showTab(name) {
+    const b = document.querySelector(`nav.tabs button[data-tab="${name}"]`); if (!b) return;
+    document.querySelectorAll('nav.tabs button').forEach(x => x.classList.toggle('active', x === b));
+    document.querySelectorAll('section.tab').forEach(x => x.classList.toggle('active', x.id === 'tab-' + name));
+    history.replaceState(null, '', '#' + name);
+    Object.values(charts).forEach(c => c.resize());
+  }
+  document.getElementById('tabs').addEventListener('click', e => { const b = e.target.closest('button'); if (b) showTab(b.dataset.tab); });
+
+  // ---------- chips ----------
+  function buildChips(el, clubs, selected, onChange) {
+    el.innerHTML = '';
+    for (const c of clubs) {
+      const chip = document.createElement('span');
+      chip.className = 'chip' + (selected.has(c) ? '' : ' off');
+      chip.innerHTML = `<span class="dot" style="background:${clubColor[c]}"></span>${prettyClub(c)}`;
+      chip.onclick = () => { if (selected.has(c)) selected.delete(c); else selected.add(c); chip.classList.toggle('off'); onChange(); };
+      el.appendChild(chip);
+    }
+  }
+
+  // ---------- OVERVIEW ----------
+  const ovClub = document.getElementById('ov-club');
+  const mostHit = allClubs.slice().sort((a, b) => rows.filter(r => r.club === b).length - rows.filter(r => r.club === a).length)[0];
+  allClubs.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = prettyClub(c) + ` (${rows.filter(r => r.club === c).length} sessions)`; ovClub.appendChild(o); });
+  ovClub.value = mostHit;
+  ovClub.onchange = renderOverview; document.getElementById('ov-n').onchange = renderOverview;
+
+  function kpi(label, val, delta, unit, betterUp) {
+    let cls = '', txt = '';
+    if (delta !== null && delta !== undefined && !Number.isNaN(delta)) {
+      const good = betterUp === null ? null : (betterUp ? delta > 0 : delta < 0);
+      cls = good === null ? '' : (good ? 'up' : 'down');
+      txt = (delta > 0 ? '+' : '') + (Math.abs(delta) < 10 ? delta.toFixed(delta === Math.round(delta) ? 0 : 2).replace(/\.?0+$/, '') : Math.round(delta)) + ' ' + unit + ' vs earlier';
+    }
+    return `<div class="card kpi"><h3>${label}</h3><div class="val">${val}</div><div class="delta ${cls}">${txt}</div></div>`;
+  }
+
+  function renderOverview() {
+    const club = ovClub.value; const n = Math.max(1, parseInt(document.getElementById('ov-n').value || '3'));
+    const rs = rows.filter(r => r.club === club && r.shots.length >= 3);
+    const recent = rs.slice(-n), earlier = rs.slice(0, Math.max(0, rs.length - n));
+    const pool = list => list.flatMap(r => r.shots);
+    const R = summarize(pool(recent)), E = summarize(pool(earlier));
+    const d = (k, f = 'mean') => (R[k][f] !== null && E[k][f] !== null) ? R[k][f] - E[k][f] : null;
+    let html = '';
+    html += kpi('Carry', r1(R.carry.mean) + ' yds', d('carry'), 'yds', true);
+    html += kpi('Carry SD', r1(R.carry.sd) + ' yds', d('carry', 'sd'), 'yds', false);
+    html += kpi('Club speed', r1(R.club_speed.mean) + ' mph', d('club_speed'), 'mph', true);
+    html += kpi('Ball speed', r1(R.ball_speed.mean) + ' mph', d('ball_speed'), 'mph', true);
+    html += kpi('Smash factor', r2(R.smash.mean), d('smash'), '', true);
+    html += kpi('Attack angle', r1(R.attack_angle.mean) + '&deg;', d('attack_angle'), 'deg', null);
+    html += kpi('Spin', r0(R.spin_rate.mean) + ' rpm', d('spin_rate'), 'rpm', null);
+    html += kpi('Side bias', (R.side.mean === null ? '-' : (R.side.mean < 0 ? r1(-R.side.mean) + ' L' : r1(R.side.mean) + ' R')), null, '', null);
+    html += kpi('Side SD', r1(R.side.sd) + ' yds', d('side', 'sd'), 'yds', false);
+    html += kpi('> 15 yds offline', R.pctBig === null ? '-' : r0(R.pctBig) + ' %', (R.pctBig !== null && E.pctBig !== null) ? R.pctBig - E.pctBig : null, 'pts', false);
+    document.getElementById('ov-kpis').innerHTML = html + `<div class="card kpi"><h3>Sample</h3><div class="val">${R.n}</div><div class="delta">shots in last ${recent.length} session(s); ${E.n} shots earlier</div></div>`;
+
+    const col = clubColor[club];
+    // carry with band
+    const pts = rs.map(r => ({ x: ts(r.session.date), y: r.sum.carry.mean, sd: r.sum.carry.sd, n: r.shots.length }));
+    makeChart('ov-carry', { type: 'line', data: { datasets: [
+      { label: 'Mean carry', data: pts, borderColor: col, backgroundColor: col, tension: .2, pointRadius: 4 },
+      { label: '+1 SD', data: pts.map(p => ({ x: p.x, y: p.sd === null ? null : p.y + p.sd })), borderColor: 'transparent', backgroundColor: col + '22', fill: '+1', pointRadius: 0 },
+      { label: '-1 SD', data: pts.map(p => ({ x: p.x, y: p.sd === null ? null : p.y - p.sd })), borderColor: 'transparent', pointRadius: 0 },
+    ] }, options: { maintainAspectRatio: false, scales: { x: timeAxis(), y: { title: { display: true, text: 'yds' } } }, plugins: { legend: { display: false }, tooltip: { callbacks: { title: tipTitleDate, label: c => c.datasetIndex === 0 ? ` ${r1(c.raw.y)} yds mean, SD ${r1(c.raw.sd)}, ${c.raw.n} shots` : null } } } } });
+    // side sd
+    const sp = rs.filter(r => r.sum.side.sd !== null).map(r => ({ x: ts(r.session.date), y: r.sum.side.sd, pct: r.sum.pctBig, bias: r.sum.side.mean }));
+    makeChart('ov-side', { type: 'line', data: { datasets: [{ label: 'Side SD', data: sp, borderColor: col, backgroundColor: col, tension: .2, pointRadius: 4 }] }, options: { maintainAspectRatio: false, scales: { x: timeAxis(), y: { min: 0, title: { display: true, text: 'yds' } } }, plugins: { legend: { display: false }, tooltip: { callbacks: { title: tipTitleDate, label: c => ` SD ${r1(c.raw.y)} yds, bias ${c.raw.bias < 0 ? r1(-c.raw.bias) + ' L' : r1(c.raw.bias) + ' R'}, ${r0(c.raw.pct)}% beyond 15 yds` } } } } });
+    // speeds
+    makeChart('ov-speed', { type: 'line', data: { datasets: [
+      { label: 'Ball speed', data: rs.map(r => ({ x: ts(r.session.date), y: r.sum.ball_speed.mean })), borderColor: col, backgroundColor: col, tension: .2, pointRadius: 3, spanGaps: true },
+      { label: 'Club speed', data: rs.map(r => ({ x: ts(r.session.date), y: r.sum.club_speed.mean })), borderColor: '#4b5563', backgroundColor: '#4b5563', tension: .2, pointRadius: 3, spanGaps: true },
+    ] }, options: { maintainAspectRatio: false, scales: { x: timeAxis(), y: { title: { display: true, text: 'mph' } } }, plugins: { tooltip: { callbacks: { title: tipTitleDate } } } } });
+    renderCombineScore('ov-combine');
+  }
+
+  function renderCombineScore(id) {
+    makeChart(id, { type: 'line', data: { datasets: [
+      { label: 'Combine score', data: combines.map(c => ({ x: ts(c.date), y: c.score })), borderColor: '#f26a1b', backgroundColor: '#f26a1b', yAxisID: 'y', tension: .15, pointRadius: 5 },
+      { label: 'Estimated handicap', data: combines.map(c => ({ x: ts(c.date), y: c.estimated_handicap })), borderColor: '#2563eb', backgroundColor: '#2563eb', yAxisID: 'y2', tension: .15, pointRadius: 5, borderDash: [5, 4] },
+    ] }, options: { maintainAspectRatio: false, scales: { x: timeAxis(), y: { title: { display: true, text: 'score' }, suggestedMin: 40, suggestedMax: 80 }, y2: { position: 'right', reverse: true, title: { display: true, text: 'est. handicap (lower is better)' }, grid: { drawOnChartArea: false }, suggestedMin: 0, suggestedMax: 20 } }, plugins: { tooltip: { callbacks: { title: tipTitleDate } } } } });
+  }
+
+  // ---------- TRENDS ----------
+  const trMetric = document.getElementById('tr-metric');
+  metricsPresent.forEach(k => { const o = document.createElement('option'); o.value = k; o.textContent = METRICS[k].label; trMetric.appendChild(o); });
+  const trSelected = new Set(allClubs.filter(c => rows.filter(r => r.club === c).length >= 3));
+  buildChips(document.getElementById('tr-chips'), allClubs, trSelected, renderTrends);
+  ['tr-metric', 'tr-stat', 'tr-minn'].forEach(id => document.getElementById(id).onchange = renderTrends);
+
+  function renderTrends() {
+    const k = trMetric.value, stat = document.getElementById('tr-stat').value, minn = document.getElementById('tr-minn').checked ? 4 : 1;
+    const datasets = [];
+    for (const club of allClubs) {
+      if (!trSelected.has(club)) continue;
+      const pts = rows.filter(r => r.club === club && r.shots.length >= minn).map(r => {
+        const y = stat === 'pctBig' ? r.sum.pctBig : r.sum[k][stat];
+        return y === null || y === undefined ? null : { x: ts(r.session.date), y, n: r.sum[k].n, sd: r.sum[k].sd, mean: r.sum[k].mean };
+      }).filter(Boolean);
+      if (!pts.length) continue;
+      datasets.push({ label: prettyClub(club), data: pts, borderColor: clubColor[club], backgroundColor: clubColor[club], tension: .2, pointRadius: 4, spanGaps: true });
+    }
+    const unit = stat === 'pctBig' ? '%' : METRICS[k].unit;
+    makeChart('tr-chart', { type: 'line', data: { datasets }, options: { maintainAspectRatio: false, interaction: { mode: 'nearest', intersect: false }, scales: { x: timeAxis(), y: { title: { display: true, text: (stat === 'pctBig' ? '% shots > 15 yds offline' : METRICS[k].label + ' - ' + stat) } } }, plugins: { tooltip: { callbacks: { title: tipTitleDate, label: c => ` ${c.dataset.label}: ${stat === 'pctBig' ? r0(c.raw.y) + '%' : (METRICS[k].dec === 2 ? r2(c.raw.y) : METRICS[k].dec === 0 ? r0(c.raw.y) : r1(c.raw.y)) + ' ' + unit} (n=${c.raw.n}${stat !== 'mean' && c.raw.mean !== null ? ', mean ' + r1(c.raw.mean) : ''}${stat !== 'sd' && c.raw.sd !== null ? ', SD ' + r1(c.raw.sd) : ''})` } } } } });
+    document.getElementById('tr-note').textContent = stat === 'sd' ? 'SD = standard deviation of the shots in that session. For carry this is distance control; for side it is lateral dispersion; for attack angle and path it is delivery repeatability.' : '';
+  }
+
+  // ---------- DISPERSION ----------
+  const diSession = document.getElementById('di-session');
+  const sideSessions = sessions.filter(s => s.clubs.some(c => vals(c.shots, 'side').length));
+  diSession.innerHTML = '<option value="__all">All sessions with side data</option><option value="__last3">Last 3 sessions</option>' + sideSessions.slice().reverse().map(s => `<option value="${s.id}">${sessionLabel(s)} - ${s.clubs.map(c => prettyClub(c.club) + ' x' + c.shots.length).join(', ')}</option>`).join('');
+  const diSelected = new Set(allClubs);
+  buildChips(document.getElementById('di-chips'), allClubs, diSelected, renderDispersion);
+  diSession.onchange = renderDispersion;
+
+  function renderDispersion() {
+    const v = diSession.value;
+    let sel = v === '__all' ? sideSessions : v === '__last3' ? sideSessions.slice(-3) : sideSessions.filter(s => s.id === v);
+    const datasets = []; let statsHtml = '';
+    for (const club of allClubs) {
+      if (!diSelected.has(club)) continue;
+      const shots = sel.flatMap(s => s.clubs.filter(c => c.club === club).flatMap(c => c.shots.filter(x => x.side !== null && x.carry !== null).map(x => ({ x: x.side, y: x.carry, s: s.date, shot: x.shot, bs: x.ball_speed }))));
+      if (!shots.length) continue;
+      datasets.push({ label: prettyClub(club), data: shots, backgroundColor: clubColor[club] + 'cc', borderColor: clubColor[club], pointRadius: 5 });
+      const sides = shots.map(p => p.x), carries = shots.map(p => p.y);
+      statsHtml += `<div class="card" style="margin-bottom:10px;padding:10px 14px"><b style="color:${clubColor[club]}">${prettyClub(club)}</b> <span class="badge">${shots.length} shots</span>
+        <dl class="stat-list" style="margin:6px 0 0"><dt>Carry mean / SD</dt><dd>${r1(mean(carries))} / ${r1(sd(carries))} yds</dd>
+        <dt>Side bias</dt><dd>${mean(sides) < 0 ? r1(-mean(sides)) + ' L' : r1(mean(sides)) + ' R'}</dd>
+        <dt>Side SD</dt><dd>${r1(sd(sides))} yds</dd>
+        <dt>Left / right</dt><dd>${r0(100 * sides.filter(x => x < 0).length / sides.length)}% / ${r0(100 * sides.filter(x => x > 0).length / sides.length)}%</dd>
+        <dt>Beyond 15 yds</dt><dd>${r0(100 * sides.filter(x => Math.abs(x) > 15).length / sides.length)}%</dd>
+        <dt>Carry range</dt><dd>${r0(Math.min(...carries))} to ${r0(Math.max(...carries))}</dd></dl></div>`;
+    }
+    document.getElementById('di-stats').innerHTML = statsHtml || '<div class="note">No shots with side data in this selection.</div>';
+    const maxX = Math.max(30, ...datasets.flatMap(d => d.data.map(p => Math.abs(p.x))));
+    makeChart('di-chart', { type: 'scatter', data: { datasets }, options: { maintainAspectRatio: false, scales: { x: { min: -Math.ceil(maxX / 10) * 10, max: Math.ceil(maxX / 10) * 10, title: { display: true, text: 'left  <-  side (yds)  ->  right' }, grid: { color: ctx => ctx.tick.value === 0 ? '#111' : '#eee' } }, y: { title: { display: true, text: 'carry (yds)' }, beginAtZero: true } }, plugins: { tooltip: { callbacks: { label: c => ` ${c.dataset.label} ${c.raw.s} #${c.raw.shot}: carry ${r1(c.raw.y)}, side ${c.raw.x < 0 ? r1(-c.raw.x) + ' L' : r1(c.raw.x) + ' R'}${c.raw.bs ? ', ball ' + r1(c.raw.bs) + ' mph' : ''}` } } } } });
+  }
+
+  // ---------- DELIVERY ----------
+  const deSelected = new Set(allClubs);
+  buildChips(document.getElementById('de-chips'), allClubs.filter(c => rows.some(r => r.club === c && r.sum.club_path.n)), deSelected, renderDelivery);
+  function renderDelivery() {
+    const datasets = [];
+    for (const club of allClubs) {
+      if (!deSelected.has(club)) continue;
+      const pts = rows.filter(r => r.club === club).flatMap(r => r.shots.filter(x => x.club_path !== null && x.club_path !== undefined && x.face_to_path !== null && x.face_to_path !== undefined).map(x => ({ x: x.club_path, y: x.face_to_path, s: r.session.date, shot: x.shot, side: x.side !== undefined ? x.side : x.curve })));
+      if (pts.length) datasets.push({ label: prettyClub(club), data: pts, backgroundColor: clubColor[club] + 'bb', borderColor: clubColor[club], pointRadius: 4 });
+    }
+    const quad = { id: 'quad', afterDraw(chart) { const { ctx, chartArea: a, scales: { x, y } } = chart; ctx.save(); ctx.fillStyle = '#9ca3af'; ctx.font = '12px sans-serif';
+      ctx.fillText('in-to-out, face open: push / push-fade', x.getPixelForValue(0.5), a.top + 14);
+      ctx.fillText('in-to-out, face closed: draw / hook', x.getPixelForValue(0.5), a.bottom - 6);
+      ctx.textAlign = 'right'; ctx.fillText('out-to-in, face open: pull-fade / slice', x.getPixelForValue(-0.5), a.top + 14);
+      ctx.fillText('out-to-in, face closed: pull / pull-hook', x.getPixelForValue(-0.5), a.bottom - 6); ctx.restore(); } };
+    makeChart('de-chart', { type: 'scatter', data: { datasets }, plugins: [quad], options: { maintainAspectRatio: false, scales: { x: { min: -12, max: 12, title: { display: true, text: 'club path (deg)  -  out-to-in  <  0  <  in-to-out' }, grid: { color: c => c.tick.value === 0 ? '#111' : '#eee' } }, y: { min: -12, max: 12, title: { display: true, text: 'face to path (deg)  -  closed  <  0  <  open' }, grid: { color: c => c.tick.value === 0 ? '#111' : '#eee' } } }, plugins: { tooltip: { callbacks: { label: c => ` ${c.dataset.label} ${c.raw.s} #${c.raw.shot}: path ${r1(c.raw.x)}, face-to-path ${r1(c.raw.y)}${c.raw.side !== null && c.raw.side !== undefined ? ', finish ' + (c.raw.side < 0 ? r1(-c.raw.side) + ' L' : r1(c.raw.side) + ' R') : ''}` } } } } });
+    // table
+    const trs = rows.filter(r => r.sum.club_path.n || r.sum.attack_angle.n).map(r => `<tr><td class="l">${r.session.date}</td><td class="l" style="color:${clubColor[r.club]}">${prettyClub(r.club)}</td><td>${r.shots.length}</td><td>${r1(r.sum.club_path.mean)}</td><td>${r1(r.sum.face_to_path.mean)}</td><td>${r1(r.sum.face_to_path.sd)}</td><td>${r1(r.sum.attack_angle.mean)}</td><td>${r2(r.sum.smash.mean)}</td><td>${r1(r.sum.launch_angle.mean)}</td><td>${r0(r.sum.spin_rate.mean)}</td></tr>`).join('');
+    document.getElementById('de-table').innerHTML = `<table><thead><tr><th class="l">Date</th><th class="l">Club</th><th>n</th><th>Path</th><th>Face-to-path</th><th>F2P SD</th><th>Attack</th><th>Smash</th><th>Launch</th><th>Spin</th></tr></thead><tbody>${trs}</tbody></table>`;
+  }
+
+  // ---------- WITHIN SESSION ----------
+  const seSession = document.getElementById('se-session'), seClub = document.getElementById('se-club'), seMetric = document.getElementById('se-metric');
+  seSession.innerHTML = sessions.slice().reverse().map(s => `<option value="${s.id}">${sessionLabel(s)} - ${s.clubs.map(c => prettyClub(c.club) + ' x' + c.shots.length).join(', ')}</option>`).join('');
+  ['carry', 'ball_speed', 'club_speed', 'side', 'attack_angle', 'smash', 'spin_rate', 'club_path', 'face_to_path'].filter(k => metricsPresent.includes(k)).forEach(k => { const o = document.createElement('option'); o.value = k; o.textContent = METRICS[k].label; seMetric.appendChild(o); });
+  function fillSeClubs() { const s = sessions.find(x => x.id === seSession.value); seClub.innerHTML = s.clubs.map(c => `<option value="${c.club}">${prettyClub(c.club)} (${c.shots.length})</option>`).join(''); const big = s.clubs.slice().sort((a, b) => b.shots.length - a.shots.length)[0]; seClub.value = big.club; }
+  seSession.onchange = () => { fillSeClubs(); renderSession(); }; seClub.onchange = renderSession; seMetric.onchange = renderSession; document.getElementById('se-win').onchange = renderSession;
+  fillSeClubs();
+
+  function renderSession() {
+    const s = sessions.find(x => x.id === seSession.value); const c = s.clubs.find(x => x.club === seClub.value); const k = seMetric.value; const win = Math.max(1, parseInt(document.getElementById('se-win').value || '5'));
+    const pts = c.shots.map(x => ({ x: x.shot, y: x[k] === undefined ? null : x[k] }));
+    const roll = pts.map((p, i) => { const w = pts.slice(Math.max(0, i - win + 1), i + 1).map(q => q.y).filter(v => v !== null); return { x: p.x, y: w.length ? mean(w) : null }; });
+    const col = clubColor[c.club];
+    makeChart('se-chart', { type: 'line', data: { datasets: [
+      { label: METRICS[k].label, data: pts, borderColor: col + '88', backgroundColor: col, pointRadius: 4, showLine: false },
+      { label: `rolling mean (${win})`, data: roll, borderColor: col, pointRadius: 0, tension: .3, spanGaps: true },
+    ] }, options: { maintainAspectRatio: false, scales: { x: { type: 'linear', title: { display: true, text: 'shot number' }, ticks: { stepSize: 1 } }, y: { title: { display: true, text: METRICS[k].label } } } } });
+    const h = Math.floor(c.shots.length / 2); const A = summarize(c.shots.slice(0, h)), B = summarize(c.shots.slice(h));
+    const row = (label, key, f, dec) => `<tr><td class="l">${label}</td><td>${dec(A[key][f])}</td><td>${dec(B[key][f])}</td><td>${A[key][f] !== null && B[key][f] !== null ? (B[key][f] - A[key][f] > 0 ? '+' : '') + dec(B[key][f] - A[key][f]) : '-'}</td></tr>`;
+    document.getElementById('se-halves').innerHTML = `<table><thead><tr><th class="l">Metric</th><th>Shots 1-${h}</th><th>Shots ${h + 1}-${c.shots.length}</th><th>Change</th></tr></thead><tbody>
+      ${row('Carry mean', 'carry', 'mean', r1)}${row('Carry SD', 'carry', 'sd', r1)}${row('Ball speed mean', 'ball_speed', 'mean', r1)}${row('Club speed mean', 'club_speed', 'mean', r1)}${row('Smash mean', 'smash', 'mean', r2)}${row('Side mean (+R)', 'side', 'mean', r1)}${row('Side SD', 'side', 'sd', r1)}${row('Attack angle mean', 'attack_angle', 'mean', r1)}${row('Attack angle SD', 'attack_angle', 'sd', r1)}${row('Spin mean', 'spin_rate', 'mean', r0)}</tbody></table>`;
+    const keys = c.columns.map(x => x.key);
+    document.getElementById('se-table').innerHTML = `<table><thead><tr><th>#</th>${keys.map(x => `<th>${(METRICS[x] || { label: x }).label.split(' (')[0]}</th>`).join('')}</tr></thead><tbody>${c.shots.map(x => `<tr><td>${x.shot}</td>${keys.map(kk => `<td>${x[kk] === null || x[kk] === undefined ? '-' : (kk === 'spin_rate' ? r0(x[kk]) : kk === 'smash' ? r2(x[kk]) : r1(x[kk]))}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+  }
+
+  // ---------- COMBINE ----------
+  const TARGETS = ['60', '70', '80', '90', '100', '120', '140', '160', '180', 'Drive'];
+  function renderCombine() {
+    renderCombineScore('co-score');
+    const tcol = ['#2563eb', '#dc2626', '#9333ea', '#ca8a04', '#4b5563', '#16a34a', '#0891b2', '#db2777', '#f26a1b'];
+    makeChart('co-frompin', { type: 'bar', data: { labels: combines.map(c => c.date), datasets: TARGETS.filter(t => t !== 'Drive').map((t, i) => ({ label: t + ' yds', data: combines.map(c => { const x = c.targets.find(y => String(y.target) === t); return x ? x.average.from_pin : null; }), backgroundColor: tcol[i] })) }, options: { maintainAspectRatio: false, scales: { y: { title: { display: true, text: 'ft from pin (lower is better)' } } }, plugins: { legend: { position: 'bottom', labels: { boxWidth: 10 } } } } });
+    const shade = v => { if (v === null || v === undefined) return ''; const t = Math.max(0, Math.min(1, (v - 30) / 55)); const r = Math.round(230 - 120 * t), g = Math.round(120 + 90 * t), b = Math.round(60 + 20 * t); return `style="background:rgb(${r},${g},${b})"`; };
+    let h = `<table><thead><tr><th class="l">Combine</th><th>Score</th><th>Est. hcp</th>${TARGETS.map(t => `<th>${t}</th>`).join('')}<th>60-100</th><th>120-140</th><th>160-180</th></tr></thead><tbody>`;
+    for (const c of combines) {
+      const sc = t => { const x = c.targets.find(y => String(y.target) === t); return x ? x.target_score : null; };
+      const grp = ts_ => { const v = ts_.map(sc).filter(x => x !== null); return v.length ? mean(v) : null; };
+      h += `<tr><td class="l">${c.date}</td><td><b>${r1(c.score)}</b></td><td>${r0(c.estimated_handicap)}</td>${TARGETS.map(t => `<td class="h" ${shade(sc(t))}>${r1(sc(t))}</td>`).join('')}<td class="h" ${shade(grp(['60', '70', '80', '90', '100']))}>${r1(grp(['60', '70', '80', '90', '100']))}</td><td class="h" ${shade(grp(['120', '140']))}>${r1(grp(['120', '140']))}</td><td class="h" ${shade(grp(['160', '180']))}>${r1(grp(['160', '180']))}</td></tr>`;
+    }
+    // per-target mean across all combines
+    const allMean = t => { const v = combines.map(c => { const x = c.targets.find(y => String(y.target) === t); return x ? x.target_score : null; }).filter(x => x !== null); return v.length ? mean(v) : null; };
+    h += `<tr style="border-top:2px solid #111"><td class="l"><b>Mean</b></td><td><b>${r1(mean(combines.map(c => c.score).filter(x => x !== null)))}</b></td><td></td>${TARGETS.map(t => `<td class="h" ${shade(allMean(t))}><b>${r1(allMean(t))}</b></td>`).join('')}<td></td><td></td><td></td></tr></tbody></table>`;
+    document.getElementById('co-heat').innerHTML = h;
+    const sel = document.getElementById('co-select'); sel.innerHTML = combines.slice().reverse().map(c => `<option value="${c.id}">${c.date} - score ${r1(c.score)}</option>`).join(''); sel.onchange = renderCombineShots; renderCombineShots();
+  }
+  function renderCombineShots() {
+    const c = combines.find(x => x.id === document.getElementById('co-select').value);
+    let h = '';
+    for (const t of c.targets) {
+      h += `<h3 style="margin-top:12px">${t.target}${t.target === 'Drive' ? '' : ' yds'} <span class="badge">score ${r1(t.target_score)}</span></h3><table><thead><tr><th>#</th><th>Score</th><th>Carry</th><th>Total</th><th>Side</th><th>From pin (ft)</th><th>Club speed</th><th>Ball speed</th><th>Spin</th><th>Attack</th></tr></thead><tbody>`;
+      for (const s of t.shots) h += `<tr><td>${s.shot}</td><td><b>${r0(s.score)}</b></td><td>${r1(s.carry)}</td><td>${r1(s.total)}</td><td>${s.side === null || s.side === undefined ? '-' : (s.side < 0 ? r1(-s.side) + ' L' : r1(s.side) + ' R')}</td><td>${r1(s.from_pin)}</td><td>${r1(s.club_speed)}</td><td>${r1(s.ball_speed)}</td><td>${r0(s.spin_rate)}</td><td>${r1(s.attack_angle)}</td></tr>`;
+      h += '</tbody></table>';
+    }
+    document.getElementById('co-shots').innerHTML = h;
+  }
+
+  // ---------- ALL SESSIONS ----------
+  function renderAll() {
+    const trs = rows.slice().reverse().map(r => `<tr class="click" data-s="${r.session.id}" data-c="${r.club}"><td class="l">${sessionLabel(r.session)}</td><td class="l" style="color:${clubColor[r.club]}">${prettyClub(r.club)}</td><td>${r.shots.length}</td><td>${r1(r.sum.carry.mean)}</td><td>${r1(r.sum.carry.sd)}</td><td>${r1(r.sum.club_speed.mean)}</td><td>${r1(r.sum.ball_speed.mean)}</td><td>${r2(r.sum.smash.mean)}</td><td>${r0(r.sum.spin_rate.mean)}</td><td>${r1(r.sum.attack_angle.mean)}</td><td>${r.sum.side.mean === null ? '-' : (r.sum.side.mean < 0 ? r1(-r.sum.side.mean) + ' L' : r1(r.sum.side.mean) + ' R')}</td><td>${r1(r.sum.side.sd)}</td><td>${r.sum.pctBig === null ? '-' : r0(r.sum.pctBig) + '%'}</td><td>${r1(r.sum.club_path.mean)}</td><td>${r1(r.sum.face_to_path.mean)}</td></tr>`).join('');
+    document.getElementById('all-table').innerHTML = `<table><thead><tr><th class="l">Session</th><th class="l">Club</th><th>n</th><th>Carry</th><th>Carry SD</th><th>Club mph</th><th>Ball mph</th><th>Smash</th><th>Spin</th><th>Attack</th><th>Side bias</th><th>Side SD</th><th>&gt;15 yds</th><th>Path</th><th>F2P</th></tr></thead><tbody>${trs}</tbody></table>`;
+    document.getElementById('all-table').onclick = e => { const tr = e.target.closest('tr.click'); if (!tr) return; seSession.value = tr.dataset.s; fillSeClubs(); seClub.value = tr.dataset.c; renderSession(); document.querySelector('nav.tabs button[data-tab=session]').click(); };
+  }
+
+  // ---------- FINDINGS ----------
+  document.getElementById('findings-body').innerHTML = window.TRACKMAN_FINDINGS || '<p>findings.js not found.</p>';
+
+  renderOverview(); renderTrends(); renderDispersion(); renderDelivery(); renderSession(); renderCombine(); renderAll();
+  if (location.hash) showTab(location.hash.slice(1));
+})();
+</script>
+</body>
+</html>

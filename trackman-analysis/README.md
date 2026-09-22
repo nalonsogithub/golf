@@ -18,9 +18,30 @@ trackman-analysis/
     ocr-cache/           Raw OCR output per PDF (keyed by file hash). Keep this: it means
                          a PDF is only ever OCR'd once, even on a fresh clone.
   dashboard/
-    index.html           Interactive dashboard (open directly in a browser)
+    index.html           Interactive dashboard (open directly in a browser, no server needed)
     data.js              Generated data bundle the dashboard loads
+    findings.js          Generated from REPORT.md for the dashboard's Findings tab
+    vendor/chart.umd.js  Chart.js, vendored so the page works offline
+  REPORT.md              Written analysis: findings, implications for the workout program,
+                         practice and mental game, and baseline values for the scorecard
 ```
+
+## Dashboard
+
+Open `dashboard/index.html`. Tabs:
+
+| Tab | What it shows |
+| --- | --- |
+| Overview | KPI cards for one club (last N sessions vs earlier), carry with SD band, side SD, speeds, Combine score |
+| Trends | Any metric, any statistic (mean, SD, median, min, max, % beyond 15 yds), per club over time |
+| Dispersion | Down-range scatter of side vs carry for a session or all sessions, with per-club stats |
+| Path & face | Club path vs face-to-path scatter with quadrant labels; per-session delivery table |
+| Within a session | Shot-by-shot line with rolling mean; first half vs second half comparison |
+| Combine | Score and handicap trend, from-pin by target, score heat map, per-shot detail |
+| All sessions | Every session and club in one table; click a row to open it in "Within a session" |
+| Findings | `REPORT.md` rendered in the page |
+
+Tabs can be linked directly, e.g. `index.html#combine`.
 
 ## Adding a new report
 
@@ -34,8 +55,8 @@ trackman-analysis/
    ```
 
    Only PDFs without a cache entry are OCR'd (about 30 seconds each); everything else is
-   re-parsed from cache in a second or two. The script rewrites all of `data/` and
-   `dashboard/data.js`.
+   re-parsed from cache in a second or two. The script rewrites all of `data/`,
+   `dashboard/data.js` and `dashboard/findings.js`.
 3. Read the warnings at the end of the output. Every table is cross-checked against the
    Average row printed on the report itself, so a `mean != report avg` warning points at a
    specific club and column to eyeball in the PDF.

@@ -1,0 +1,7387 @@
+[
+ {
+  "id": "20250402",
+  "date": "2025-04-02",
+  "file": "reports/Combines/20250402.pdf",
+  "score": 65.2,
+  "estimated_handicap": 8.0,
+  "targets": [
+   {
+    "target": 60,
+    "target_score": 66.0,
+    "title_score": 66.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 57.0,
+      "club_speed": 69.4,
+      "ball_speed": 62.9,
+      "spin_rate": 10416.0,
+      "attack_angle": -1.8,
+      "carry": 66.5,
+      "total": 67.4,
+      "side": -2.6,
+      "from_pin": 20.8,
+      "shot": 1
+     },
+     {
+      "score": 95.0,
+      "club_speed": 71.7,
+      "ball_speed": 59.6,
+      "spin_rate": 9800.0,
+      "attack_angle": -4.2,
+      "carry": 61.3,
+      "total": 62.6,
+      "side": 0.5,
+      "from_pin": 4.1,
+      "shot": 2
+     },
+     {
+      "score": 94.0,
+      "club_speed": 70.7,
+      "ball_speed": 58.2,
+      "spin_rate": 9780.0,
+      "attack_angle": -1.6,
+      "carry": 58.7,
+      "total": 59.0,
+      "side": 0.8,
+      "from_pin": 4.6,
+      "shot": 3
+     },
+     {
+      "score": 0.0,
+      "club_speed": 70.3,
+      "ball_speed": 68.9,
+      "spin_rate": 7886.0,
+      "attack_angle": -0.8,
+      "carry": 76.8,
+      "total": 79.7,
+      "side": -6.3,
+      "from_pin": 53.2,
+      "shot": 4
+     },
+     {
+      "score": 67.0,
+      "club_speed": 69.4,
+      "ball_speed": 62.2,
+      "spin_rate": 9451.0,
+      "attack_angle": -2.8,
+      "carry": 65.5,
+      "total": 66.8,
+      "side": -0.6,
+      "from_pin": 16.6,
+      "shot": 5
+     },
+     {
+      "score": 83.0,
+      "club_speed": 68.5,
+      "ball_speed": 56.9,
+      "spin_rate": 10249.0,
+      "attack_angle": -4.8,
+      "carry": 56.9,
+      "total": 57.9,
+      "side": 0.8,
+      "from_pin": 9.5,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 66.0,
+     "club_speed": 70.0,
+     "ball_speed": 61.4,
+     "spin_rate": 9597.0,
+     "attack_angle": -2.7,
+     "carry": 64.3,
+     "total": 65.6,
+     "side": -1.2,
+     "from_pin": 18.1
+    },
+    "consistency": {
+     "score": 32.5,
+     "club_speed": 1.0,
+     "ball_speed": 3.9,
+     "spin_rate": 829.0,
+     "attack_angle": 1.4,
+     "carry": 6.6,
+     "total": 7.2,
+     "side": 0.8,
+     "from_pin": 16.8
+    }
+   },
+   {
+    "target": 70,
+    "target_score": 63.5,
+    "title_score": 63.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 90.0,
+      "club_speed": 65.4,
+      "ball_speed": 65.6,
+      "spin_rate": 8086.0,
+      "attack_angle": -2.0,
+      "carry": 71.7,
+      "total": 76.3,
+      "side": -1.8,
+      "from_pin": 7.3,
+      "shot": 1
+     },
+     {
+      "score": 52.0,
+      "club_speed": 60.7,
+      "ball_speed": 69.6,
+      "spin_rate": 7612.0,
+      "attack_angle": -3.2,
+      "carry": 78.7,
+      "total": 84.1,
+      "side": -2.2,
+      "from_pin": 26.9,
+      "shot": 2
+     },
+     {
+      "score": 54.0,
+      "club_speed": 59.1,
+      "ball_speed": 66.8,
+      "spin_rate": 6863.0,
+      "attack_angle": -2.8,
+      "carry": 73.4,
+      "total": 81.4,
+      "side": -8.0,
+      "from_pin": 25.6,
+      "shot": 3
+     },
+     {
+      "score": 50.0,
+      "club_speed": 61.7,
+      "ball_speed": 69.9,
+      "spin_rate": 8008.0,
+      "attack_angle": -4.0,
+      "carry": 79.1,
+      "total": 83.5,
+      "side": 2.2,
+      "from_pin": 27.9,
+      "shot": 4
+     },
+     {
+      "score": 81.0,
+      "club_speed": 58.3,
+      "ball_speed": 66.9,
+      "spin_rate": 7375.0,
+      "attack_angle": -3.8,
+      "carry": 74.0,
+      "total": 80.3,
+      "side": -0.8,
+      "from_pin": 12.1,
+      "shot": 5
+     },
+     {
+      "score": 54.0,
+      "club_speed": 55.3,
+      "ball_speed": 59.8,
+      "spin_rate": 7914.0,
+      "attack_angle": -3.6,
+      "carry": 61.5,
+      "total": 67.0,
+      "side": -0.7,
+      "from_pin": 25.6,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 63.5,
+     "club_speed": 60.1,
+     "ball_speed": 66.5,
+     "spin_rate": 7643.0,
+     "attack_angle": -3.2,
+     "carry": 73.1,
+     "total": 78.8,
+     "side": -1.9,
+     "from_pin": 20.9
+    },
+    "consistency": {
+     "score": 15.8,
+     "club_speed": 3.1,
+     "ball_speed": 3.4,
+     "spin_rate": 425.0,
+     "attack_angle": 0.7,
+     "carry": 5.8,
+     "total": 5.8,
+     "side": 0.9,
+     "from_pin": 8.0
+    }
+   },
+   {
+    "target": 80,
+    "target_score": 63.2,
+    "title_score": 63.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 77.0,
+      "club_speed": 66.7,
+      "ball_speed": 73.4,
+      "spin_rate": 7778.0,
+      "attack_angle": -2.0,
+      "carry": 85.0,
+      "total": 90.2,
+      "side": -1.9,
+      "from_pin": 16.1,
+      "shot": 1
+     },
+     {
+      "score": 67.0,
+      "club_speed": 64.2,
+      "ball_speed": 74.9,
+      "spin_rate": 8506.0,
+      "attack_angle": -4.8,
+      "carry": 86.6,
+      "total": 91.5,
+      "side": -3.0,
+      "from_pin": 21.7,
+      "shot": 2
+     },
+     {
+      "score": 77.0,
+      "club_speed": 58.4,
+      "ball_speed": 67.5,
+      "spin_rate": 7434.0,
+      "attack_angle": -3.8,
+      "carry": 74.8,
+      "total": 81.3,
+      "side": -1.2,
+      "from_pin": 16.1,
+      "shot": 3
+     },
+     {
+      "score": 76.0,
+      "club_speed": 60.7,
+      "ball_speed": 67.4,
+      "spin_rate": 6777.0,
+      "attack_angle": -2.0,
+      "carry": 74.9,
+      "total": 82.4,
+      "side": -2.2,
+      "from_pin": 16.7,
+      "shot": 4
+     },
+     {
+      "score": 65.0,
+      "club_speed": 64.0,
+      "ball_speed": 70.1,
+      "spin_rate": 9048.0,
+      "attack_angle": -4.4,
+      "carry": 78.9,
+      "total": 81.7,
+      "side": 7.5,
+      "from_pin": 22.9,
+      "shot": 5
+     },
+     {
+      "score": 17.0,
+      "club_speed": 57.8,
+      "ball_speed": 60.1,
+      "spin_rate": 6566.0,
+      "attack_angle": -1.2,
+      "carry": 63.2,
+      "total": 69.5,
+      "side": 0.7,
+      "from_pin": 50.5,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 63.2,
+     "club_speed": 62.0,
+     "ball_speed": 68.9,
+     "spin_rate": 7685.0,
+     "attack_angle": -3.0,
+     "carry": 77.2,
+     "total": 82.8,
+     "side": -0.0,
+     "from_pin": 24.0
+    },
+    "consistency": {
+     "score": 21.2,
+     "club_speed": 3.2,
+     "ball_speed": 4.8,
+     "spin_rate": 883.0,
+     "attack_angle": 1.4,
+     "carry": 7.7,
+     "total": 7.2,
+     "side": 1.1,
+     "from_pin": 12.2
+    }
+   },
+   {
+    "target": 90,
+    "target_score": 69.3,
+    "title_score": 69.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 63.0,
+      "club_speed": 62.5,
+      "ball_speed": 71.1,
+      "spin_rate": 7959.0,
+      "attack_angle": -3.6,
+      "carry": 81.0,
+      "total": 86.1,
+      "side": -0.9,
+      "from_pin": 27.2,
+      "shot": 1
+     },
+     {
+      "score": 63.0,
+      "club_speed": 65.2,
+      "ball_speed": 71.2,
+      "spin_rate": 7969.0,
+      "attack_angle": -3.6,
+      "carry": 81.0,
+      "total": 86.2,
+      "side": -0.7,
+      "from_pin": 27.2,
+      "shot": 2
+     },
+     {
+      "score": 88.0,
+      "club_speed": 66.6,
+      "ball_speed": 77.0,
+      "spin_rate": 9288.0,
+      "attack_angle": -4.6,
+      "carry": 90.0,
+      "total": 92.5,
+      "side": 3.7,
+      "from_pin": 11.2,
+      "shot": 3
+     },
+     {
+      "score": 58.0,
+      "club_speed": 69.5,
+      "ball_speed": 83.2,
+      "spin_rate": 9343.0,
+      "attack_angle": -4.8,
+      "carry": 99.9,
+      "total": 102.0,
+      "side": -1.9,
+      "from_pin": 30.2,
+      "shot": 4
+     },
+     {
+      "score": 59.0,
+      "club_speed": 64.3,
+      "ball_speed": 72.4,
+      "spin_rate": 8442.0,
+      "attack_angle": -3.4,
+      "carry": 82.9,
+      "total": 86.1,
+      "side": 6.7,
+      "from_pin": 30.0,
+      "shot": 5
+     },
+     {
+      "score": 85.0,
+      "club_speed": 64.9,
+      "ball_speed": 74.4,
+      "spin_rate": 7979.0,
+      "attack_angle": -4.4,
+      "carry": 86.7,
+      "total": 91.0,
+      "side": -2.8,
+      "from_pin": 13.1,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 69.3,
+     "club_speed": 65.5,
+     "ball_speed": 74.9,
+     "spin_rate": 8496.0,
+     "attack_angle": -4.1,
+     "carry": 86.9,
+     "total": 90.7,
+     "side": 0.7,
+     "from_pin": 23.1
+    },
+    "consistency": {
+     "score": 12.3,
+     "club_speed": 2.2,
+     "ball_speed": 4.2,
+     "spin_rate": 603.0,
+     "attack_angle": 0.5,
+     "carry": 6.6,
+     "total": 5.7,
+     "side": 1.0,
+     "from_pin": 7.9
+    }
+   },
+   {
+    "target": 100,
+    "target_score": 73.5,
+    "title_score": 73.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 62.0,
+      "club_speed": 69.2,
+      "ball_speed": 77.4,
+      "spin_rate": 8201.0,
+      "attack_angle": -3.8,
+      "carry": 91.3,
+      "total": 96.0,
+      "side": -5.5,
+      "from_pin": 31.2,
+      "shot": 1
+     },
+     {
+      "score": 56.0,
+      "club_speed": 71.2,
+      "ball_speed": 76.8,
+      "spin_rate": 10025.0,
+      "attack_angle": -6.6,
+      "carry": 88.8,
+      "total": 91.9,
+      "side": -3.1,
+      "from_pin": 35.0,
+      "shot": 2
+     },
+     {
+      "score": 67.0,
+      "club_speed": 72.1,
+      "ball_speed": 78.5,
+      "spin_rate": 10293.0,
+      "attack_angle": -5.8,
+      "carry": 91.9,
+      "total": 93.4,
+      "side": 3.8,
+      "from_pin": 27.0,
+      "shot": 3
+     },
+     {
+      "score": 96.0,
+      "club_speed": 69.9,
+      "ball_speed": 82.5,
+      "spin_rate": 9346.0,
+      "attack_angle": -5.2,
+      "carry": 98.9,
+      "total": 101.4,
+      "side": -1.9,
+      "from_pin": 6.6,
+      "shot": 4
+     },
+     {
+      "score": 64.0,
+      "club_speed": 70.6,
+      "ball_speed": 77.1,
+      "spin_rate": 8782.0,
+      "attack_angle": -3.4,
+      "carry": 90.5,
+      "total": 94.2,
+      "side": -2.3,
+      "from_pin": 29.3,
+      "shot": 5
+     },
+     {
+      "score": 96.0,
+      "club_speed": 69.6,
+      "ball_speed": 82.4,
+      "spin_rate": 9149.0,
+      "attack_angle": -4.4,
+      "carry": 98.9,
+      "total": 101.1,
+      "side": 1.8,
+      "from_pin": 6.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 73.5,
+     "club_speed": 70.4,
+     "ball_speed": 79.1,
+     "spin_rate": 9299.0,
+     "attack_angle": -4.9,
+     "carry": 93.4,
+     "total": 96.3,
+     "side": -1.2,
+     "from_pin": 22.6
+    },
+    "consistency": {
+     "score": 16.2,
+     "club_speed": 1.0,
+     "ball_speed": 2.4,
+     "spin_rate": 709.0,
+     "attack_angle": 1.1,
+     "carry": 4.0,
+     "total": 3.7,
+     "side": 0.9,
+     "from_pin": 11.6
+    }
+   },
+   {
+    "target": 120,
+    "target_score": 73.3,
+    "title_score": 73.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 74.0,
+      "club_speed": 72.9,
+      "ball_speed": 90.7,
+      "spin_rate": 7913.0,
+      "attack_angle": -5.2,
+      "carry": 114.0,
+      "total": 117.9,
+      "side": 6.3,
+      "from_pin": 26.6,
+      "shot": 1
+     },
+     {
+      "score": 80.0,
+      "club_speed": 74.2,
+      "ball_speed": 90.8,
+      "spin_rate": 8253.0,
+      "attack_angle": -4.2,
+      "carry": 113.4,
+      "total": 116.5,
+      "side": -3.0,
+      "from_pin": 22.0,
+      "shot": 2
+     },
+     {
+      "score": 60.0,
+      "club_speed": 73.6,
+      "ball_speed": 87.4,
+      "spin_rate": 8209.0,
+      "attack_angle": -6.4,
+      "carry": 107.3,
+      "total": 114.0,
+      "side": 3.0,
+      "from_pin": 39.2,
+      "shot": 3
+     },
+     {
+      "score": 65.0,
+      "club_speed": 70.5,
+      "ball_speed": 89.0,
+      "spin_rate": 5905.0,
+      "attack_angle": -3.4,
+      "carry": 113.3,
+      "total": 124.9,
+      "side": -9.2,
+      "from_pin": 34.9,
+      "shot": 4
+     },
+     {
+      "score": 93.0,
+      "club_speed": 69.1,
+      "ball_speed": 91.8,
+      "spin_rate": 6482.0,
+      "attack_angle": -5.0,
+      "carry": 118.7,
+      "total": 127.1,
+      "side": 3.2,
+      "from_pin": 10.3,
+      "shot": 5
+     },
+     {
+      "score": 68.0,
+      "club_speed": 70.1,
+      "ball_speed": 95.8,
+      "spin_rate": 5939.0,
+      "attack_angle": -5.2,
+      "carry": 126.3,
+      "total": 136.9,
+      "side": -9.0,
+      "from_pin": 32.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 73.3,
+     "club_speed": 71.7,
+     "ball_speed": 90.9,
+     "spin_rate": 7117.0,
+     "attack_angle": -4.9,
+     "carry": 115.5,
+     "total": 122.9,
+     "side": -1.5,
+     "from_pin": 27.5
+    },
+    "consistency": {
+     "score": 10.9,
+     "club_speed": 1.9,
+     "ball_speed": 2.6,
+     "spin_rate": 1031.0,
+     "attack_angle": 0.9,
+     "carry": 5.9,
+     "total": 7.8,
+     "side": 1.8,
+     "from_pin": 9.5
+    }
+   },
+   {
+    "target": 140,
+    "target_score": 77.2,
+    "title_score": 77.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 59.0,
+      "club_speed": 74.1,
+      "ball_speed": 98.3,
+      "spin_rate": 6241.0,
+      "attack_angle": -5.0,
+      "carry": 130.6,
+      "total": 139.8,
+      "side": 11.9,
+      "from_pin": 46.5,
+      "shot": 1
+     },
+     {
+      "score": 68.0,
+      "club_speed": 75.6,
+      "ball_speed": 101.5,
+      "spin_rate": 6522.0,
+      "attack_angle": -5.0,
+      "carry": 135.6,
+      "total": 142.9,
+      "side": 11.3,
+      "from_pin": 36.9,
+      "shot": 2
+     },
+     {
+      "score": 81.0,
+      "club_speed": 75.0,
+      "ball_speed": 99.0,
+      "spin_rate": 6199.0,
+      "attack_angle": -3.4,
+      "carry": 132.3,
+      "total": 140.6,
+      "side": -2.6,
+      "from_pin": 24.6,
+      "shot": 3
+     },
+     {
+      "score": 88.0,
+      "club_speed": 71.8,
+      "ball_speed": 100.1,
+      "spin_rate": 5011.0,
+      "attack_angle": -4.0,
+      "carry": 136.2,
+      "total": 150.3,
+      "side": -4.1,
+      "from_pin": 16.8,
+      "shot": 4
+     },
+     {
+      "score": 99.0,
+      "club_speed": 72.8,
+      "ball_speed": 101.5,
+      "spin_rate": 5408.0,
+      "attack_angle": -5.0,
+      "carry": 138.0,
+      "total": 150.5,
+      "side": -0.6,
+      "from_pin": 6.3,
+      "shot": 5
+     },
+     {
+      "score": 68.0,
+      "club_speed": 70.7,
+      "ball_speed": 96.2,
+      "spin_rate": 5249.0,
+      "attack_angle": -4.8,
+      "carry": 127.9,
+      "total": 141.6,
+      "side": -1.9,
+      "from_pin": 36.8,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 77.2,
+     "club_speed": 73.3,
+     "ball_speed": 99.4,
+     "spin_rate": 5772.0,
+     "attack_angle": -4.5,
+     "carry": 133.4,
+     "total": 144.3,
+     "side": 2.3,
+     "from_pin": 28.0
+    },
+    "consistency": {
+     "score": 13.6,
+     "club_speed": 1.7,
+     "ball_speed": 1.9,
+     "spin_rate": 570.0,
+     "attack_angle": 0.6,
+     "carry": 3.5,
+     "total": 4.4,
+     "side": 2.0,
+     "from_pin": 13.6
+    }
+   },
+   {
+    "target": 160,
+    "target_score": 76.2,
+    "title_score": 76.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 69.0,
+      "club_speed": 78.1,
+      "ball_speed": 106.9,
+      "spin_rate": 4272.0,
+      "attack_angle": -4.4,
+      "carry": 147.9,
+      "total": 167.6,
+      "side": -6.7,
+      "from_pin": 41.8,
+      "shot": 1
+     },
+     {
+      "score": 97.0,
+      "club_speed": 77.2,
+      "ball_speed": 108.0,
+      "spin_rate": 2253.0,
+      "attack_angle": -3.4,
+      "carry": 157.3,
+      "total": 187.0,
+      "side": -1.4,
+      "from_pin": 9.2,
+      "shot": 2
+     },
+     {
+      "score": 49.0,
+      "club_speed": 76.1,
+      "ball_speed": 101.7,
+      "spin_rate": 4435.0,
+      "attack_angle": -2.6,
+      "carry": 139.5,
+      "total": 157.0,
+      "side": -5.8,
+      "from_pin": 64.3,
+      "shot": 3
+     },
+     {
+      "score": 92.0,
+      "club_speed": 76.6,
+      "ball_speed": 110.3,
+      "spin_rate": 4688.0,
+      "attack_angle": -3.8,
+      "carry": 156.7,
+      "total": 171.6,
+      "side": 3.6,
+      "from_pin": 14.7,
+      "shot": 4
+     },
+     {
+      "score": 75.0,
+      "club_speed": 76.9,
+      "ball_speed": 108.1,
+      "spin_rate": 5105.0,
+      "attack_angle": -5.6,
+      "carry": 148.8,
+      "total": 164.2,
+      "side": 2.5,
+      "from_pin": 34.4,
+      "shot": 5
+     },
+     {
+      "score": 75.0,
+      "club_speed": 78.7,
+      "ball_speed": 108.3,
+      "spin_rate": 4756.0,
+      "attack_angle": -4.2,
+      "carry": 149.6,
+      "total": 166.9,
+      "side": -4.5,
+      "from_pin": 34.2,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 76.2,
+     "club_speed": 77.3,
+     "ball_speed": 107.2,
+     "spin_rate": 4251.0,
+     "attack_angle": -4.0,
+     "carry": 150.0,
+     "total": 169.0,
+     "side": -2.1,
+     "from_pin": 33.1
+    },
+    "consistency": {
+     "score": 15.7,
+     "club_speed": 0.9,
+     "ball_speed": 2.7,
+     "spin_rate": 931.0,
+     "attack_angle": 0.9,
+     "carry": 6.0,
+     "total": 9.2,
+     "side": 1.2,
+     "from_pin": 18.1
+    }
+   },
+   {
+    "target": 180,
+    "target_score": 32.5,
+    "title_score": 32.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 0.0,
+      "club_speed": 80.3,
+      "ball_speed": 108.3,
+      "spin_rate": 5589.0,
+      "attack_angle": -3.6,
+      "carry": 149.3,
+      "total": 160.1,
+      "side": 30.9,
+      "from_pin": 137.5,
+      "shot": 1
+     },
+     {
+      "score": 0.0,
+      "club_speed": 79.1,
+      "ball_speed": 100.6,
+      "spin_rate": 4578.0,
+      "attack_angle": -6.4,
+      "carry": 123.9,
+      "total": 148.9,
+      "side": 1.8,
+      "from_pin": 168.5,
+      "shot": 2
+     },
+     {
+      "score": 66.0,
+      "club_speed": 80.3,
+      "ball_speed": 115.5,
+      "spin_rate": 3633.0,
+      "attack_angle": -3.8,
+      "carry": 167.3,
+      "total": 189.0,
+      "side": 10.9,
+      "from_pin": 50.9,
+      "shot": 3
+     },
+     {
+      "score": 65.0,
+      "club_speed": 79.6,
+      "ball_speed": 116.2,
+      "spin_rate": 3615.0,
+      "attack_angle": -3.2,
+      "carry": 167.6,
+      "total": 190.4,
+      "side": 11.6,
+      "from_pin": 51.7,
+      "shot": 4
+     },
+     {
+      "score": 30.0,
+      "club_speed": 81.8,
+      "ball_speed": 111.5,
+      "spin_rate": 3093.0,
+      "attack_angle": -2.0,
+      "carry": 153.5,
+      "total": 182.8,
+      "side": -17.4,
+      "from_pin": 97.7,
+      "shot": 5
+     },
+     {
+      "score": 34.0,
+      "club_speed": 78.6,
+      "ball_speed": 109.7,
+      "spin_rate": 2306.0,
+      "attack_angle": -3.2,
+      "carry": 151.1,
+      "total": 185.5,
+      "side": 8.9,
+      "from_pin": 91.6,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 32.5,
+     "club_speed": 79.9,
+     "ball_speed": 110.3,
+     "spin_rate": 3802.0,
+     "attack_angle": -3.7,
+     "carry": 152.1,
+     "total": 176.1,
+     "side": 7.8,
+     "from_pin": 99.6
+    },
+    "consistency": {
+     "score": 26.8,
+     "club_speed": 1.0,
+     "ball_speed": 5.2,
+     "spin_rate": 1049.0,
+     "attack_angle": 1.3,
+     "carry": 14.6,
+     "total": 15.8,
+     "side": 4.4,
+     "from_pin": 42.6
+    }
+   },
+   {
+    "target": "Drive",
+    "target_score": 57.2,
+    "title_score": 57.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "score": 13.0,
+      "club_speed": 92.1,
+      "ball_speed": 126.6,
+      "spin_rate": 2962.0,
+      "attack_angle": 0.6,
+      "carry": 201.1,
+      "total": 220.7,
+      "side": 65.2,
+      "shot": 1
+     },
+     {
+      "score": 42.0,
+      "club_speed": 91.3,
+      "ball_speed": 135.3,
+      "spin_rate": 2306.0,
+      "attack_angle": -2.0,
+      "carry": 202.7,
+      "total": 238.3,
+      "side": 22.4,
+      "shot": 2
+     },
+     {
+      "score": 71.0,
+      "club_speed": 93.5,
+      "ball_speed": 139.1,
+      "spin_rate": 2676.0,
+      "attack_angle": -0.8,
+      "carry": 215.7,
+      "total": 245.8,
+      "side": 11.3,
+      "shot": 3
+     },
+     {
+      "score": 77.0,
+      "club_speed": 90.9,
+      "ball_speed": 128.2,
+      "spin_rate": 2346.0,
+      "attack_angle": 0.2,
+      "carry": 209.7,
+      "total": 234.0,
+      "side": 4.3,
+      "shot": 4
+     },
+     {
+      "score": 80.0,
+      "club_speed": 89.8,
+      "ball_speed": 134.2,
+      "spin_rate": 2210.0,
+      "attack_angle": 0.6,
+      "carry": 204.2,
+      "total": 239.2,
+      "side": 3.7,
+      "shot": 5
+     },
+     {
+      "score": 60.0,
+      "club_speed": 92.7,
+      "ball_speed": 138.2,
+      "spin_rate": 2299.0,
+      "attack_angle": 0.0,
+      "carry": 207.8,
+      "total": 244.3,
+      "side": 16.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 57.2,
+     "club_speed": 91.7,
+     "ball_speed": 133.6,
+     "spin_rate": 2467.0,
+     "attack_angle": -0.2,
+     "carry": 206.9,
+     "total": 237.0,
+     "side": 20.5
+    },
+    "consistency": {
+     "score": 23.4,
+     "club_speed": 1.2,
+     "ball_speed": 4.7,
+     "spin_rate": 266.0,
+     "attack_angle": 0.9,
+     "carry": 4.9,
+     "total": 8.3,
+     "side": 6.4
+    }
+   }
+  ],
+  "warnings": []
+ },
+ {
+  "id": "20250513",
+  "date": "2025-05-13",
+  "file": "reports/Combines/20250513.pdf",
+  "score": 59.7,
+  "estimated_handicap": 11.0,
+  "targets": [
+   {
+    "target": 60,
+    "target_score": 49.8,
+    "title_score": 49.8,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "SpinRate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "FromPin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 0.0,
+      "club_speed": 57.9,
+      "ball_speed": 68.0,
+      "spin_rate": 7090.0,
+      "attack_angle": -5.6,
+      "carry": 75.5,
+      "total": 82.8,
+      "side": -2.4,
+      "from_pin": 46.8,
+      "shot": 1
+     },
+     {
+      "score": 77.0,
+      "club_speed": 50.7,
+      "ball_speed": 58.2,
+      "spin_rate": 6300.0,
+      "attack_angle": -3.8,
+      "carry": 59.5,
+      "total": 67.3,
+      "side": 4.0,
+      "from_pin": 12.3,
+      "shot": 2
+     },
+     {
+      "score": 73.0,
+      "club_speed": 50.8,
+      "ball_speed": 61.2,
+      "spin_rate": 6130.0,
+      "attack_angle": -4.4,
+      "carry": 64.1,
+      "total": 73.1,
+      "side": -2.2,
+      "from_pin": 13.9,
+      "shot": 3
+     },
+     {
+      "score": 64.0,
+      "club_speed": 53.9,
+      "ball_speed": 57.1,
+      "spin_rate": 6990.0,
+      "attack_angle": -6.6,
+      "carry": 57.0,
+      "total": 64.2,
+      "side": 4.9,
+      "from_pin": 17.7,
+      "shot": 4
+     },
+     {
+      "score": 85.0,
+      "club_speed": 54.5,
+      "ball_speed": 58.2,
+      "spin_rate": 6450.0,
+      "attack_angle": -3.6,
+      "carry": 58.4,
+      "total": 67.0,
+      "side": -2.3,
+      "from_pin": 8.4,
+      "shot": 5
+     },
+     {
+      "score": 0.0,
+      "club_speed": 53.2,
+      "ball_speed": 49.4,
+      "spin_rate": 6380.0,
+      "attack_angle": -5.4,
+      "carry": 40.0,
+      "total": 50.5,
+      "side": 17.1,
+      "from_pin": 88.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 49.8,
+     "club_speed": 53.5,
+     "ball_speed": 58.7,
+     "spin_rate": 6557.0,
+     "attack_angle": -4.9,
+     "carry": 59.1,
+     "total": 67.5,
+     "side": 3.2,
+     "from_pin": 31.2
+    },
+    "consistency": {
+     "score": 35.8,
+     "club_speed": 2.5,
+     "ball_speed": 5.5,
+     "spin_rate": 357.0,
+     "attack_angle": 1.1,
+     "carry": 10.5,
+     "total": 9.7,
+     "side": 2.1,
+     "from_pin": 28.4
+    }
+   },
+   {
+    "target": 70,
+    "target_score": 49.2,
+    "title_score": 49.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 62.0,
+      "club_speed": 55.5,
+      "ball_speed": 61.0,
+      "spin_rate": 6970.0,
+      "attack_angle": -7.0,
+      "carry": 62.8,
+      "total": 71.0,
+      "side": -0.1,
+      "from_pin": 21.8,
+      "shot": 1
+     },
+     {
+      "score": 79.0,
+      "club_speed": 56.9,
+      "ball_speed": 62.0,
+      "spin_rate": 7090.0,
+      "attack_angle": -3.8,
+      "carry": 65.6,
+      "total": 72.1,
+      "side": 0.1,
+      "from_pin": 13.1,
+      "shot": 2
+     },
+     {
+      "score": 11.0,
+      "club_speed": 53.9,
+      "ball_speed": 56.7,
+      "spin_rate": 6640.0,
+      "attack_angle": -7.8,
+      "carry": 54.2,
+      "total": 63.8,
+      "side": 0.3,
+      "from_pin": 47.6,
+      "shot": 3
+     },
+     {
+      "score": 82.0,
+      "club_speed": 58.4,
+      "ball_speed": 62.7,
+      "spin_rate": 7500.0,
+      "attack_angle": -6.0,
+      "carry": 66.5,
+      "total": 72.7,
+      "side": 1.6,
+      "from_pin": 11.5,
+      "shot": 4
+     },
+     {
+      "score": 54.0,
+      "club_speed": 57.6,
+      "ball_speed": 60.4,
+      "spin_rate": 7250.0,
+      "attack_angle": -2.0,
+      "carry": 63.0,
+      "total": 68.7,
+      "side": -4.8,
+      "from_pin": 25.9,
+      "shot": 5
+     },
+     {
+      "score": 7.0,
+      "club_speed": 59.4,
+      "ball_speed": 60.9,
+      "spin_rate": 7490.0,
+      "attack_angle": -5.4,
+      "carry": 63.3,
+      "total": 69.6,
+      "side": 14.2,
+      "from_pin": 49.2,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 49.2,
+     "club_speed": 56.9,
+     "ball_speed": 60.6,
+     "spin_rate": 7157.0,
+     "attack_angle": -5.3,
+     "carry": 62.6,
+     "total": 69.7,
+     "side": 1.9,
+     "from_pin": 28.2
+    },
+    "consistency": {
+     "score": 30.0,
+     "club_speed": 1.8,
+     "ball_speed": 1.9,
+     "spin_rate": 301.0,
+     "attack_angle": 1.9,
+     "carry": 4.0,
+     "total": 3.0,
+     "side": 1.8,
+     "from_pin": 15.1
+    }
+   },
+   {
+    "target": 80,
+    "target_score": 53.7,
+    "title_score": 553.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "SpinRate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "FromPin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 41.0,
+      "club_speed": 57.2,
+      "ball_speed": 63.1,
+      "spin_rate": 6950.0,
+      "attack_angle": -3.0,
+      "carry": 67.7,
+      "total": 74.3,
+      "side": 1.4,
+      "from_pin": 37.1,
+      "shot": 1
+     },
+     {
+      "score": 68.0,
+      "club_speed": 57.6,
+      "ball_speed": 67.7,
+      "spin_rate": 6620.0,
+      "attack_angle": -4.8,
+      "carry": 74.7,
+      "total": 83.6,
+      "side": -4.6,
+      "from_pin": 21.5,
+      "shot": 2
+     },
+     {
+      "score": 97.0,
+      "club_speed": 58.1,
+      "ball_speed": 69.5,
+      "spin_rate": 7200.0,
+      "attack_angle": -6.0,
+      "carry": 78.6,
+      "total": 85.2,
+      "side": 0.3,
+      "from_pin": 4.4,
+      "shot": 3
+     },
+     {
+      "score": 36.0,
+      "club_speed": 63.7,
+      "ball_speed": 75.9,
+      "spin_rate": 7480.0,
+      "attack_angle": -4.4,
+      "carry": 89.5,
+      "total": 95.3,
+      "side": -9.7,
+      "from_pin": 39.7,
+      "shot": 4
+     },
+     {
+      "score": 0.0,
+      "club_speed": 61.6,
+      "ball_speed": 62.8,
+      "spin_rate": 7230.0,
+      "attack_angle": -7.6,
+      "carry": 63.8,
+      "total": 73.4,
+      "side": 12.0,
+      "from_pin": 63.2,
+      "shot": 5
+     },
+     {
+      "score": 80.0,
+      "club_speed": 64.3,
+      "ball_speed": 70.9,
+      "spin_rate": 7780.0,
+      "attack_angle": -7.2,
+      "carry": 79.5,
+      "total": 86.6,
+      "side": -4.8,
+      "from_pin": 14.5,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 53.7,
+     "club_speed": 60.4,
+     "ball_speed": 68.3,
+     "spin_rate": 7210.0,
+     "attack_angle": -5.5,
+     "carry": 75.6,
+     "total": 83.0,
+     "side": -0.9,
+     "from_pin": 30.1
+    },
+    "consistency": {
+     "score": 32.0,
+     "club_speed": 2.9,
+     "ball_speed": 4.6,
+     "spin_rate": 368.0,
+     "attack_angle": 1.6,
+     "carry": 8.4,
+     "total": 7.5,
+     "side": 2.1,
+     "from_pin": 19.2
+    }
+   },
+   {
+    "target": 90,
+    "target_score": 73.3,
+    "title_score": 73.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 73.0,
+      "club_speed": 60.3,
+      "ball_speed": 73.8,
+      "spin_rate": 6540.0,
+      "attack_angle": -7.4,
+      "carry": 84.6,
+      "total": 95.0,
+      "side": 4.3,
+      "from_pin": 20.9,
+      "shot": 1
+     },
+     {
+      "score": 100.0,
+      "club_speed": 61.5,
+      "ball_speed": 76.0,
+      "spin_rate": 6930.0,
+      "attack_angle": -5.0,
+      "carry": 89.9,
+      "total": 97.5,
+      "side": 0.3,
+      "from_pin": 1.0,
+      "shot": 2
+     },
+     {
+      "score": 90.0,
+      "club_speed": 60.7,
+      "ball_speed": 75.0,
+      "spin_rate": 6620.0,
+      "attack_angle": -4.6,
+      "carry": 87.9,
+      "total": 96.7,
+      "side": -2.3,
+      "from_pin": 9.5,
+      "shot": 3
+     },
+     {
+      "score": 58.0,
+      "club_speed": 59.6,
+      "ball_speed": 71.0,
+      "spin_rate": 6860.0,
+      "attack_angle": -6.2,
+      "carry": 80.6,
+      "total": 89.0,
+      "side": 3.6,
+      "from_pin": 30.5,
+      "shot": 4
+     },
+     {
+      "score": 76.0,
+      "club_speed": 64.9,
+      "ball_speed": 74.4,
+      "spin_rate": 6920.0,
+      "attack_angle": -3.4,
+      "carry": 86.5,
+      "total": 94.7,
+      "side": -5.2,
+      "from_pin": 19.0,
+      "shot": 5
+     },
+     {
+      "score": 43.0,
+      "club_speed": 65.0,
+      "ball_speed": 81.3,
+      "spin_rate": 5910.0,
+      "attack_angle": -6.0,
+      "carry": 98.4,
+      "total": 110.6,
+      "side": -10.8,
+      "from_pin": 40.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 73.3,
+     "club_speed": 62.0,
+     "ball_speed": 75.2,
+     "spin_rate": 6630.0,
+     "attack_angle": -5.4,
+     "carry": 88.0,
+     "total": 97.3,
+     "side": -1.7,
+     "from_pin": 20.1
+    },
+    "consistency": {
+     "score": 18.9,
+     "club_speed": 2.2,
+     "ball_speed": 3.1,
+     "spin_rate": 354.0,
+     "attack_angle": 1.3,
+     "carry": 5.5,
+     "total": 6.6,
+     "side": 1.6,
+     "from_pin": 12.8
+    }
+   },
+   {
+    "target": 100,
+    "target_score": 73.0,
+    "title_score": 73.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 37.0,
+      "club_speed": 63.1,
+      "ball_speed": 75.2,
+      "spin_rate": 7810.0,
+      "attack_angle": -5.6,
+      "carry": 88.2,
+      "total": 93.1,
+      "side": 10.6,
+      "from_pin": 49.0,
+      "shot": 1
+     },
+     {
+      "score": 78.0,
+      "club_speed": 66.8,
+      "ball_speed": 81.8,
+      "spin_rate": 7490.0,
+      "attack_angle": -4.4,
+      "carry": 99.9,
+      "total": 105.2,
+      "side": 6.4,
+      "from_pin": 19.3,
+      "shot": 2
+     },
+     {
+      "score": 70.0,
+      "club_speed": 67.8,
+      "ball_speed": 80.6,
+      "spin_rate": 7780.0,
+      "attack_angle": -3.6,
+      "carry": 97.3,
+      "total": 101.7,
+      "side": 7.9,
+      "from_pin": 25.4,
+      "shot": 3
+     },
+     {
+      "score": 86.0,
+      "club_speed": 67.5,
+      "ball_speed": 83.6,
+      "spin_rate": 7380.0,
+      "attack_angle": -5.2,
+      "carry": 102.9,
+      "total": 108.8,
+      "side": -3.7,
+      "from_pin": 13.9,
+      "shot": 4
+     },
+     {
+      "score": 95.0,
+      "club_speed": 67.0,
+      "ball_speed": 83.2,
+      "spin_rate": 7270.0,
+      "attack_angle": -5.0,
+      "carry": 102.4,
+      "total": 108.5,
+      "side": 0.3,
+      "from_pin": 7.2,
+      "shot": 5
+     },
+     {
+      "score": 72.0,
+      "club_speed": 65.8,
+      "ball_speed": 78.2,
+      "spin_rate": 6980.0,
+      "attack_angle": -3.2,
+      "carry": 93.7,
+      "total": 101.2,
+      "side": -4.6,
+      "from_pin": 23.7,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 73.0,
+     "club_speed": 66.3,
+     "ball_speed": 80.4,
+     "spin_rate": 7452.0,
+     "attack_angle": -4.5,
+     "carry": 97.4,
+     "total": 103.1,
+     "side": 2.8,
+     "from_pin": 23.1
+    },
+    "consistency": {
+     "score": 18.2,
+     "club_speed": 1.6,
+     "ball_speed": 2.9,
+     "spin_rate": 288.0,
+     "attack_angle": 0.9,
+     "carry": 5.2,
+     "total": 5.4,
+     "side": 1.8,
+     "from_pin": 13.1
+    }
+   },
+   {
+    "target": 120,
+    "target_score": 59.2,
+    "title_score": 59.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 50.0,
+      "club_speed": 71.5,
+      "ball_speed": 86.5,
+      "spin_rate": 7350.0,
+      "attack_angle": -3.8,
+      "carry": 108.1,
+      "total": 113.9,
+      "side": 10.1,
+      "from_pin": 47.9,
+      "shot": 1
+     },
+     {
+      "score": 46.0,
+      "club_speed": 71.1,
+      "ball_speed": 88.8,
+      "spin_rate": 7570.0,
+      "attack_angle": -4.4,
+      "carry": 111.5,
+      "total": 116.3,
+      "side": 14.1,
+      "from_pin": 50.9,
+      "shot": 2
+     },
+     {
+      "score": 70.0,
+      "club_speed": 73.2,
+      "ball_speed": 94.1,
+      "spin_rate": 6690.0,
+      "attack_angle": -5.2,
+      "carry": 122.1,
+      "total": 129.4,
+      "side": -9.9,
+      "from_pin": 30.2,
+      "shot": 3
+     },
+     {
+      "score": 78.0,
+      "club_speed": 71.0,
+      "ball_speed": 92.2,
+      "spin_rate": 6150.0,
+      "attack_angle": -4.0,
+      "carry": 120.2,
+      "total": 128.9,
+      "side": -7.8,
+      "from_pin": 23.5,
+      "shot": 4
+     },
+     {
+      "score": 49.0,
+      "club_speed": 72.1,
+      "ball_speed": 85.6,
+      "spin_rate": 7300.0,
+      "attack_angle": -3.8,
+      "carry": 106.5,
+      "total": 112.6,
+      "side": 8.1,
+      "from_pin": 48.0,
+      "shot": 5
+     },
+     {
+      "score": 62.0,
+      "club_speed": 71.6,
+      "ball_speed": 96.6,
+      "spin_rate": 6040.0,
+      "attack_angle": -4.4,
+      "carry": 128.0,
+      "total": 137.1,
+      "side": -9.8,
+      "from_pin": 37.1,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 59.2,
+     "club_speed": 71.7,
+     "ball_speed": 90.6,
+     "spin_rate": 6850.0,
+     "attack_angle": -4.3,
+     "carry": 116.1,
+     "total": 123.0,
+     "side": 0.8,
+     "from_pin": 39.6
+    },
+    "consistency": {
+     "score": 11.8,
+     "club_speed": 0.7,
+     "ball_speed": 4.0,
+     "spin_rate": 598.0,
+     "attack_angle": 0.5,
+     "carry": 7.9,
+     "total": 9.2,
+     "side": 3.1,
+     "from_pin": 10.2
+    }
+   },
+   {
+    "target": 140,
+    "target_score": 68.0,
+    "title_score": 68.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 51.0,
+      "club_speed": 74.4,
+      "ball_speed": 97.2,
+      "spin_rate": 5880.0,
+      "attack_angle": -3.4,
+      "carry": 130.0,
+      "total": 139.0,
+      "side": 14.7,
+      "from_pin": 54.7,
+      "shot": 1
+     },
+     {
+      "score": 62.0,
+      "club_speed": 74.6,
+      "ball_speed": 97.1,
+      "spin_rate": 5900.0,
+      "attack_angle": -4.0,
+      "carry": 129.7,
+      "total": 139.2,
+      "side": 10.0,
+      "from_pin": 43.8,
+      "shot": 2
+     },
+     {
+      "score": 90.0,
+      "club_speed": 73.7,
+      "ball_speed": 99.6,
+      "spin_rate": 5670.0,
+      "attack_angle": -3.4,
+      "carry": 135.0,
+      "total": 144.8,
+      "side": -0.1,
+      "from_pin": 15.1,
+      "shot": 3
+     },
+     {
+      "score": 15.0,
+      "club_speed": 74.7,
+      "ball_speed": 88.2,
+      "spin_rate": 4830.0,
+      "attack_angle": -0.2,
+      "carry": 111.4,
+      "total": 127.6,
+      "side": -8.5,
+      "from_pin": 90.5,
+      "shot": 4
+     },
+     {
+      "score": 95.0,
+      "club_speed": 74.0,
+      "ball_speed": 100.2,
+      "spin_rate": 5500.0,
+      "attack_angle": -2.8,
+      "carry": 136.5,
+      "total": 146.9,
+      "side": 0.4,
+      "from_pin": 10.6,
+      "shot": 5
+     },
+     {
+      "score": 95.0,
+      "club_speed": 74.6,
+      "ball_speed": 104.1,
+      "spin_rate": 5500.0,
+      "attack_angle": -5.2,
+      "carry": 143.3,
+      "total": 154.4,
+      "side": -0.6,
+      "from_pin": 10.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 68.0,
+     "club_speed": 74.4,
+     "ball_speed": 97.7,
+     "spin_rate": 5547.0,
+     "attack_angle": -3.2,
+     "carry": 131.0,
+     "total": 142.0,
+     "side": 2.6,
+     "from_pin": 37.4
+    },
+    "consistency": {
+     "score": 29.1,
+     "club_speed": 0.3,
+     "ball_speed": 4.9,
+     "spin_rate": 358.0,
+     "attack_angle": 1.5,
+     "carry": 9.9,
+     "total": 8.3,
+     "side": 2.3,
+     "from_pin": 29.2
+    }
+   },
+   {
+    "target": 160,
+    "target_score": 60.2,
+    "title_score": 60.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 70.0,
+      "club_speed": 76.2,
+      "ball_speed": 104.7,
+      "spin_rate": 3780.0,
+      "attack_angle": -1.4,
+      "carry": 146.4,
+      "total": 167.0,
+      "side": 0.1,
+      "from_pin": 40.7,
+      "shot": 1
+     },
+     {
+      "score": 62.0,
+      "club_speed": 77.5,
+      "ball_speed": 106.0,
+      "spin_rate": 3750.0,
+      "attack_angle": -1.2,
+      "carry": 146.6,
+      "total": 168.5,
+      "side": -9.0,
+      "from_pin": 49.1,
+      "shot": 2
+     },
+     {
+      "score": 69.0,
+      "club_speed": 77.9,
+      "ball_speed": 108.7,
+      "spin_rate": 4350.0,
+      "attack_angle": -2.6,
+      "carry": 155.5,
+      "total": 171.3,
+      "side": 13.0,
+      "from_pin": 41.7,
+      "shot": 3
+     },
+     {
+      "score": 33.0,
+      "club_speed": 77.9,
+      "ball_speed": 111.4,
+      "spin_rate": 5000.0,
+      "attack_angle": -3.6,
+      "carry": 158.6,
+      "total": 170.8,
+      "side": 27.5,
+      "from_pin": 83.2,
+      "shot": 4
+     },
+     {
+      "score": 34.0,
+      "club_speed": 77.1,
+      "ball_speed": 100.3,
+      "spin_rate": 4270.0,
+      "attack_angle": -3.2,
+      "carry": 134.9,
+      "total": 154.7,
+      "side": 9.5,
+      "from_pin": 81.3,
+      "shot": 5
+     },
+     {
+      "score": 93.0,
+      "club_speed": 78.7,
+      "ball_speed": 109.4,
+      "spin_rate": 4550.0,
+      "attack_angle": -3.4,
+      "carry": 155.7,
+      "total": 170.9,
+      "side": -1.7,
+      "from_pin": 14.1,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 60.2,
+     "club_speed": 77.6,
+     "ball_speed": 106.8,
+     "spin_rate": 4283.0,
+     "attack_angle": -2.6,
+     "carry": 149.6,
+     "total": 167.2,
+     "side": 6.6,
+     "from_pin": 51.7
+    },
+    "consistency": {
+     "score": 21.1,
+     "club_speed": 0.8,
+     "ball_speed": 3.6,
+     "spin_rate": 433.0,
+     "attack_angle": 0.9,
+     "carry": 8.0,
+     "total": 5.8,
+     "side": 3.6,
+     "from_pin": 24.2
+    }
+   },
+   {
+    "target": 180,
+    "target_score": 51.2,
+    "title_score": 51.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 13.0,
+      "club_speed": 78.6,
+      "ball_speed": 110.9,
+      "spin_rate": 3300.0,
+      "attack_angle": -1.8,
+      "carry": 146.3,
+      "total": 176.3,
+      "side": -18.6,
+      "from_pin": 118.6,
+      "shot": 1
+     },
+     {
+      "score": 78.0,
+      "club_speed": 81.1,
+      "ball_speed": 116.9,
+      "spin_rate": 3780.0,
+      "attack_angle": -1.2,
+      "carry": 173.0,
+      "total": 191.8,
+      "side": 9.1,
+      "from_pin": 34.8,
+      "shot": 2
+     },
+     {
+      "score": 86.0,
+      "club_speed": 80.5,
+      "ball_speed": 117.0,
+      "spin_rate": 3480.0,
+      "attack_angle": -0.8,
+      "carry": 172.1,
+      "total": 193.8,
+      "side": -1.3,
+      "from_pin": 24.1,
+      "shot": 3
+     },
+     {
+      "score": 53.0,
+      "club_speed": 79.4,
+      "ball_speed": 114.6,
+      "spin_rate": 4170.0,
+      "attack_angle": -2.6,
+      "carry": 167.3,
+      "total": 183.8,
+      "side": 17.8,
+      "from_pin": 67.3,
+      "shot": 4
+     },
+     {
+      "score": 77.0,
+      "club_speed": 79.6,
+      "ball_speed": 116.5,
+      "spin_rate": 3950.0,
+      "attack_angle": -2.8,
+      "carry": 171.1,
+      "total": 189.5,
+      "side": 8.1,
+      "from_pin": 36.6,
+      "shot": 5
+     },
+     {
+      "score": 0.0,
+      "club_speed": 78.7,
+      "ball_speed": 102.3,
+      "spin_rate": 3390.0,
+      "attack_angle": -2.2,
+      "carry": 130.5,
+      "total": 159.8,
+      "side": -11.0,
+      "from_pin": 153.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 51.2,
+     "club_speed": 79.6,
+     "ball_speed": 113.0,
+     "spin_rate": 3678.0,
+     "attack_angle": -1.9,
+     "carry": 160.0,
+     "total": 182.5,
+     "side": 0.7,
+     "from_pin": 72.5
+    },
+    "consistency": {
+     "score": 33.4,
+     "club_speed": 0.9,
+     "ball_speed": 5.2,
+     "spin_rate": 314.0,
+     "attack_angle": 0.7,
+     "carry": 16.1,
+     "total": 11.7,
+     "side": 3.8,
+     "from_pin": 47.9
+    }
+   },
+   {
+    "target": "Drive",
+    "target_score": 59.7,
+    "title_score": 59.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "score": 77.0,
+      "club_speed": 88.9,
+      "ball_speed": 129.0,
+      "spin_rate": 1890.0,
+      "attack_angle": 2.4,
+      "carry": 198.0,
+      "total": 232.8,
+      "side": 3.6,
+      "shot": 1
+     },
+     {
+      "score": 58.0,
+      "club_speed": 88.3,
+      "ball_speed": 114.6,
+      "spin_rate": 3460.0,
+      "attack_angle": 2.2,
+      "carry": 174.8,
+      "total": 189.7,
+      "side": 4.4,
+      "shot": 2
+     },
+     {
+      "score": 68.0,
+      "club_speed": 88.5,
+      "ball_speed": 127.9,
+      "spin_rate": 2210.0,
+      "attack_angle": 1.2,
+      "carry": 197.4,
+      "total": 228.8,
+      "side": 12.7,
+      "shot": 3
+     },
+     {
+      "score": 60.0,
+      "club_speed": 87.4,
+      "ball_speed": 118.5,
+      "spin_rate": 3500.0,
+      "attack_angle": 1.4,
+      "carry": 182.3,
+      "total": 196.5,
+      "side": -4.3,
+      "shot": 4
+     },
+     {
+      "score": 41.0,
+      "club_speed": 88.6,
+      "ball_speed": 132.3,
+      "spin_rate": 2370.0,
+      "attack_angle": 1.2,
+      "carry": 202.7,
+      "total": 235.2,
+      "side": 25.7,
+      "shot": 5
+     },
+     {
+      "score": 54.0,
+      "club_speed": 89.8,
+      "ball_speed": 123.2,
+      "spin_rate": 2590.0,
+      "attack_angle": 2.8,
+      "carry": 198.6,
+      "total": 220.0,
+      "side": 18.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 59.7,
+     "club_speed": 88.6,
+     "ball_speed": 124.3,
+     "spin_rate": 2670.0,
+     "attack_angle": 1.9,
+     "carry": 192.3,
+     "total": 217.2,
+     "side": 10.0
+    },
+    "consistency": {
+     "score": 11.2,
+     "club_speed": 0.7,
+     "ball_speed": 6.2,
+     "spin_rate": 610.0,
+     "attack_angle": 0.6,
+     "carry": 10.1,
+     "total": 17.8,
+     "side": 3.0
+    }
+   }
+  ],
+  "warnings": []
+ },
+ {
+  "id": "20250610",
+  "date": "2025-06-10",
+  "file": "reports/Combines/20250610.pdf",
+  "score": 66.5,
+  "estimated_handicap": 7.0,
+  "targets": [
+   {
+    "target": 60,
+    "target_score": 67.2,
+    "title_score": 67.2,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 72.0,
+      "club_speed": 57.0,
+      "ball_speed": 60.8,
+      "spin_rate": 6831.0,
+      "attack_angle": -2.4,
+      "carry": 63.9,
+      "total": 70.5,
+      "side": -2.7,
+      "from_pin": 14.1,
+      "shot": 1
+     },
+     {
+      "score": 80.0,
+      "club_speed": 53.6,
+      "ball_speed": 56.3,
+      "spin_rate": 7161.0,
+      "attack_angle": -2.4,
+      "carry": 56.5,
+      "total": 61.8,
+      "side": 0.7,
+      "from_pin": 10.8,
+      "shot": 2
+     },
+     {
+      "score": 48.0,
+      "club_speed": 49.7,
+      "ball_speed": 53.1,
+      "spin_rate": 3946.0,
+      "attack_angle": -0.6,
+      "carry": 52.7,
+      "total": 63.2,
+      "side": -3.4,
+      "from_pin": 24.6,
+      "shot": 3
+     },
+     {
+      "score": 67.0,
+      "club_speed": 53.9,
+      "ball_speed": 61.7,
+      "spin_rate": 6871.0,
+      "attack_angle": -4.4,
+      "carry": 65.4,
+      "total": 72.1,
+      "side": 1.3,
+      "from_pin": 16.6,
+      "shot": 4
+     },
+     {
+      "score": 36.0,
+      "club_speed": 56.1,
+      "ball_speed": 64.2,
+      "spin_rate": 7208.0,
+      "attack_angle": -3.6,
+      "carry": 69.8,
+      "total": 75.4,
+      "side": 2.0,
+      "from_pin": 29.8,
+      "shot": 5
+     },
+     {
+      "score": 100.0,
+      "club_speed": 55.3,
+      "ball_speed": 58.8,
+      "spin_rate": 7027.0,
+      "attack_angle": -2.8,
+      "carry": 60.6,
+      "total": 66.7,
+      "side": 0.1,
+      "from_pin": 2.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 67.2,
+     "club_speed": 54.3,
+     "ball_speed": 59.1,
+     "spin_rate": 6507.0,
+     "attack_angle": -2.7,
+     "carry": 61.5,
+     "total": 68.3,
+     "side": -0.3,
+     "from_pin": 16.3
+    },
+    "consistency": {
+     "score": 20.8,
+     "club_speed": 2.3,
+     "ball_speed": 3.6,
+     "spin_rate": 1154.0,
+     "attack_angle": 1.2,
+     "carry": 5.7,
+     "total": 4.8,
+     "side": 0.6,
+     "from_pin": 9.1
+    }
+   },
+   {
+    "target": 70,
+    "target_score": 55.7,
+    "title_score": 5.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 25.0,
+      "club_speed": 56.1,
+      "ball_speed": 57.3,
+      "spin_rate": 7520.0,
+      "attack_angle": -4.0,
+      "carry": 58.1,
+      "total": 62.8,
+      "side": 5.9,
+      "from_pin": 40.6,
+      "shot": 1
+     },
+     {
+      "score": 7.0,
+      "club_speed": 55.1,
+      "ball_speed": 54.7,
+      "spin_rate": 8088.0,
+      "attack_angle": -3.6,
+      "carry": 53.6,
+      "total": 57.6,
+      "side": 1.1,
+      "from_pin": 49.2,
+      "shot": 2
+     },
+     {
+      "score": 78.0,
+      "club_speed": 58.3,
+      "ball_speed": 66.0,
+      "spin_rate": 7545.0,
+      "attack_angle": -4.8,
+      "carry": 72.6,
+      "total": 78.0,
+      "side": -3.8,
+      "from_pin": 13.5,
+      "shot": 3
+     },
+     {
+      "score": 66.0,
+      "club_speed": 61.5,
+      "ball_speed": 68.3,
+      "spin_rate": 7980.0,
+      "attack_angle": -4.4,
+      "carry": 76.5,
+      "total": 80.5,
+      "side": 0.7,
+      "from_pin": 19.5,
+      "shot": 4
+     },
+     {
+      "score": 79.0,
+      "club_speed": 58.1,
+      "ball_speed": 62.1,
+      "spin_rate": 7521.0,
+      "attack_angle": -5.6,
+      "carry": 65.7,
+      "total": 71.6,
+      "side": 0.6,
+      "from_pin": 13.1,
+      "shot": 5
+     },
+     {
+      "score": 79.0,
+      "club_speed": 60.0,
+      "ball_speed": 62.1,
+      "spin_rate": 7832.0,
+      "attack_angle": -2.4,
+      "carry": 66.1,
+      "total": 70.0,
+      "side": 2.1,
+      "from_pin": 13.3,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 55.7,
+     "club_speed": 58.2,
+     "ball_speed": 61.8,
+     "spin_rate": 7748.0,
+     "attack_angle": -4.1,
+     "carry": 65.4,
+     "total": 70.1,
+     "side": 1.1,
+     "from_pin": 24.9
+    },
+    "consistency": {
+     "score": 28.9,
+     "club_speed": 2.2,
+     "ball_speed": 4.7,
+     "spin_rate": 231.0,
+     "attack_angle": 1.0,
+     "carry": 7.8,
+     "total": 8.0,
+     "side": 0.9,
+     "from_pin": 14.5
+    }
+   },
+   {
+    "target": 80,
+    "target_score": 66.3,
+    "title_score": 66.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 44.0,
+      "club_speed": 62.5,
+      "ball_speed": 64.7,
+      "spin_rate": 7775.0,
+      "attack_angle": -5.2,
+      "carry": 69.5,
+      "total": 75.9,
+      "side": -4.8,
+      "from_pin": 35.2,
+      "shot": 1
+     },
+     {
+      "score": 83.0,
+      "club_speed": 62.1,
+      "ball_speed": 68.3,
+      "spin_rate": 8393.0,
+      "attack_angle": -5.6,
+      "carry": 76.0,
+      "total": 80.1,
+      "side": -1.5,
+      "from_pin": 12.9,
+      "shot": 2
+     },
+     {
+      "score": 36.0,
+      "club_speed": 59.7,
+      "ball_speed": 63.0,
+      "spin_rate": 8434.0,
+      "attack_angle": -5.0,
+      "carry": 67.2,
+      "total": 71.0,
+      "side": 3.2,
+      "from_pin": 39.9,
+      "shot": 3
+     },
+     {
+      "score": 56.0,
+      "club_speed": 68.4,
+      "ball_speed": 76.3,
+      "spin_rate": 8352.0,
+      "attack_angle": -3.2,
+      "carry": 89.2,
+      "total": 91.9,
+      "side": -1.8,
+      "from_pin": 28.1,
+      "shot": 4
+     },
+     {
+      "score": 94.0,
+      "club_speed": 64.5,
+      "ball_speed": 69.3,
+      "spin_rate": 8035.0,
+      "attack_angle": -2.8,
+      "carry": 78.0,
+      "total": 81.2,
+      "side": -0.7,
+      "from_pin": 6.5,
+      "shot": 5
+     },
+     {
+      "score": 85.0,
+      "club_speed": 64.6,
+      "ball_speed": 71.1,
+      "spin_rate": 8320.0,
+      "attack_angle": -3.2,
+      "carry": 80.7,
+      "total": 83.6,
+      "side": 3.8,
+      "from_pin": 11.6,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 66.3,
+     "club_speed": 63.6,
+     "ball_speed": 68.8,
+     "spin_rate": 8218.0,
+     "attack_angle": -4.2,
+     "carry": 76.7,
+     "total": 80.6,
+     "side": -0.3,
+     "from_pin": 22.3
+    },
+    "consistency": {
+     "score": 22.1,
+     "club_speed": 2.7,
+     "ball_speed": 4.3,
+     "spin_rate": 236.0,
+     "attack_angle": 1.1,
+     "carry": 7.3,
+     "total": 6.5,
+     "side": 0.9,
+     "from_pin": 12.7
+    }
+   },
+   {
+    "target": 90,
+    "target_score": 69.0,
+    "title_score": 69.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 57.0,
+      "club_speed": 67.0,
+      "ball_speed": 75.9,
+      "spin_rate": 8473.0,
+      "attack_angle": -3.6,
+      "carry": 88.6,
+      "total": 91.6,
+      "side": -10.2,
+      "from_pin": 31.1,
+      "shot": 1
+     },
+     {
+      "score": 66.0,
+      "club_speed": 65.3,
+      "ball_speed": 76.9,
+      "spin_rate": 7978.0,
+      "attack_angle": -4.2,
+      "carry": 90.9,
+      "total": 95.1,
+      "side": -8.4,
+      "from_pin": 25.3,
+      "shot": 2
+     },
+     {
+      "score": 50.0,
+      "club_speed": 63.5,
+      "ball_speed": 69.7,
+      "spin_rate": 8443.0,
+      "attack_angle": -3.6,
+      "carry": 78.4,
+      "total": 81.1,
+      "side": 2.1,
+      "from_pin": 35.5,
+      "shot": 3
+     },
+     {
+      "score": 82.0,
+      "club_speed": 72.0,
+      "ball_speed": 77.8,
+      "spin_rate": 9037.0,
+      "attack_angle": -5.4,
+      "carry": 91.4,
+      "total": 95.3,
+      "side": -4.9,
+      "from_pin": 15.1,
+      "shot": 4
+     },
+     {
+      "score": 73.0,
+      "club_speed": 72.5,
+      "ball_speed": 81.2,
+      "spin_rate": 10343.0,
+      "attack_angle": -5.4,
+      "carry": 96.0,
+      "total": 96.8,
+      "side": -3.5,
+      "from_pin": 20.7,
+      "shot": 5
+     },
+     {
+      "score": 86.0,
+      "club_speed": 71.9,
+      "ball_speed": 79.3,
+      "spin_rate": 9687.0,
+      "attack_angle": -4.6,
+      "carry": 93.1,
+      "total": 94.4,
+      "side": 2.7,
+      "from_pin": 12.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 69.0,
+     "club_speed": 68.7,
+     "ball_speed": 76.8,
+     "spin_rate": 8993.0,
+     "attack_angle": -4.5,
+     "carry": 89.7,
+     "total": 92.4,
+     "side": -3.7,
+     "from_pin": 23.3
+    },
+    "consistency": {
+     "score": 12.8,
+     "club_speed": 3.6,
+     "ball_speed": 3.6,
+     "spin_rate": 807.0,
+     "attack_angle": 0.7,
+     "carry": 5.6,
+     "total": 5.3,
+     "side": 1.5,
+     "from_pin": 8.3
+    }
+   },
+   {
+    "target": 100,
+    "target_score": 70.3,
+    "title_score": 70.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 92.0,
+      "club_speed": 70.3,
+      "ball_speed": 82.2,
+      "spin_rate": 8645.0,
+      "attack_angle": -4.0,
+      "carry": 98.5,
+      "total": 100.8,
+      "side": -2.6,
+      "from_pin": 9.1,
+      "shot": 1
+     },
+     {
+      "score": 59.0,
+      "club_speed": 71.8,
+      "ball_speed": 76.6,
+      "spin_rate": 9501.0,
+      "attack_angle": -5.4,
+      "carry": 89.0,
+      "total": 90.6,
+      "side": -0.4,
+      "from_pin": 33.1,
+      "shot": 2
+     },
+     {
+      "score": 32.0,
+      "club_speed": 68.5,
+      "ball_speed": 72.7,
+      "spin_rate": 8892.0,
+      "attack_angle": -3.2,
+      "carry": 83.2,
+      "total": 86.6,
+      "side": -4.6,
+      "from_pin": 52.7,
+      "shot": 3
+     },
+     {
+      "score": 78.0,
+      "club_speed": 67.5,
+      "ball_speed": 80.9,
+      "spin_rate": 8253.0,
+      "attack_angle": -5.2,
+      "carry": 97.3,
+      "total": 101.2,
+      "side": 5.8,
+      "from_pin": 19.2,
+      "shot": 4
+     },
+     {
+      "score": 88.0,
+      "club_speed": 67.7,
+      "ball_speed": 84.4,
+      "spin_rate": 7717.0,
+      "attack_angle": -5.6,
+      "carry": 104.0,
+      "total": 109.0,
+      "side": -1.3,
+      "from_pin": 12.4,
+      "shot": 5
+     },
+     {
+      "score": 73.0,
+      "club_speed": 67.9,
+      "ball_speed": 78.9,
+      "spin_rate": 8909.0,
+      "attack_angle": -5.0,
+      "carry": 93.3,
+      "total": 97.0,
+      "side": 3.8,
+      "from_pin": 23.2,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 70.3,
+     "club_speed": 69.0,
+     "ball_speed": 79.3,
+     "spin_rate": 8653.0,
+     "attack_angle": -4.7,
+     "carry": 94.2,
+     "total": 97.5,
+     "side": 0.1,
+     "from_pin": 25.0
+    },
+    "consistency": {
+     "score": 20.2,
+     "club_speed": 1.6,
+     "ball_speed": 3.8,
+     "spin_rate": 559.0,
+     "attack_angle": 0.9,
+     "carry": 6.7,
+     "total": 7.4,
+     "side": 1.1,
+     "from_pin": 14.6
+    }
+   },
+   {
+    "target": 120,
+    "target_score": 73.3,
+    "title_score": 73.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 56.0,
+      "club_speed": 73.9,
+      "ball_speed": 85.0,
+      "spin_rate": 6581.0,
+      "attack_angle": -1.8,
+      "carry": 106.6,
+      "total": 114.1,
+      "side": -3.8,
+      "from_pin": 42.1,
+      "shot": 1
+     },
+     {
+      "score": 78.0,
+      "club_speed": 73.6,
+      "ball_speed": 89.7,
+      "spin_rate": 7759.0,
+      "attack_angle": -3.4,
+      "carry": 112.8,
+      "total": 117.8,
+      "side": 2.6,
+      "from_pin": 23.0,
+      "shot": 2
+     },
+     {
+      "score": 75.0,
+      "club_speed": 73.4,
+      "ball_speed": 89.9,
+      "spin_rate": 7892.0,
+      "attack_angle": -4.8,
+      "carry": 113.0,
+      "total": 118.0,
+      "side": -4.9,
+      "from_pin": 26.0,
+      "shot": 3
+     },
+     {
+      "score": 70.0,
+      "club_speed": 71.9,
+      "ball_speed": 87.3,
+      "spin_rate": 6411.0,
+      "attack_angle": -2.2,
+      "carry": 111.1,
+      "total": 118.4,
+      "side": -4.4,
+      "from_pin": 29.9,
+      "shot": 4
+     },
+     {
+      "score": 90.0,
+      "club_speed": 73.1,
+      "ball_speed": 95.6,
+      "spin_rate": 7334.0,
+      "attack_angle": -6.0,
+      "carry": 123.5,
+      "total": 129.9,
+      "side": -2.8,
+      "from_pin": 13.4,
+      "shot": 5
+     },
+     {
+      "score": 71.0,
+      "club_speed": 73.4,
+      "ball_speed": 90.3,
+      "spin_rate": 7873.0,
+      "attack_angle": -4.0,
+      "carry": 113.5,
+      "total": 117.8,
+      "side": 7.2,
+      "from_pin": 29.8,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 73.3,
+     "club_speed": 73.2,
+     "ball_speed": 89.6,
+     "spin_rate": 7308.0,
+     "attack_angle": -3.7,
+     "carry": 113.4,
+     "total": 119.3,
+     "side": -1.0,
+     "from_pin": 27.4
+    },
+    "consistency": {
+     "score": 10.2,
+     "club_speed": 0.6,
+     "ball_speed": 3.3,
+     "spin_rate": 605.0,
+     "attack_angle": 1.4,
+     "carry": 5.1,
+     "total": 4.9,
+     "side": 1.4,
+     "from_pin": 8.6
+    }
+   },
+   {
+    "target": 140,
+    "target_score": 55.5,
+    "title_score": 5.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 15.0,
+      "club_speed": 76.4,
+      "ball_speed": 92.0,
+      "spin_rate": 5142.0,
+      "attack_angle": -4.0,
+      "carry": 114.5,
+      "total": 132.7,
+      "side": -14.5,
+      "from_pin": 90.4,
+      "shot": 1
+     },
+     {
+      "score": 89.0,
+      "club_speed": 77.8,
+      "ball_speed": 104.6,
+      "spin_rate": 5992.0,
+      "attack_angle": -2.6,
+      "carry": 142.9,
+      "total": 150.4,
+      "side": 4.6,
+      "from_pin": 16.2,
+      "shot": 2
+     },
+     {
+      "score": 76.0,
+      "club_speed": 78.3,
+      "ball_speed": 108.0,
+      "spin_rate": 5789.0,
+      "attack_angle": -4.4,
+      "carry": 149.8,
+      "total": 158.7,
+      "side": -1.5,
+      "from_pin": 29.6,
+      "shot": 3
+     },
+     {
+      "score": 38.0,
+      "club_speed": 76.3,
+      "ball_speed": 91.4,
+      "spin_rate": 6129.0,
+      "attack_angle": -2.0,
+      "carry": 118.3,
+      "total": 128.1,
+      "side": 5.6,
+      "from_pin": 67.7,
+      "shot": 4
+     },
+     {
+      "score": 60.0,
+      "club_speed": 78.0,
+      "ball_speed": 106.9,
+      "spin_rate": 5557.0,
+      "attack_angle": -2.4,
+      "carry": 148.7,
+      "total": 157.9,
+      "side": -12.6,
+      "from_pin": 45.1,
+      "shot": 5
+     },
+     {
+      "score": 55.0,
+      "club_speed": 75.7,
+      "ball_speed": 107.6,
+      "spin_rate": 5350.0,
+      "attack_angle": -5.2,
+      "carry": 150.0,
+      "total": 161.7,
+      "side": -14.0,
+      "from_pin": 50.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 55.5,
+     "club_speed": 77.1,
+     "ball_speed": 101.8,
+     "spin_rate": 5660.0,
+     "attack_angle": -3.4,
+     "carry": 137.4,
+     "total": 148.2,
+     "side": -5.4,
+     "from_pin": 49.9
+    },
+    "consistency": {
+     "score": 24.2,
+     "club_speed": 1.0,
+     "ball_speed": 7.2,
+     "spin_rate": 347.0,
+     "attack_angle": 1.2,
+     "carry": 15.1,
+     "total": 13.1,
+     "side": 2.6,
+     "from_pin": 24.3
+    }
+   },
+   {
+    "target": 160,
+    "target_score": 73.5,
+    "title_score": 73.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 87.0,
+      "club_speed": 83.0,
+      "ball_speed": 115.3,
+      "spin_rate": 4964.0,
+      "attack_angle": -3.6,
+      "carry": 166.6,
+      "total": 178.0,
+      "side": -1.8,
+      "from_pin": 20.5,
+      "shot": 1
+     },
+     {
+      "score": 7.0,
+      "club_speed": 81.0,
+      "ball_speed": 96.2,
+      "spin_rate": 3799.0,
+      "attack_angle": -0.8,
+      "carry": 126.1,
+      "total": 148.7,
+      "side": -14.4,
+      "from_pin": 112.8,
+      "shot": 2
+     },
+     {
+      "score": 72.0,
+      "club_speed": 79.8,
+      "ball_speed": 105.7,
+      "spin_rate": 5090.0,
+      "attack_angle": -2.4,
+      "carry": 147.5,
+      "total": 160.0,
+      "side": 1.8,
+      "from_pin": 38.0,
+      "shot": 3
+     },
+     {
+      "score": 91.0,
+      "club_speed": 81.7,
+      "ball_speed": 113.9,
+      "spin_rate": 5369.0,
+      "attack_angle": -2.6,
+      "carry": 162.0,
+      "total": 171.8,
+      "side": 5.1,
+      "from_pin": 16.2,
+      "shot": 4
+     },
+     {
+      "score": 98.0,
+      "club_speed": 79.6,
+      "ball_speed": 112.6,
+      "spin_rate": 5360.0,
+      "attack_angle": -3.2,
+      "carry": 159.6,
+      "total": 169.8,
+      "side": 2.5,
+      "from_pin": 7.5,
+      "shot": 5
+     },
+     {
+      "score": 86.0,
+      "club_speed": 80.6,
+      "ball_speed": 113.3,
+      "spin_rate": 5765.0,
+      "attack_angle": -3.8,
+      "carry": 158.7,
+      "total": 168.0,
+      "side": 7.0,
+      "from_pin": 21.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 73.5,
+     "club_speed": 80.9,
+     "ball_speed": 109.5,
+     "spin_rate": 5058.0,
+     "attack_angle": -2.7,
+     "carry": 153.4,
+     "total": 166.0,
+     "side": 0.0,
+     "from_pin": 36.1
+    },
+    "consistency": {
+     "score": 30.7,
+     "club_speed": 1.2,
+     "ball_speed": 6.7,
+     "spin_rate": 617.0,
+     "attack_angle": 1.0,
+     "carry": 13.5,
+     "total": 9.4,
+     "side": 2.1,
+     "from_pin": 35.5
+    }
+   },
+   {
+    "target": 180,
+    "target_score": 59.7,
+    "title_score": 59.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 52.0,
+      "club_speed": 84.8,
+      "ball_speed": 120.9,
+      "spin_rate": 4486.0,
+      "attack_angle": -1.8,
+      "carry": 179.1,
+      "total": 191.4,
+      "side": 22.8,
+      "from_pin": 68.7,
+      "shot": 1
+     },
+     {
+      "score": 73.0,
+      "club_speed": 83.8,
+      "ball_speed": 113.9,
+      "spin_rate": 4038.0,
+      "attack_angle": -2.4,
+      "carry": 166.9,
+      "total": 183.5,
+      "side": 3.8,
+      "from_pin": 41.0,
+      "shot": 2
+     },
+     {
+      "score": 62.0,
+      "club_speed": 84.6,
+      "ball_speed": 111.6,
+      "spin_rate": 3903.0,
+      "attack_angle": -2.4,
+      "carry": 161.8,
+      "total": 180.2,
+      "side": -3.0,
+      "from_pin": 55.5,
+      "shot": 3
+     },
+     {
+      "score": 65.0,
+      "club_speed": 83.1,
+      "ball_speed": 114.7,
+      "spin_rate": 3881.0,
+      "attack_angle": -2.6,
+      "carry": 168.8,
+      "total": 186.6,
+      "side": 12.6,
+      "from_pin": 51.7,
+      "shot": 4
+     },
+     {
+      "score": 62.0,
+      "club_speed": 85.4,
+      "ball_speed": 121.0,
+      "spin_rate": 3075.0,
+      "attack_angle": -2.4,
+      "carry": 181.6,
+      "total": 206.3,
+      "side": -18.6,
+      "from_pin": 55.8,
+      "shot": 5
+     },
+     {
+      "score": 44.0,
+      "club_speed": 85.7,
+      "ball_speed": 110.2,
+      "spin_rate": 2885.0,
+      "attack_angle": -1.6,
+      "carry": 155.5,
+      "total": 184.0,
+      "side": -9.2,
+      "from_pin": 79.3,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 59.7,
+     "club_speed": 84.5,
+     "ball_speed": 115.4,
+     "spin_rate": 3711.0,
+     "attack_angle": -2.2,
+     "carry": 168.9,
+     "total": 188.7,
+     "side": 1.4,
+     "from_pin": 58.7
+    },
+    "consistency": {
+     "score": 9.3,
+     "club_speed": 0.9,
+     "ball_speed": 4.2,
+     "spin_rate": 557.0,
+     "attack_angle": 0.4,
+     "carry": 9.1,
+     "total": 8.6,
+     "side": 4.2,
+     "from_pin": 12.3
+    }
+   },
+   {
+    "target": "Drive",
+    "target_score": 74.0,
+    "title_score": 74.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "score": 59.0,
+      "club_speed": 93.9,
+      "ball_speed": 134.4,
+      "spin_rate": 2559.0,
+      "attack_angle": -0.6,
+      "carry": 212.9,
+      "total": 240.3,
+      "side": -15.1,
+      "shot": 1
+     },
+     {
+      "score": 84.0,
+      "club_speed": 93.3,
+      "ball_speed": 138.2,
+      "spin_rate": 2680.0,
+      "attack_angle": 0.0,
+      "carry": 219.9,
+      "total": 246.7,
+      "side": -0.0,
+      "shot": 2
+     },
+     {
+      "score": 81.0,
+      "club_speed": 93.2,
+      "ball_speed": 131.5,
+      "spin_rate": 2331.0,
+      "attack_angle": -0.2,
+      "carry": 216.4,
+      "total": 240.9,
+      "side": 0.6,
+      "shot": 3
+     },
+     {
+      "score": 85.0,
+      "club_speed": 93.6,
+      "ball_speed": 138.7,
+      "spin_rate": 2268.0,
+      "attack_angle": -0.2,
+      "carry": 219.6,
+      "total": 251.3,
+      "side": 4.0,
+      "shot": 4
+     },
+     {
+      "score": 53.0,
+      "club_speed": 92.9,
+      "ball_speed": 122.6,
+      "spin_rate": 5034.0,
+      "attack_angle": -1.8,
+      "carry": 178.3,
+      "total": 186.4,
+      "side": -10.4,
+      "shot": 5
+     },
+     {
+      "score": 82.0,
+      "club_speed": 93.8,
+      "ball_speed": 138.7,
+      "spin_rate": 2900.0,
+      "attack_angle": 1.0,
+      "carry": 220.5,
+      "total": 245.0,
+      "side": 6.0,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 74.0,
+     "club_speed": 93.5,
+     "ball_speed": 134.0,
+     "spin_rate": 2962.0,
+     "attack_angle": -0.3,
+     "carry": 211.3,
+     "total": 235.1,
+     "side": -2.5
+    },
+    "consistency": {
+     "score": 12.9,
+     "club_speed": 0.3,
+     "ball_speed": 5.8,
+     "spin_rate": 950.0,
+     "attack_angle": 0.8,
+     "carry": 15.0,
+     "total": 22.1,
+     "side": 2.3
+    }
+   }
+  ],
+  "warnings": []
+ },
+ {
+  "id": "20250724",
+  "date": "2025-07-24",
+  "file": "reports/Combines/20250724.pdf",
+  "score": 54.6,
+  "estimated_handicap": 16.0,
+  "targets": [
+   {
+    "target": 60,
+    "target_score": 26.0,
+    "title_score": 226.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "SpinRate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "FromPin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 76.0,
+      "club_speed": 52.9,
+      "ball_speed": 61.2,
+      "spin_rate": 7137.0,
+      "attack_angle": -3.8,
+      "carry": 64.0,
+      "total": 70.9,
+      "side": -1.4,
+      "from_pin": 12.6,
+      "shot": 1
+     },
+     {
+      "score": 0.0,
+      "club_speed": 50.5,
+      "ball_speed": 53.2,
+      "spin_rate": 6458.0,
+      "attack_angle": -3.4,
+      "carry": 48.4,
+      "total": 57.8,
+      "side": 9.0,
+      "from_pin": 45.9,
+      "shot": 2
+     },
+     {
+      "score": 22.0,
+      "club_speed": 48.4,
+      "ball_speed": 52.4,
+      "spin_rate": 5180.0,
+      "attack_angle": 0.8,
+      "carry": 49.5,
+      "total": 59.4,
+      "side": -5.2,
+      "from_pin": 36.0,
+      "shot": 3
+     },
+     {
+      "score": 22.0,
+      "club_speed": 63.5,
+      "ball_speed": 59.8,
+      "spin_rate": 6532.0,
+      "attack_angle": -1.4,
+      "carry": 62.7,
+      "total": 68.0,
+      "side": -11.9,
+      "from_pin": 35.9,
+      "shot": 4
+     },
+     {
+      "score": 36.0,
+      "club_speed": 64.3,
+      "ball_speed": 63.5,
+      "spin_rate": 8359.0,
+      "attack_angle": -4.0,
+      "carry": 68.1,
+      "total": 71.0,
+      "side": -6.1,
+      "from_pin": 29.8,
+      "shot": 5
+     },
+     {
+      "score": 0.0,
+      "club_speed": 65.6,
+      "ball_speed": 67.1,
+      "spin_rate": 8218.0,
+      "attack_angle": -2.8,
+      "carry": 74.1,
+      "total": 77.4,
+      "side": -5.9,
+      "from_pin": 45.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 26.0,
+     "club_speed": 57.5,
+     "ball_speed": 59.5,
+     "spin_rate": 6981.0,
+     "attack_angle": -2.4,
+     "carry": 61.1,
+     "total": 67.4,
+     "side": -3.6,
+     "from_pin": 34.3
+    },
+    "consistency": {
+     "score": 25.8,
+     "club_speed": 7.1,
+     "ball_speed": 5.3,
+     "spin_rate": 1093.0,
+     "attack_angle": 1.7,
+     "carry": 9.4,
+     "total": 6.9,
+     "side": 2.0,
+     "from_pin": 11.2
+    }
+   },
+   {
+    "target": 70,
+    "target_score": 71.0,
+    "title_score": 71.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 81.0,
+      "club_speed": 58.9,
+      "ball_speed": 62.1,
+      "spin_rate": 6729.0,
+      "attack_angle": -1.6,
+      "carry": 66.6,
+      "total": 72.5,
+      "side": -2.0,
+      "from_pin": 11.9,
+      "shot": 1
+     },
+     {
+      "score": 67.0,
+      "club_speed": 57.4,
+      "ball_speed": 60.2,
+      "spin_rate": 6255.0,
+      "attack_angle": -0.4,
+      "carry": 63.6,
+      "total": 69.7,
+      "side": -0.7,
+      "from_pin": 19.4,
+      "shot": 2
+     },
+     {
+      "score": 80.0,
+      "club_speed": 56.0,
+      "ball_speed": 65.6,
+      "spin_rate": 6854.0,
+      "attack_angle": -2.8,
+      "carry": 71.4,
+      "total": 79.5,
+      "side": -3.9,
+      "from_pin": 12.5,
+      "shot": 3
+     },
+     {
+      "score": 67.0,
+      "club_speed": 66.5,
+      "ball_speed": 61.0,
+      "spin_rate": 7697.0,
+      "attack_angle": -1.8,
+      "carry": 63.8,
+      "total": 66.4,
+      "side": 1.5,
+      "from_pin": 19.2,
+      "shot": 4
+     },
+     {
+      "score": 82.0,
+      "club_speed": 68.9,
+      "ball_speed": 66.7,
+      "spin_rate": 9350.0,
+      "attack_angle": -3.6,
+      "carry": 71.7,
+      "total": 71.9,
+      "side": 3.4,
+      "from_pin": 11.4,
+      "shot": 5
+     },
+     {
+      "score": 49.0,
+      "club_speed": 70.6,
+      "ball_speed": 60.6,
+      "spin_rate": 8430.0,
+      "attack_angle": -2.2,
+      "carry": 60.5,
+      "total": 60.6,
+      "side": 0.1,
+      "from_pin": 28.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 71.0,
+     "club_speed": 63.1,
+     "ball_speed": 62.7,
+     "spin_rate": 7553.0,
+     "attack_angle": -2.1,
+     "carry": 66.3,
+     "total": 70.1,
+     "side": -0.3,
+     "from_pin": 17.1
+    },
+    "consistency": {
+     "score": 11.7,
+     "club_speed": 5.8,
+     "ball_speed": 2.5,
+     "spin_rate": 1070.0,
+     "attack_angle": 1.0,
+     "carry": 4.1,
+     "total": 5.8,
+     "side": 0.7,
+     "from_pin": 6.0
+    }
+   },
+   {
+    "target": 80,
+    "target_score": 48.3,
+    "title_score": 48.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 81.0,
+      "club_speed": 63.2,
+      "ball_speed": 67.9,
+      "spin_rate": 5374.0,
+      "attack_angle": -1.2,
+      "carry": 78.0,
+      "total": 85.8,
+      "side": -4.1,
+      "from_pin": 13.9,
+      "shot": 1
+     },
+     {
+      "score": 44.0,
+      "club_speed": 61.8,
+      "ball_speed": 72.4,
+      "spin_rate": 7409.0,
+      "attack_angle": -2.6,
+      "carry": 83.6,
+      "total": 89.6,
+      "side": -11.4,
+      "from_pin": 35.1,
+      "shot": 2
+     },
+     {
+      "score": 37.0,
+      "club_speed": 60.7,
+      "ball_speed": 72.2,
+      "spin_rate": 6578.0,
+      "attack_angle": -2.6,
+      "carry": 82.7,
+      "total": 91.8,
+      "side": -12.9,
+      "from_pin": 39.0,
+      "shot": 3
+     },
+     {
+      "score": 41.0,
+      "club_speed": 63.9,
+      "ball_speed": 76.5,
+      "spin_rate": 8018.0,
+      "attack_angle": -3.2,
+      "carry": 90.1,
+      "total": 94.6,
+      "side": -7.5,
+      "from_pin": 36.9,
+      "shot": 4
+     },
+     {
+      "score": 27.0,
+      "club_speed": 63.0,
+      "ball_speed": 78.5,
+      "spin_rate": 7701.0,
+      "attack_angle": -6.4,
+      "carry": 92.8,
+      "total": 100.0,
+      "side": -8.3,
+      "from_pin": 45.0,
+      "shot": 5
+     },
+     {
+      "score": 60.0,
+      "club_speed": 57.7,
+      "ball_speed": 65.0,
+      "spin_rate": 5444.0,
+      "attack_angle": -2.2,
+      "carry": 71.6,
+      "total": 81.7,
+      "side": -1.9,
+      "from_pin": 25.8,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 48.3,
+     "club_speed": 61.7,
+     "ball_speed": 72.1,
+     "spin_rate": 6754.0,
+     "attack_angle": -3.0,
+     "carry": 83.1,
+     "total": 90.6,
+     "side": -7.7,
+     "from_pin": 32.6
+    },
+    "consistency": {
+     "score": 17.6,
+     "club_speed": 2.1,
+     "ball_speed": 4.6,
+     "spin_rate": 1047.0,
+     "attack_angle": 1.6,
+     "carry": 7.1,
+     "total": 5.9,
+     "side": 1.2,
+     "from_pin": 10.1
+    }
+   },
+   {
+    "target": 90,
+    "target_score": 57.3,
+    "title_score": 57.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 56.0,
+      "club_speed": 65.7,
+      "ball_speed": 72.5,
+      "spin_rate": 7790.0,
+      "attack_angle": -1.2,
+      "carry": 83.4,
+      "total": 87.5,
+      "side": -7.9,
+      "from_pin": 31.6,
+      "shot": 1
+     },
+     {
+      "score": 52.0,
+      "club_speed": 65.6,
+      "ball_speed": 69.5,
+      "spin_rate": 7764.0,
+      "attack_angle": -1.8,
+      "carry": 78.5,
+      "total": 83.0,
+      "side": 0.6,
+      "from_pin": 34.5,
+      "shot": 2
+     },
+     {
+      "score": 34.0,
+      "club_speed": 67.3,
+      "ball_speed": 74.2,
+      "spin_rate": 6888.0,
+      "attack_angle": -1.6,
+      "carry": 87.3,
+      "total": 93.2,
+      "side": -14.8,
+      "from_pin": 46.0,
+      "shot": 3
+     },
+     {
+      "score": 61.0,
+      "club_speed": 69.6,
+      "ball_speed": 72.5,
+      "spin_rate": 9366.0,
+      "attack_angle": -5.6,
+      "carry": 82.6,
+      "total": 84.8,
+      "side": 5.9,
+      "from_pin": 28.8,
+      "shot": 4
+     },
+     {
+      "score": 68.0,
+      "club_speed": 72.3,
+      "ball_speed": 82.6,
+      "spin_rate": 9038.0,
+      "attack_angle": -3.2,
+      "carry": 97.9,
+      "total": 99.0,
+      "side": -0.3,
+      "from_pin": 23.9,
+      "shot": 5
+     },
+     {
+      "score": 73.0,
+      "club_speed": 70.7,
+      "ball_speed": 79.1,
+      "spin_rate": 8796.0,
+      "attack_angle": -3.6,
+      "carry": 92.6,
+      "total": 93.9,
+      "side": 6.6,
+      "from_pin": 20.9,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 57.3,
+     "club_speed": 68.5,
+     "ball_speed": 75.1,
+     "spin_rate": 8274.0,
+     "attack_angle": -2.8,
+     "carry": 87.1,
+     "total": 90.2,
+     "side": -1.7,
+     "from_pin": 31.0
+    },
+    "consistency": {
+     "score": 12.6,
+     "club_speed": 2.5,
+     "ball_speed": 4.4,
+     "spin_rate": 863.0,
+     "attack_angle": 1.5,
+     "carry": 6.5,
+     "total": 5.6,
+     "side": 2.3,
+     "from_pin": 8.1
+    }
+   },
+   {
+    "target": 100,
+    "target_score": 59.5,
+    "title_score": 59.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 90.0,
+      "club_speed": 69.6,
+      "ball_speed": 81.4,
+      "spin_rate": 9002.0,
+      "attack_angle": -3.0,
+      "carry": 96.7,
+      "total": 98.3,
+      "side": 1.0,
+      "from_pin": 10.5,
+      "shot": 1
+     },
+     {
+      "score": 20.0,
+      "club_speed": 69.5,
+      "ball_speed": 70.5,
+      "spin_rate": 7652.0,
+      "attack_angle": -1.6,
+      "carry": 80.0,
+      "total": 83.4,
+      "side": -3.6,
+      "from_pin": 61.1,
+      "shot": 2
+     },
+     {
+      "score": 67.0,
+      "club_speed": 71.7,
+      "ball_speed": 78.4,
+      "spin_rate": 9169.0,
+      "attack_angle": -2.2,
+      "carry": 91.2,
+      "total": 92.1,
+      "side": -2.1,
+      "from_pin": 27.2,
+      "shot": 3
+     },
+     {
+      "score": 77.0,
+      "club_speed": 74.7,
+      "ball_speed": 84.5,
+      "spin_rate": 9137.0,
+      "attack_angle": -4.6,
+      "carry": 102.3,
+      "total": 104.8,
+      "side": -6.5,
+      "from_pin": 20.3,
+      "shot": 4
+     },
+     {
+      "score": 43.0,
+      "club_speed": 73.9,
+      "ball_speed": 78.6,
+      "spin_rate": 7681.0,
+      "attack_angle": -6.9,
+      "carry": 90.3,
+      "total": 91.5,
+      "side": 10.6,
+      "from_pin": 44.6,
+      "shot": 5
+     },
+     {
+      "score": 60.0,
+      "club_speed": 73.4,
+      "ball_speed": 78.1,
+      "spin_rate": 9192.0,
+      "attack_angle": -1.8,
+      "carry": 90.0,
+      "total": 90.4,
+      "side": 3.8,
+      "from_pin": 32.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 59.5,
+     "club_speed": 72.1,
+     "ball_speed": 78.6,
+     "spin_rate": 8639.0,
+     "attack_angle": -3.3,
+     "carry": 91.7,
+     "total": 93.4,
+     "side": 0.6,
+     "from_pin": 32.7
+    },
+    "consistency": {
+     "score": 22.8,
+     "club_speed": 2.0,
+     "ball_speed": 4.2,
+     "spin_rate": 690.0,
+     "attack_angle": 1.9,
+     "carry": 6.8,
+     "total": 6.7,
+     "side": 1.7,
+     "from_pin": 16.5
+    }
+   },
+   {
+    "target": 120,
+    "target_score": 65.3,
+    "title_score": 65.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 19.0,
+      "club_speed": 73.2,
+      "ball_speed": 101.2,
+      "spin_rate": 6489.0,
+      "attack_angle": -2.2,
+      "carry": 135.1,
+      "total": 141.6,
+      "side": -20.9,
+      "from_pin": 74.5,
+      "shot": 1
+     },
+     {
+      "score": 62.0,
+      "club_speed": 73.6,
+      "ball_speed": 95.2,
+      "spin_rate": 6828.0,
+      "attack_angle": -1.6,
+      "carry": 123.9,
+      "total": 130.2,
+      "side": -11.9,
+      "from_pin": 37.1,
+      "shot": 2
+     },
+     {
+      "score": 94.0,
+      "club_speed": 75.3,
+      "ball_speed": 94.3,
+      "spin_rate": 8122.0,
+      "attack_angle": -3.6,
+      "carry": 119.4,
+      "total": 123.0,
+      "side": 3.1,
+      "from_pin": 9.6,
+      "shot": 3
+     },
+     {
+      "score": 79.0,
+      "club_speed": 76.6,
+      "ball_speed": 98.7,
+      "spin_rate": 7615.0,
+      "attack_angle": -2.4,
+      "carry": 127.3,
+      "total": 131.2,
+      "side": -0.5,
+      "from_pin": 22.1,
+      "shot": 4
+     },
+     {
+      "score": 67.0,
+      "club_speed": 73.5,
+      "ball_speed": 94.8,
+      "spin_rate": 7711.0,
+      "attack_angle": -4.2,
+      "carry": 121.0,
+      "total": 125.1,
+      "side": 11.0,
+      "from_pin": 33.2,
+      "shot": 5
+     },
+     {
+      "score": 71.0,
+      "club_speed": 74.9,
+      "ball_speed": 88.9,
+      "spin_rate": 7697.0,
+      "attack_angle": -2.0,
+      "carry": 111.4,
+      "total": 115.7,
+      "side": 4.5,
+      "from_pin": 29.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 65.3,
+     "club_speed": 74.5,
+     "ball_speed": 95.5,
+     "spin_rate": 7410.0,
+     "attack_angle": -2.7,
+     "carry": 123.0,
+     "total": 127.8,
+     "side": -2.4,
+     "from_pin": 34.3
+    },
+    "consistency": {
+     "score": 23.1,
+     "club_speed": 1.2,
+     "ball_speed": 3.9,
+     "spin_rate": 564.0,
+     "attack_angle": 0.9,
+     "carry": 7.3,
+     "total": 8.0,
+     "side": 3.3,
+     "from_pin": 20.0
+    }
+   },
+   {
+    "target": 140,
+    "target_score": 40.3,
+    "title_score": 40.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 65.0,
+      "club_speed": 78.6,
+      "ball_speed": 97.6,
+      "spin_rate": 6695.0,
+      "attack_angle": -2.4,
+      "carry": 128.4,
+      "total": 135.2,
+      "side": 6.8,
+      "from_pin": 40.8,
+      "shot": 1
+     },
+     {
+      "score": 0.0,
+      "club_speed": 79.0,
+      "ball_speed": 81.3,
+      "spin_rate": 9236.0,
+      "attack_angle": -2.8,
+      "carry": 87.5,
+      "total": 96.2,
+      "side": 38.7,
+      "from_pin": 218.1,
+      "shot": 2
+     },
+     {
+      "score": 0.0,
+      "club_speed": 76.1,
+      "ball_speed": 83.9,
+      "spin_rate": 6420.0,
+      "attack_angle": -1.4,
+      "carry": 103.8,
+      "total": 113.7,
+      "side": -10.1,
+      "from_pin": 114.3,
+      "shot": 3
+     },
+     {
+      "score": 83.0,
+      "club_speed": 79.1,
+      "ball_speed": 107.7,
+      "spin_rate": 6213.0,
+      "attack_angle": -3.0,
+      "carry": 147.3,
+      "total": 154.2,
+      "side": 0.9,
+      "from_pin": 22.0,
+      "shot": 4
+     },
+     {
+      "score": 44.0,
+      "club_speed": 77.3,
+      "ball_speed": 109.0,
+      "spin_rate": 5445.0,
+      "attack_angle": -2.2,
+      "carry": 152.1,
+      "total": 162.7,
+      "side": -17.4,
+      "from_pin": 61.9,
+      "shot": 5
+     },
+     {
+      "score": 50.0,
+      "club_speed": 76.7,
+      "ball_speed": 105.0,
+      "spin_rate": 5000.0,
+      "attack_angle": -3.2,
+      "carry": 145.1,
+      "total": 158.9,
+      "side": -18.1,
+      "from_pin": 55.7,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 40.3,
+     "club_speed": 77.8,
+     "ball_speed": 97.4,
+     "spin_rate": 6501.0,
+     "attack_angle": -2.5,
+     "carry": 127.4,
+     "total": 136.8,
+     "side": 0.1,
+     "from_pin": 85.5
+    },
+    "consistency": {
+     "score": 31.1,
+     "club_speed": 1.1,
+     "ball_speed": 11.1,
+     "spin_rate": 1353.0,
+     "attack_angle": 0.6,
+     "carry": 24.1,
+     "total": 24.7,
+     "side": 5.9,
+     "from_pin": 65.7
+    }
+   },
+   {
+    "target": 160,
+    "target_score": 71.3,
+    "title_score": 71.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 85.0,
+      "club_speed": 78.7,
+      "ball_speed": 113.7,
+      "spin_rate": 4374.0,
+      "attack_angle": -2.4,
+      "carry": 165.7,
+      "total": 180.6,
+      "side": -5.0,
+      "from_pin": 22.7,
+      "shot": 1
+     },
+     {
+      "score": 94.0,
+      "club_speed": 78.9,
+      "ball_speed": 112.5,
+      "spin_rate": 4525.0,
+      "attack_angle": -2.8,
+      "carry": 163.2,
+      "total": 176.7,
+      "side": -2.9,
+      "from_pin": 12.9,
+      "shot": 2
+     },
+     {
+      "score": 83.0,
+      "club_speed": 80.7,
+      "ball_speed": 110.7,
+      "spin_rate": 5070.0,
+      "attack_angle": -2.0,
+      "carry": 157.2,
+      "total": 168.9,
+      "side": 7.9,
+      "from_pin": 25.4,
+      "shot": 3
+     },
+     {
+      "score": 65.0,
+      "club_speed": 81.7,
+      "ball_speed": 111.1,
+      "spin_rate": 4314.0,
+      "attack_angle": -0.2,
+      "carry": 161.8,
+      "total": 175.9,
+      "side": 15.3,
+      "from_pin": 46.0,
+      "shot": 4
+     },
+     {
+      "score": 51.0,
+      "club_speed": 81.6,
+      "ball_speed": 117.0,
+      "spin_rate": 3609.0,
+      "attack_angle": -1.8,
+      "carry": 172.5,
+      "total": 193.1,
+      "side": -17.0,
+      "from_pin": 62.0,
+      "shot": 5
+     },
+     {
+      "score": 50.0,
+      "club_speed": 81.3,
+      "ball_speed": 110.6,
+      "spin_rate": 3509.0,
+      "attack_angle": -0.6,
+      "carry": 157.0,
+      "total": 179.9,
+      "side": -20.7,
+      "from_pin": 63.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 71.3,
+     "club_speed": 80.5,
+     "ball_speed": 112.6,
+     "spin_rate": 4233.0,
+     "attack_angle": -1.6,
+     "carry": 162.9,
+     "total": 179.2,
+     "side": -3.7,
+     "from_pin": 38.7
+    },
+    "consistency": {
+     "score": 17.1,
+     "club_speed": 1.2,
+     "ball_speed": 2.3,
+     "spin_rate": 536.0,
+     "attack_angle": 0.9,
+     "carry": 5.3,
+     "total": 7.3,
+     "side": 3.9,
+     "from_pin": 19.6
+    }
+   },
+   {
+    "target": 180,
+    "target_score": 45.7,
+    "title_score": 45.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 64.0,
+      "club_speed": 83.0,
+      "ball_speed": 116.6,
+      "spin_rate": 4085.0,
+      "attack_angle": -1.8,
+      "carry": 173.1,
+      "total": 188.2,
+      "side": 16.1,
+      "from_pin": 53.3,
+      "shot": 1
+     },
+     {
+      "score": 7.0,
+      "club_speed": 83.3,
+      "ball_speed": 111.0,
+      "spin_rate": 5672.0,
+      "attack_angle": -2.6,
+      "carry": 152.5,
+      "total": 163.9,
+      "side": 29.5,
+      "from_pin": 127.2,
+      "shot": 2
+     },
+     {
+      "score": 89.0,
+      "club_speed": 83.4,
+      "ball_speed": 119.5,
+      "spin_rate": 4820.0,
+      "attack_angle": -1.2,
+      "carry": 174.7,
+      "total": 186.2,
+      "side": 4.7,
+      "from_pin": 21.4,
+      "shot": 3
+     },
+     {
+      "score": 36.0,
+      "club_speed": 84.1,
+      "ball_speed": 110.2,
+      "spin_rate": 3832.0,
+      "attack_angle": 0.2,
+      "carry": 154.0,
+      "total": 176.5,
+      "side": 13.2,
+      "from_pin": 89.0,
+      "shot": 4
+     },
+     {
+      "score": 78.0,
+      "club_speed": 83.1,
+      "ball_speed": 116.0,
+      "spin_rate": 3811.0,
+      "attack_angle": 0.0,
+      "carry": 170.9,
+      "total": 189.8,
+      "side": -7.3,
+      "from_pin": 35.3,
+      "shot": 5
+     },
+     {
+      "score": 0.0,
+      "club_speed": 85.5,
+      "ball_speed": 121.0,
+      "spin_rate": 3580.0,
+      "attack_angle": 0.2,
+      "carry": 176.1,
+      "total": 198.7,
+      "side": -47.7,
+      "from_pin": 146.5,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 45.7,
+     "club_speed": 83.7,
+     "ball_speed": 115.7,
+     "spin_rate": 4300.0,
+     "attack_angle": -0.9,
+     "carry": 166.9,
+     "total": 183.9,
+     "side": 1.4,
+     "from_pin": 78.8
+    },
+    "consistency": {
+     "score": 34.0,
+     "club_speed": 0.9,
+     "ball_speed": 4.0,
+     "spin_rate": 728.0,
+     "attack_angle": 1.1,
+     "carry": 9.8,
+     "total": 11.0,
+     "side": 7.5,
+     "from_pin": 46.3
+    }
+   },
+   {
+    "target": "Drive",
+    "target_score": 60.7,
+    "title_score": 60.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "score": 69.0,
+      "club_speed": 96.4,
+      "ball_speed": 142.3,
+      "spin_rate": 2250.0,
+      "attack_angle": 2.1,
+      "carry": 227.6,
+      "total": 259.2,
+      "side": 14.4,
+      "shot": 1
+     },
+     {
+      "score": 80.0,
+      "club_speed": 95.8,
+      "ball_speed": 139.1,
+      "spin_rate": 3410.0,
+      "attack_angle": 0.1,
+      "carry": 222.9,
+      "total": 239.0,
+      "side": 0.9,
+      "shot": 2
+     },
+     {
+      "score": 55.0,
+      "club_speed": 98.2,
+      "ball_speed": 144.7,
+      "spin_rate": 2220.0,
+      "attack_angle": 3.3,
+      "carry": 228.7,
+      "total": 261.3,
+      "side": -17.3,
+      "shot": 3
+     },
+     {
+      "score": 56.0,
+      "club_speed": 92.9,
+      "ball_speed": 137.3,
+      "spin_rate": 2290.0,
+      "attack_angle": 0.3,
+      "carry": 201.7,
+      "total": 239.3,
+      "side": -14.1,
+      "shot": 4
+     },
+     {
+      "score": 31.0,
+      "club_speed": 95.8,
+      "ball_speed": 140.2,
+      "spin_rate": 2100.0,
+      "attack_angle": 2.3,
+      "carry": 159.1,
+      "total": 215.0,
+      "side": -19.8,
+      "shot": 5
+     },
+     {
+      "score": 73.0,
+      "club_speed": 95.9,
+      "ball_speed": 141.6,
+      "spin_rate": 2270.0,
+      "attack_angle": 2.7,
+      "carry": 214.3,
+      "total": 249.7,
+      "side": -7.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 60.7,
+     "club_speed": 95.8,
+     "ball_speed": 140.9,
+     "spin_rate": 2423.0,
+     "attack_angle": 1.8,
+     "carry": 209.1,
+     "total": 243.9,
+     "side": -7.2
+    },
+    "consistency": {
+     "score": 16.0,
+     "club_speed": 1.6,
+     "ball_speed": 2.4,
+     "spin_rate": 445.0,
+     "attack_angle": 1.2,
+     "carry": 24.2,
+     "total": 15.5,
+     "side": 3.6
+    }
+   }
+  ],
+  "warnings": []
+ },
+ {
+  "id": "20260825",
+  "date": "2026-08-25",
+  "file": "reports/Combines/20260825.pdf",
+  "score": 65.6,
+  "estimated_handicap": 8.0,
+  "targets": [
+   {
+    "target": 60,
+    "target_score": 55.8,
+    "title_score": 55.8,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "SpinRate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "FromPin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 36.0,
+      "club_speed": 66.4,
+      "ball_speed": 64.5,
+      "spin_rate": 8630.0,
+      "attack_angle": -1.0,
+      "carry": 69.3,
+      "total": 72.7,
+      "side": -3.6,
+      "from_pin": 29.6,
+      "shot": 1
+     },
+     {
+      "score": 91.0,
+      "club_speed": 63.1,
+      "ball_speed": 59.4,
+      "spin_rate": 8790.0,
+      "attack_angle": -2.2,
+      "carry": 60.9,
+      "total": 64.5,
+      "side": 1.8,
+      "from_pin": 5.9,
+      "shot": 2
+     },
+     {
+      "score": 63.0,
+      "club_speed": 63.7,
+      "ball_speed": 62.3,
+      "spin_rate": 8520.0,
+      "attack_angle": -1.6,
+      "carry": 65.7,
+      "total": 69.3,
+      "side": -2.0,
+      "from_pin": 18.0,
+      "shot": 3
+     },
+     {
+      "score": 35.0,
+      "club_speed": 63.2,
+      "ball_speed": 64.8,
+      "spin_rate": 8722.0,
+      "attack_angle": -1.8,
+      "carry": 69.4,
+      "total": 71.9,
+      "side": -3.8,
+      "from_pin": 30.3,
+      "shot": 4
+     },
+     {
+      "score": 70.0,
+      "club_speed": 63.2,
+      "ball_speed": 61.7,
+      "spin_rate": 8958.0,
+      "attack_angle": -1.2,
+      "carry": 64.0,
+      "total": 65.7,
+      "side": 3.3,
+      "from_pin": 15.3,
+      "shot": 5
+     },
+     {
+      "score": 40.0,
+      "club_speed": 61.2,
+      "ball_speed": 63.4,
+      "spin_rate": 8568.0,
+      "attack_angle": -2.2,
+      "carry": 67.6,
+      "total": 71.4,
+      "side": -6.0,
+      "from_pin": 28.3,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 55.8,
+     "club_speed": 63.5,
+     "ball_speed": 62.7,
+     "spin_rate": 8698.0,
+     "attack_angle": -1.7,
+     "carry": 66.2,
+     "total": 69.3,
+     "side": -1.7,
+     "from_pin": 21.2
+    },
+    "consistency": {
+     "score": 20.7,
+     "club_speed": 1.5,
+     "ball_speed": 1.8,
+     "spin_rate": 147.0,
+     "attack_angle": 0.5,
+     "carry": 3.0,
+     "total": 3.1,
+     "side": 1.0,
+     "from_pin": 8.9
+    }
+   },
+   {
+    "target": 70,
+    "target_score": 77.8,
+    "title_score": 77.8,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 32.0,
+      "club_speed": 66.2,
+      "ball_speed": 71.3,
+      "spin_rate": 8748.0,
+      "attack_angle": -2.8,
+      "carry": 80.1,
+      "total": 82.4,
+      "side": -7.5,
+      "from_pin": 36.9,
+      "shot": 1
+     },
+     {
+      "score": 100.0,
+      "club_speed": 64.3,
+      "ball_speed": 64.6,
+      "spin_rate": 8487.0,
+      "attack_angle": -3.0,
+      "carry": 69.6,
+      "total": 75.3,
+      "side": -0.2,
+      "from_pin": 1.3,
+      "shot": 2
+     },
+     {
+      "score": 77.0,
+      "club_speed": 62.6,
+      "ball_speed": 63.2,
+      "spin_rate": 8340.0,
+      "attack_angle": -1.8,
+      "carry": 67.2,
+      "total": 70.8,
+      "side": -3.8,
+      "from_pin": 14.2,
+      "shot": 3
+     },
+     {
+      "score": 74.0,
+      "club_speed": 64.7,
+      "ball_speed": 67.2,
+      "spin_rate": 8519.0,
+      "attack_angle": -1.2,
+      "carry": 73.2,
+      "total": 75.3,
+      "side": -4.1,
+      "from_pin": 15.4,
+      "shot": 4
+     },
+     {
+      "score": 99.0,
+      "club_speed": 65.3,
+      "ball_speed": 65.2,
+      "spin_rate": 8099.0,
+      "attack_angle": 0.0,
+      "carry": 70.2,
+      "total": 72.8,
+      "side": -0.9,
+      "from_pin": 2.8,
+      "shot": 5
+     },
+     {
+      "score": 85.0,
+      "club_speed": 63.4,
+      "ball_speed": 63.2,
+      "spin_rate": 9367.0,
+      "attack_angle": -2.4,
+      "carry": 67.0,
+      "total": 70.8,
+      "side": -1.4,
+      "from_pin": 9.9,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 77.8,
+     "club_speed": 64.4,
+     "ball_speed": 65.8,
+     "spin_rate": 8593.0,
+     "attack_angle": -1.9,
+     "carry": 71.2,
+     "total": 74.6,
+     "side": -3.0,
+     "from_pin": 13.4
+    },
+    "consistency": {
+     "score": 22.8,
+     "club_speed": 1.2,
+     "ball_speed": 2.8,
+     "spin_rate": 398.0,
+     "attack_angle": 1.0,
+     "carry": 4.5,
+     "total": 4.0,
+     "side": 0.8,
+     "from_pin": 11.7
+    }
+   },
+   {
+    "target": 80,
+    "target_score": 66.3,
+    "title_score": 66.3,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 100.0,
+      "club_speed": 63.1,
+      "ball_speed": 70.6,
+      "spin_rate": 7940.0,
+      "attack_angle": -1.4,
+      "carry": 79.7,
+      "total": 83.0,
+      "side": -0.2,
+      "from_pin": 1.0,
+      "shot": 1
+     },
+     {
+      "score": 71.0,
+      "club_speed": 64.7,
+      "ball_speed": 73.6,
+      "spin_rate": 7809.0,
+      "attack_angle": -1.0,
+      "carry": 85.0,
+      "total": 88.3,
+      "side": -4.4,
+      "from_pin": 19.8,
+      "shot": 2
+     },
+     {
+      "score": 86.0,
+      "club_speed": 65.7,
+      "ball_speed": 73.0,
+      "spin_rate": 8220.0,
+      "attack_angle": -1.6,
+      "carry": 83.5,
+      "total": 86.6,
+      "side": 1.1,
+      "from_pin": 11.0,
+      "shot": 3
+     },
+     {
+      "score": 64.0,
+      "club_speed": 63.9,
+      "ball_speed": 74.2,
+      "spin_rate": 6835.0,
+      "attack_angle": 0.0,
+      "carry": 86.3,
+      "total": 88.6,
+      "side": -4.8,
+      "from_pin": 23.4,
+      "shot": 4
+     },
+     {
+      "score": 53.0,
+      "club_speed": 59.8,
+      "ball_speed": 64.4,
+      "spin_rate": 6485.0,
+      "attack_angle": -0.4,
+      "carry": 70.2,
+      "total": 73.9,
+      "side": 1.6,
+      "from_pin": 29.9,
+      "shot": 5
+     },
+     {
+      "score": 24.0,
+      "club_speed": 63.7,
+      "ball_speed": 77.1,
+      "spin_rate": 6457.0,
+      "attack_angle": -0.6,
+      "carry": 92.4,
+      "total": 95.8,
+      "side": -10.2,
+      "from_pin": 46.8,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 66.3,
+     "club_speed": 63.5,
+     "ball_speed": 72.1,
+     "spin_rate": 7291.0,
+     "attack_angle": -0.8,
+     "carry": 82.9,
+     "total": 86.0,
+     "side": -2.8,
+     "from_pin": 22.0
+    },
+    "consistency": {
+     "score": 24.2,
+     "club_speed": 1.8,
+     "ball_speed": 4.0,
+     "spin_rate": 719.0,
+     "attack_angle": 0.6,
+     "carry": 6.8,
+     "total": 6.6,
+     "side": 1.3,
+     "from_pin": 14.4
+    }
+   },
+   {
+    "target": 90,
+    "target_score": 76.0,
+    "title_score": 76.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 90.0,
+      "club_speed": 68.0,
+      "ball_speed": 76.0,
+      "spin_rate": 8460.0,
+      "attack_angle": -1.8,
+      "carry": 88.2,
+      "total": 90.7,
+      "side": -2.6,
+      "from_pin": 9.5,
+      "shot": 1
+     },
+     {
+      "score": 67.0,
+      "club_speed": 68.8,
+      "ball_speed": 72.5,
+      "spin_rate": 7890.0,
+      "attack_angle": -4.6,
+      "carry": 82.4,
+      "total": 91.1,
+      "side": 3.1,
+      "from_pin": 24.7,
+      "shot": 2
+     },
+     {
+      "score": 65.0,
+      "club_speed": 62.1,
+      "ball_speed": 73.5,
+      "spin_rate": 7253.0,
+      "attack_angle": -1.4,
+      "carry": 85.4,
+      "total": 90.5,
+      "side": 7.2,
+      "from_pin": 26.2,
+      "shot": 3
+     },
+     {
+      "score": 88.0,
+      "club_speed": 67.1,
+      "ball_speed": 78.0,
+      "spin_rate": 7871.0,
+      "attack_angle": -1.8,
+      "carry": 91.3,
+      "total": 93.5,
+      "side": -3.4,
+      "from_pin": 10.8,
+      "shot": 4
+     },
+     {
+      "score": 90.0,
+      "club_speed": 67.2,
+      "ball_speed": 77.1,
+      "spin_rate": 7569.0,
+      "attack_angle": -3.0,
+      "carry": 90.8,
+      "total": 93.3,
+      "side": -3.2,
+      "from_pin": 9.9,
+      "shot": 5
+     },
+     {
+      "score": 56.0,
+      "club_speed": 65.3,
+      "ball_speed": 70.7,
+      "spin_rate": 7971.0,
+      "attack_angle": -1.6,
+      "carry": 79.7,
+      "total": 82.7,
+      "side": 1.8,
+      "from_pin": 31.5,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 76.0,
+     "club_speed": 66.4,
+     "ball_speed": 74.6,
+     "spin_rate": 7836.0,
+     "attack_angle": -2.4,
+     "carry": 86.3,
+     "total": 90.3,
+     "side": 0.5,
+     "from_pin": 18.8
+    },
+    "consistency": {
+     "score": 13.8,
+     "club_speed": 2.2,
+     "ball_speed": 2.6,
+     "spin_rate": 370.0,
+     "attack_angle": 1.1,
+     "carry": 4.3,
+     "total": 3.6,
+     "side": 1.2,
+     "from_pin": 8.9
+    }
+   },
+   {
+    "target": 100,
+    "target_score": 78.0,
+    "title_score": 78.0,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 65.0,
+      "club_speed": 66.6,
+      "ball_speed": 77.2,
+      "spin_rate": 8662.0,
+      "attack_angle": -3.2,
+      "carry": 90.5,
+      "total": 94.5,
+      "side": -0.1,
+      "from_pin": 28.6,
+      "shot": 1
+     },
+     {
+      "score": 43.0,
+      "club_speed": 71.9,
+      "ball_speed": 74.7,
+      "spin_rate": 8857.0,
+      "attack_angle": -7.3,
+      "carry": 86.0,
+      "total": 89.2,
+      "side": 5.0,
+      "from_pin": 45.0,
+      "shot": 2
+     },
+     {
+      "score": 91.0,
+      "club_speed": 69.6,
+      "ball_speed": 83.6,
+      "spin_rate": 8001.0,
+      "attack_angle": -3.6,
+      "carry": 101.7,
+      "total": 105.1,
+      "side": 3.1,
+      "from_pin": 10.4,
+      "shot": 3
+     },
+     {
+      "score": 79.0,
+      "club_speed": 66.0,
+      "ball_speed": 81.4,
+      "spin_rate": 6166.0,
+      "attack_angle": -1.6,
+      "carry": 100.8,
+      "total": 106.7,
+      "side": -6.2,
+      "from_pin": 18.6,
+      "shot": 4
+     },
+     {
+      "score": 98.0,
+      "club_speed": 67.2,
+      "ball_speed": 82.4,
+      "spin_rate": 7946.0,
+      "attack_angle": -2.2,
+      "carry": 99.8,
+      "total": 103.1,
+      "side": -1.6,
+      "from_pin": 4.8,
+      "shot": 5
+     },
+     {
+      "score": 92.0,
+      "club_speed": 66.2,
+      "ball_speed": 80.3,
+      "spin_rate": 6988.0,
+      "attack_angle": -2.0,
+      "carry": 97.4,
+      "total": 100.8,
+      "side": -1.6,
+      "from_pin": 9.3,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 78.0,
+     "club_speed": 67.9,
+     "ball_speed": 79.9,
+     "spin_rate": 7770.0,
+     "attack_angle": -3.3,
+     "carry": 96.0,
+     "total": 99.9,
+     "side": -0.2,
+     "from_pin": 19.4
+    },
+    "consistency": {
+     "score": 19.0,
+     "club_speed": 2.1,
+     "ball_speed": 3.1,
+     "spin_rate": 935.0,
+     "attack_angle": 1.9,
+     "carry": 5.8,
+     "total": 6.2,
+     "side": 1.1,
+     "from_pin": 13.8
+    }
+   },
+   {
+    "target": 120,
+    "target_score": 74.8,
+    "title_score": 74.8,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 84.0,
+      "club_speed": 71.0,
+      "ball_speed": 89.2,
+      "spin_rate": 6432.0,
+      "attack_angle": -2.2,
+      "carry": 114.0,
+      "total": 119.5,
+      "side": 0.7,
+      "from_pin": 18.2,
+      "shot": 1
+     },
+     {
+      "score": 88.0,
+      "club_speed": 72.9,
+      "ball_speed": 92.2,
+      "spin_rate": 7233.0,
+      "attack_angle": -3.0,
+      "carry": 117.3,
+      "total": 120.5,
+      "side": 4.1,
+      "from_pin": 14.9,
+      "shot": 2
+     },
+     {
+      "score": 82.0,
+      "club_speed": 72.6,
+      "ball_speed": 90.4,
+      "spin_rate": 6604.0,
+      "attack_angle": -2.0,
+      "carry": 115.8,
+      "total": 120.9,
+      "side": -4.9,
+      "from_pin": 19.6,
+      "shot": 3
+     },
+     {
+      "score": 59.0,
+      "club_speed": 68.0,
+      "ball_speed": 84.6,
+      "spin_rate": 5577.0,
+      "attack_angle": -2.4,
+      "carry": 107.3,
+      "total": 116.3,
+      "side": 3.5,
+      "from_pin": 39.7,
+      "shot": 4
+     },
+     {
+      "score": 79.0,
+      "club_speed": 68.1,
+      "ball_speed": 89.2,
+      "spin_rate": 5792.0,
+      "attack_angle": -2.2,
+      "carry": 115.2,
+      "total": 122.5,
+      "side": 5.6,
+      "from_pin": 22.4,
+      "shot": 5
+     },
+     {
+      "score": 57.0,
+      "club_speed": 69.4,
+      "ball_speed": 86.4,
+      "spin_rate": 2265.0,
+      "attack_angle": -2.9,
+      "carry": 117.5,
+      "total": 143.6,
+      "side": -13.3,
+      "from_pin": 41.1,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 74.8,
+     "club_speed": 70.3,
+     "ball_speed": 88.7,
+     "spin_rate": 5650.0,
+     "attack_angle": -2.5,
+     "carry": 114.5,
+     "total": 123.9,
+     "side": -0.7,
+     "from_pin": 26.0
+    },
+    "consistency": {
+     "score": 12.2,
+     "club_speed": 2.0,
+     "ball_speed": 2.5,
+     "spin_rate": 1608.0,
+     "attack_angle": 0.4,
+     "carry": 3.4,
+     "total": 9.0,
+     "side": 2.0,
+     "from_pin": 10.4
+    }
+   },
+   {
+    "target": 140,
+    "target_score": 72.5,
+    "title_score": 72.5,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 93.0,
+      "club_speed": 74.9,
+      "ball_speed": 98.2,
+      "spin_rate": 4131.0,
+      "attack_angle": 0.4,
+      "carry": 137.4,
+      "total": 150.3,
+      "side": -3.1,
+      "from_pin": 12.1,
+      "shot": 1
+     },
+     {
+      "score": 45.0,
+      "club_speed": 75.9,
+      "ball_speed": 94.3,
+      "spin_rate": 6169.0,
+      "attack_angle": -1.4,
+      "carry": 121.4,
+      "total": 133.8,
+      "side": 7.6,
+      "from_pin": 60.9,
+      "shot": 2
+     },
+     {
+      "score": 100.0,
+      "club_speed": 77.4,
+      "ball_speed": 102.1,
+      "spin_rate": 5260.0,
+      "attack_angle": -3.0,
+      "carry": 139.8,
+      "total": 150.9,
+      "side": -0.3,
+      "from_pin": 1.1,
+      "shot": 3
+     },
+     {
+      "score": 52.0,
+      "club_speed": 75.8,
+      "ball_speed": 94.7,
+      "spin_rate": 6047.0,
+      "attack_angle": -1.2,
+      "carry": 123.3,
+      "total": 133.5,
+      "side": 5.7,
+      "from_pin": 53.3,
+      "shot": 4
+     },
+     {
+      "score": 72.0,
+      "club_speed": 74.4,
+      "ball_speed": 102.0,
+      "spin_rate": 4912.0,
+      "attack_angle": -2.2,
+      "carry": 140.6,
+      "total": 151.9,
+      "side": 11.2,
+      "from_pin": 33.6,
+      "shot": 5
+     },
+     {
+      "score": 73.0,
+      "club_speed": 75.1,
+      "ball_speed": 106.4,
+      "spin_rate": 4727.0,
+      "attack_angle": -1.0,
+      "carry": 150.8,
+      "total": 160.1,
+      "side": -0.5,
+      "from_pin": 32.4,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 72.5,
+     "club_speed": 75.6,
+     "ball_speed": 99.6,
+     "spin_rate": 5208.0,
+     "attack_angle": -1.4,
+     "carry": 135.6,
+     "total": 146.7,
+     "side": 3.4,
+     "from_pin": 32.2
+    },
+    "consistency": {
+     "score": 19.8,
+     "club_speed": 0.9,
+     "ball_speed": 4.4,
+     "spin_rate": 720.0,
+     "attack_angle": 1.1,
+     "carry": 10.2,
+     "total": 9.8,
+     "side": 1.5,
+     "from_pin": 21.0
+    }
+   },
+   {
+    "target": 160,
+    "target_score": 52.7,
+    "title_score": 52.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 25.0,
+      "club_speed": 77.5,
+      "ball_speed": 97.9,
+      "spin_rate": 3970.0,
+      "attack_angle": -1.0,
+      "carry": 129.4,
+      "total": 156.3,
+      "side": -3.5,
+      "from_pin": 92.6,
+      "shot": 1
+     },
+     {
+      "score": 98.0,
+      "club_speed": 78.4,
+      "ball_speed": 110.6,
+      "spin_rate": 4713.0,
+      "attack_angle": -1.6,
+      "carry": 157.6,
+      "total": 169.4,
+      "side": -0.9,
+      "from_pin": 7.8,
+      "shot": 2
+     },
+     {
+      "score": 51.0,
+      "club_speed": 78.9,
+      "ball_speed": 108.2,
+      "spin_rate": 5748.0,
+      "attack_angle": -1.0,
+      "carry": 148.9,
+      "total": 154.6,
+      "side": 16.8,
+      "from_pin": 62.0,
+      "shot": 3
+     },
+     {
+      "score": 55.0,
+      "club_speed": 78.1,
+      "ball_speed": 112.4,
+      "spin_rate": 3115.0,
+      "attack_angle": 0.6,
+      "carry": 168.7,
+      "total": 190.0,
+      "side": -17.4,
+      "from_pin": 57.3,
+      "shot": 4
+     },
+     {
+      "score": 0.0,
+      "club_speed": 77.6,
+      "ball_speed": 102.0,
+      "spin_rate": 6001.0,
+      "attack_angle": -2.0,
+      "carry": 136.1,
+      "total": 143.3,
+      "side": 31.0,
+      "from_pin": 124.3,
+      "shot": 5
+     },
+     {
+      "score": 87.0,
+      "club_speed": 77.5,
+      "ball_speed": 110.4,
+      "spin_rate": 3934.0,
+      "attack_angle": -0.8,
+      "carry": 161.5,
+      "total": 174.7,
+      "side": 6.8,
+      "from_pin": 20.9,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 52.7,
+     "club_speed": 78.0,
+     "ball_speed": 106.9,
+     "spin_rate": 4580.0,
+     "attack_angle": -1.0,
+     "carry": 150.4,
+     "total": 164.7,
+     "side": 5.5,
+     "from_pin": 60.8
+    },
+    "consistency": {
+     "score": 33.6,
+     "club_speed": 0.5,
+     "ball_speed": 5.2,
+     "spin_rate": 1028.0,
+     "attack_angle": 0.8,
+     "carry": 13.9,
+     "total": 15.2,
+     "side": 4.7,
+     "from_pin": 39.7
+    }
+   },
+   {
+    "target": 180,
+    "target_score": 35.8,
+    "title_score": 35.8,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     },
+     {
+      "label": "From Pin",
+      "unit": "Ft",
+      "key": "from_pin"
+     }
+    ],
+    "shots": [
+     {
+      "score": 35.0,
+      "club_speed": 80.2,
+      "ball_speed": 118.8,
+      "spin_rate": 2287.0,
+      "attack_angle": 0.0,
+      "carry": 168.2,
+      "total": 201.8,
+      "side": -26.7,
+      "from_pin": 90.4,
+      "shot": 1
+     },
+     {
+      "score": 0.0,
+      "club_speed": 81.0,
+      "ball_speed": 116.8,
+      "spin_rate": 2277.0,
+      "attack_angle": 0.0,
+      "carry": 134.1,
+      "total": 171.6,
+      "side": -3.1,
+      "from_pin": 138.0,
+      "shot": 2
+     },
+     {
+      "score": 93.0,
+      "club_speed": 82.0,
+      "ball_speed": 119.4,
+      "spin_rate": 3420.0,
+      "attack_angle": 0.4,
+      "carry": 182.3,
+      "total": 198.8,
+      "side": -4.6,
+      "from_pin": 15.2,
+      "shot": 3
+     },
+     {
+      "score": 46.0,
+      "club_speed": 80.1,
+      "ball_speed": 114.9,
+      "spin_rate": 1966.0,
+      "attack_angle": 0.6,
+      "carry": 165.6,
+      "total": 199.2,
+      "side": -20.2,
+      "from_pin": 76.6,
+      "shot": 4
+     },
+     {
+      "score": 33.0,
+      "club_speed": 80.9,
+      "ball_speed": 114.8,
+      "spin_rate": 4635.0,
+      "attack_angle": 0.2,
+      "carry": 157.4,
+      "total": 183.6,
+      "side": -20.0,
+      "from_pin": 93.4,
+      "shot": 5
+     },
+     {
+      "score": 8.0,
+      "club_speed": 81.5,
+      "ball_speed": 111.2,
+      "spin_rate": 6953.0,
+      "attack_angle": 0.0,
+      "carry": 148.7,
+      "total": 154.1,
+      "side": 25.3,
+      "from_pin": 125.8,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 35.8,
+     "club_speed": 80.9,
+     "ball_speed": 116.0,
+     "spin_rate": 3590.0,
+     "attack_angle": 0.2,
+     "carry": 159.4,
+     "total": 184.9,
+     "side": -8.2,
+     "from_pin": 89.9
+    },
+    "consistency": {
+     "score": 30.1,
+     "club_speed": 0.7,
+     "ball_speed": 2.8,
+     "spin_rate": 1756.0,
+     "attack_angle": 0.2,
+     "carry": 15.2,
+     "total": 17.4,
+     "side": 5.3,
+     "from_pin": 39.5
+    }
+   },
+   {
+    "target": "Drive",
+    "target_score": 65.7,
+    "title_score": 65.7,
+    "columns": [
+     {
+      "label": "Score",
+      "unit": null,
+      "key": "score"
+     },
+     {
+      "label": "Club Speed",
+      "unit": "Mph",
+      "key": "club_speed"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "Mph",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Carry",
+      "unit": "Yds",
+      "key": "carry"
+     },
+     {
+      "label": "Total",
+      "unit": "Yds",
+      "key": "total"
+     },
+     {
+      "label": "Side",
+      "unit": "Ft",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "score": 48.0,
+      "club_speed": 88.2,
+      "ball_speed": 131.2,
+      "spin_rate": 2022.0,
+      "attack_angle": 3.6,
+      "carry": 204.8,
+      "total": 238.1,
+      "side": -20.0,
+      "shot": 1
+     },
+     {
+      "score": 79.0,
+      "club_speed": 88.5,
+      "ball_speed": 129.4,
+      "spin_rate": 2210.0,
+      "attack_angle": 3.8,
+      "carry": 209.1,
+      "total": 236.2,
+      "side": -1.8,
+      "shot": 2
+     },
+     {
+      "score": 66.0,
+      "club_speed": 88.8,
+      "ball_speed": 129.8,
+      "spin_rate": 2610.0,
+      "attack_angle": 3.0,
+      "carry": 211.1,
+      "total": 230.7,
+      "side": -12.5,
+      "shot": 3
+     },
+     {
+      "score": 52.0,
+      "club_speed": 89.5,
+      "ball_speed": 132.0,
+      "spin_rate": 1759.0,
+      "attack_angle": 6.0,
+      "carry": 206.8,
+      "total": 240.8,
+      "side": -17.7,
+      "shot": 4
+     },
+     {
+      "score": 72.0,
+      "club_speed": 88.9,
+      "ball_speed": 123.1,
+      "spin_rate": 2407.0,
+      "attack_angle": 3.6,
+      "carry": 193.5,
+      "total": 221.4,
+      "side": -0.8,
+      "shot": 5
+     },
+     {
+      "score": 77.0,
+      "club_speed": 90.8,
+      "ball_speed": 133.2,
+      "spin_rate": 1905.0,
+      "attack_angle": 3.2,
+      "carry": 216.3,
+      "total": 246.9,
+      "side": -9.2,
+      "shot": 6
+     }
+    ],
+    "average": {
+     "score": 65.7,
+     "club_speed": 89.1,
+     "ball_speed": 129.8,
+     "spin_rate": 2152.0,
+     "attack_angle": 3.9,
+     "carry": 206.9,
+     "total": 235.7,
+     "side": -10.3
+    },
+    "consistency": {
+     "score": 11.9,
+     "club_speed": 0.9,
+     "ball_speed": 3.2,
+     "spin_rate": 292.0,
+     "attack_angle": 1.0,
+     "carry": 7.0,
+     "total": 8.0,
+     "side": 2.2
+    }
+   }
+  ],
+  "warnings": []
+ }
+]

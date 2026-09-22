@@ -47,6 +47,11 @@ Open `dashboard/index.html`. Tabs:
 
 Tabs can be linked directly, e.g. `index.html#combine`.
 
+The warm-up control above the tabs drops the first N shots of every club block in range
+sessions from the Overview, Trends, Dispersion, Path & face and All-sessions views (the
+Within-a-session view always shows every shot). It can also be set in the URL:
+`index.html?warmup=3#trends`.
+
 ## Adding a new report
 
 1. Export the PDF from the Trackman app and drop it in `reports/` (or `reports/Combines/`

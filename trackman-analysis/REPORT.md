@@ -90,6 +90,42 @@ Too few shots for quarterly tables (29 and 33 shots respectively). Driver club s
 
 Through January 2026 both irons had gained five or six yards of carry over the year, almost entirely from strike efficiency rather than speed, and both had got looser on distance control. The September 2026 8-iron session, eleven balls with three heavy strikes, gives the 8-iron gain back. Speed is where it was in early 2025; distance control is still the variable. Direction, on the other hand, was the best it has been. Tighter but no longer is the summary of the year for the 8-iron.
 
+### Accuracy with the warm-up shots removed
+
+Range sessions start cold; the first balls of a session are usually the first swings of the day. Pooling every 8-iron and 5-iron block of ten or more shots and comparing each shot to the rest of its own block shows what those opening balls cost:
+
+| Position in block | 8-iron shots | Carry vs rest of block | Ball speed vs rest | Poor strikes (smash below 1.25) | Beyond 15 yds off line |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Shots 1 to 2 | 36 | -2.2 yds | -2.3 mph | 21% | 27% |
+| Shots 3 to 5 | 54 | -2.8 yds | -1.2 mph | 5% | 15% |
+| Shots 6 to 10 | 90 | -0.4 yds | -0.2 mph | 14% | 24% |
+| Shots 11 to 20 | 118 | -0.4 yds | -0.5 mph | 22% | 37% |
+| Shots 21 and later | 85 | +0.9 yds | +1.0 mph | 21% | 19% |
+
+The warm-up effect is real but short. The first two 8-irons are 2 mph slower with four times the poor-strike rate of shots 3 to 5; by shot 3 the speed is there and shots 3 to 5 are the most accurate in the block. For the 5-iron the first two balls are worse still (10 yards shorter, 4.5 mph slower ball speed, 3 mph slower club speed), which suggests the 5-iron is often the first club of the day. The other pattern in the table is the one from Finding 6: shots 11 to 20 are the least accurate stretch of an 8-iron block, worse than the cold start, with 37 percent finishing more than 15 yards wide.
+
+Removing the opening shots sharpens the trend rather than changing it. Fitting a line through session-level 8-iron accuracy against date over the sixteen sessions with side data:
+
+| 8-iron metric | All shots | Excluding first 3 | Excluding first 5 |
+| --- | --- | --- | --- |
+| Side SD, change per year | -6.7 yds (r = -0.49) | -8.9 yds (r = -0.69) | -11.0 yds (r = -0.84) |
+| Mean distance off line, per year | -6.4 yds (r = -0.51) | -9.5 yds (r = -0.66) | -9.6 yds (r = -0.85) |
+| Share beyond 15 yds, per year | -36 pts (r = -0.55) | -49 pts (r = -0.62) | -42 pts (r = -0.75) |
+| Carry mean, per year | +0.2 yds (r = 0.01) | +0.5 yds (r = 0.01) | -3.0 yds (r = -0.12) |
+| Ball speed, per year | +0.4 mph (r = 0.03) | +0.6 mph (r = 0.04) | -1.4 mph (r = -0.11) |
+
+Grouping the same post-warm-up shots by period:
+
+| 8-iron, excluding first 5 shots | Shots | Side SD | Mean off line | Beyond 15 yds | Carry SD |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Aug to Oct 2025 | 85 | 16.3 yds | 13.4 yds | 40% | 27.4 yds |
+| Nov to Dec 2025 | 58 | 12.4 yds | 10.0 yds | 22% | 22.0 yds |
+| Jan to Sep 2026 | 19 | 9.3 yds | 7.9 yds | 11% | 13.6 yds |
+
+The accuracy improvement is genuine. Once the cold-start shots are excluded, lateral dispersion on the 8-iron has fallen by roughly a third in each of the last two periods, with a correlation against time of -0.84, which is about as clean a trend as sixteen sessions can produce. Distance control has improved in step. Speed and carry have not moved at all on any version of the filter, which is the pattern the Combine confirmed: the same swing, hitting the target more often. The caveat is the sample: 19 post-warm-up 8-iron shots in 2026 across three sessions, and too few 5-iron shots since November to say anything about that club. Two or three more 8-iron and 5-iron sessions would settle it.
+
+The dashboard has a warm-up control that drops the first N shots of every club block from the range-session views, so this comparison can be re-run as sessions are added.
+
 ### Combine trajectory
 
 | Combine | Score | Est. hcp | Shots below 30 | Mean of shots 30 and above | Shots 80 and above | Driver ball speed | Driver side SD |
@@ -227,7 +263,7 @@ These stay inside the program's existing exercise catalogue and safety rules (so
 
 5. **Rotational power only after the pattern is stable.** Squat-to-quick-stand, band rotation with the ground-hips-torso-arms sequence, and golf-posture rotations belong on Day 4, but keep the intent on sequencing, not load. A medicine-ball throw progression can be added later if the shoulder is cleared; it is not in the current catalogue and should not be improvised.
 
-6. **Warm up like it matters, because the data say it does.** The first half of long sessions is 3 mph slower than the second, and the wide first shots in Combines are where the blow-ups start. The program's 10 to 15 minute golf warm-up (walk, cat-cow, 90/90, open book, posture rotations, progressive swings at 50 to 80 percent) should precede every range session, every test and every round.
+6. **Warm up like it matters, because the data say it does.** The first two balls of an 8-iron block are 2 mph slower with four times the poor-strike rate, the first two 5-irons are 10 yards shorter, and the wide first shots in Combines are where the blow-ups start. The program's 10 to 15 minute golf warm-up (walk, cat-cow, 90/90, open book, posture rotations, progressive swings at 50 to 80 percent) should precede every range session, every test and every round. Start the ball-striking with a wedge or 8-iron, never a long iron.
 
 7. **Protect the shoulder budget.** Driver ball speed has drifted down about 4 mph while driver dispersion has tightened. That is an acceptable trade during a rebuild. Do not spend shoulder tolerance on maximum-speed driver work; spend it on the PT block and on pulling strength (supported rows without shrugging), and let speed return through the legs and hips.
 

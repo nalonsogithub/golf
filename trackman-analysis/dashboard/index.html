@@ -65,6 +65,10 @@
   <div class="sub" id="hdr-sub">loading...</div>
 </header>
 <main>
+  <div class="controls" style="margin:0 0 4px">
+    <label title="Range sessions only. The first N shots of every club block are treated as warm-up and dropped from the Overview, Trends, Dispersion, Path &amp; face and All-sessions views. The Within-a-session view always shows every shot.">Warm-up: exclude first <input type="number" id="warmup-n" value="0" min="0" max="10" style="width:56px"> shots of each club block</label>
+    <span class="note" id="warmup-note" style="margin:0"></span>
+  </div>
   <nav class="tabs" id="tabs">
     <button data-tab="overview" class="active">Overview</button>
     <button data-tab="trends">Trends</button>
@@ -279,10 +283,18 @@
     o.pctLeft = side.length ? 100 * side.filter(v => v < 0).length / side.length : null;
     return o;
   }
-  const rows = []; // flat list of {session, club, shots, sum}
-  for (const s of sessions) for (const c of s.clubs) rows.push({ session: s, club: c.club, shots: c.shots, sum: summarize(c.shots), report: c });
+  let WARMUP = 0; // number of leading shots per club block treated as warm-up
+  const analysed = shots => shots.slice(WARMUP);
+  let rows = []; // flat list of {session, club, shots, sum}; shots = analysed shots
+  function buildRows() {
+    rows = [];
+    for (const s of sessions) for (const c of s.clubs) { const sh = analysed(c.shots); if (sh.length) rows.push({ session: s, club: c.club, shots: sh, allShots: c.shots, sum: summarize(sh), report: c }); }
+    const totalShots = rows.reduce((a, r) => a + r.shots.length, 0);
+    document.getElementById('warmup-note').textContent = WARMUP ? `${totalShots} of ${sessions.reduce((a, s) => a + s.clubs.reduce((b, c) => b + c.shots.length, 0), 0)} range shots analysed` : '';
+  }
+  buildRows();
 
-  const totalShots = rows.reduce((a, r) => a + r.shots.length, 0);
+  const totalShots = sessions.reduce((a, s) => a + s.clubs.reduce((b, c) => b + c.shots.length, 0), 0);
   document.getElementById('hdr-sub').textContent = `${sessions.length} range sessions, ${totalShots} shots, ${combines.length} Combines  |  ${sessions[0].date} to ${sessions[sessions.length - 1].date}  |  data generated ${DATA.generated}`;
   document.getElementById('footer').textContent = 'Add PDFs to reports/ and run scripts/extract_reports.py to refresh. All values normalised to yards / mph / feet; Trackman "normalized" conditions (Premium ball, 25 C, sea level).';
 
@@ -417,7 +429,7 @@
     const datasets = []; let statsHtml = '';
     for (const club of allClubs) {
       if (!diSelected.has(club)) continue;
-      const shots = sel.flatMap(s => s.clubs.filter(c => c.club === club).flatMap(c => c.shots.filter(x => x.side !== null && x.carry !== null).map(x => ({ x: x.side, y: x.carry, s: s.date, shot: x.shot, bs: x.ball_speed }))));
+      const shots = sel.flatMap(s => s.clubs.filter(c => c.club === club).flatMap(c => analysed(c.shots).filter(x => x.side !== null && x.carry !== null).map(x => ({ x: x.side, y: x.carry, s: s.date, shot: x.shot, bs: x.ball_speed }))));
       if (!shots.length) continue;
       datasets.push({ label: prettyClub(club), data: shots, backgroundColor: clubColor[club] + 'cc', borderColor: clubColor[club], pointRadius: 5 });
       const sides = shots.map(p => p.x), carries = shots.map(p => p.y);
@@ -520,7 +532,11 @@
   // ---------- FINDINGS ----------
   document.getElementById('findings-body').innerHTML = window.TRACKMAN_FINDINGS || '<p>findings.js not found.</p>';
 
-  renderOverview(); renderTrends(); renderDispersion(); renderDelivery(); renderSession(); renderCombine(); renderAll();
+  function renderAllViews() { renderOverview(); renderTrends(); renderDispersion(); renderDelivery(); renderAll(); }
+  document.getElementById('warmup-n').onchange = e => { WARMUP = Math.max(0, parseInt(e.target.value || '0')); buildRows(); renderAllViews(); };
+  const qsWarm = parseInt(new URLSearchParams(location.search).get('warmup') || '0');
+  if (qsWarm > 0) { WARMUP = qsWarm; document.getElementById('warmup-n').value = qsWarm; buildRows(); }
+  renderAllViews(); renderSession(); renderCombine();
   if (location.hash) showTab(location.hash.slice(1));
 })();
 </script>

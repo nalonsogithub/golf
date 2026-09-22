@@ -1012,11 +1012,29 @@ def main():
             "window.TRACKMAN_FINDINGS = " + json.dumps(md_to_html(report.read_text(encoding="utf-8"))) + ";\n",
             encoding="utf-8",
         )
-    print(f"\nWrote {DATA_DIR / 'sessions.json'}, {DATA_DIR / 'combines.json'}, {DASHBOARD_DIR / 'data.js'}")
+    build_single_file()
+    print(f"\nWrote {DATA_DIR / 'sessions.json'}, {DATA_DIR / 'combines.json'}, {DASHBOARD_DIR / 'data.js'}, {DASHBOARD_DIR / 'trackman-dashboard.html'}")
     if problems:
         print(f"\n{len(problems)} warning(s):")
         for p in problems:
             print("  -", p)
+
+
+def build_single_file():
+    """Inline vendor/chart.umd.js, data.js and findings.js into one shareable HTML file."""
+    index = DASHBOARD_DIR / "index.html"
+    if not index.exists():
+        return
+    html = index.read_text(encoding="utf-8")
+    for src in ("vendor/chart.umd.js", "data.js", "findings.js"):
+        f = DASHBOARD_DIR / src
+        if not f.exists():
+            continue
+        js = f.read_text(encoding="utf-8")
+        if src != "vendor/chart.umd.js":
+            js = js.replace("</", "<\\/")  # JSON payloads: keep any "</script>" inert
+        html = html.replace(f'<script src="{src}"></script>', "<script>\n" + js + "\n</script>", 1)
+    (DASHBOARD_DIR / "trackman-dashboard.html").write_text(html, encoding="utf-8")
 
 
 if __name__ == "__main__":

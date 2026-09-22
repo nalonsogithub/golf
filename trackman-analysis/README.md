@@ -22,6 +22,8 @@ trackman-analysis/
     data.js              Generated data bundle the dashboard loads
     findings.js          Generated from REPORT.md for the dashboard's Findings tab
     vendor/chart.umd.js  Chart.js, vendored so the page works offline
+    trackman-dashboard.html  Generated single-file build (everything inlined) for emailing or
+                         opening on a phone; regenerated on every extractor run
   REPORT.md              Written analysis: findings, implications for the workout program,
                          practice and mental game, and baseline values for the scorecard
 ```

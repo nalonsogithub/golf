@@ -24,8 +24,10 @@ trackman-analysis/
     vendor/chart.umd.js  Chart.js, vendored so the page works offline
     trackman-dashboard.html  Generated single-file build (everything inlined) for emailing or
                          opening on a phone; regenerated on every extractor run
-  REPORT.md              Written analysis: findings, implications for the workout program,
-                         practice and mental game, and baseline values for the scorecard
+  REPORT.md              Written analysis: findings, progress over time, implications for the
+                         workout program, practice and mental game, baseline scorecard values
+  REPORT.pdf             Generated from REPORT.md by scripts/build_report_pdf.py (headless Edge);
+                         opens with a plain-prose "Summary for listening" for text-to-speech
 ```
 
 ## Dashboard
@@ -58,7 +60,9 @@ Tabs can be linked directly, e.g. `index.html#combine`.
 
    Only PDFs without a cache entry are OCR'd (about 30 seconds each); everything else is
    re-parsed from cache in a second or two. The script rewrites all of `data/`,
-   `dashboard/data.js` and `dashboard/findings.js`.
+   `dashboard/data.js`, `dashboard/findings.js`, `dashboard/trackman-dashboard.html` and
+   `REPORT.pdf`. The report text itself lives in `REPORT.md`; edit that and re-run to
+   refresh the PDF and the dashboard's Findings tab.
 3. Read the warnings at the end of the output. Every table is cross-checked against the
    Average row printed on the report itself, so a `mean != report avg` warning points at a
    specific club and column to eyeball in the PDF.

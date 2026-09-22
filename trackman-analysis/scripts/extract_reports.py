@@ -1014,6 +1014,11 @@ def main():
         )
     build_single_file()
     print(f"\nWrote {DATA_DIR / 'sessions.json'}, {DATA_DIR / 'combines.json'}, {DASHBOARD_DIR / 'data.js'}, {DASHBOARD_DIR / 'trackman-dashboard.html'}")
+    try:
+        from build_report_pdf import build as build_pdf
+        build_pdf()
+    except Exception as e:  # PDF is a convenience; never fail the extraction over it
+        print(f"PDF build skipped: {e}")
     if problems:
         print(f"\n{len(problems)} warning(s):")
         for p in problems:

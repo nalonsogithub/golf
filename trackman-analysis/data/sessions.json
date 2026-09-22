@@ -11776,6 +11776,167 @@
   "warnings": []
  },
  {
+  "id": "20260922",
+  "date": "2026-09-22",
+  "file": "reports/20260922.pdf",
+  "pages": 5,
+  "clubs": [
+   {
+    "club": "8Iron",
+    "columns": [
+     {
+      "label": "Club Speed",
+      "unit": "m/s",
+      "key": "club_speed"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "m/s",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Carry",
+      "unit": "m",
+      "key": "carry"
+     },
+     {
+      "label": "Side",
+      "unit": "m",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "club_speed": 71.6,
+      "attack_angle": -2.4,
+      "ball_speed": 94.6,
+      "spin_rate": 6073.0,
+      "carry": 124.3,
+      "side": -5.9,
+      "shot": 1
+     },
+     {
+      "club_speed": 72.3,
+      "attack_angle": -2.4,
+      "ball_speed": 90.8,
+      "spin_rate": 7493.0,
+      "carry": 114.4,
+      "side": 12.5,
+      "shot": 2
+     },
+     {
+      "club_speed": 72.3,
+      "attack_angle": -0.8,
+      "ball_speed": 79.4,
+      "spin_rate": 4536.0,
+      "carry": 95.3,
+      "side": -7.0,
+      "shot": 3
+     },
+     {
+      "club_speed": 72.7,
+      "attack_angle": -2.2,
+      "ball_speed": 93.5,
+      "spin_rate": 7032.0,
+      "carry": 120.3,
+      "side": 5.2,
+      "shot": 4
+     },
+     {
+      "club_speed": 71.8,
+      "attack_angle": -3.2,
+      "ball_speed": 91.3,
+      "spin_rate": 7543.0,
+      "carry": 115.6,
+      "side": 2.2,
+      "shot": 5
+     },
+     {
+      "club_speed": 69.8,
+      "attack_angle": -0.6,
+      "ball_speed": 74.9,
+      "spin_rate": 4685.0,
+      "carry": 86.1,
+      "side": -4.8,
+      "shot": 6
+     },
+     {
+      "club_speed": 68.9,
+      "attack_angle": null,
+      "ball_speed": 81.6,
+      "spin_rate": 7950.0,
+      "carry": 98.5,
+      "side": 4.8,
+      "shot": 7
+     },
+     {
+      "club_speed": 72.7,
+      "attack_angle": -2.2,
+      "ball_speed": 96.0,
+      "spin_rate": 6644.0,
+      "carry": 125.3,
+      "side": 1.0,
+      "shot": 8
+     },
+     {
+      "club_speed": 71.8,
+      "attack_angle": -1.8,
+      "ball_speed": 93.5,
+      "spin_rate": 6287.0,
+      "carry": 121.9,
+      "side": -6.1,
+      "shot": 9
+     },
+     {
+      "club_speed": 72.9,
+      "attack_angle": -1.8,
+      "ball_speed": 94.6,
+      "spin_rate": 6088.0,
+      "carry": 124.5,
+      "side": 4.7,
+      "shot": 10
+     },
+     {
+      "club_speed": 72.5,
+      "attack_angle": -1.4,
+      "ball_speed": 91.3,
+      "spin_rate": 5664.0,
+      "carry": 119.3,
+      "side": 0.7,
+      "shot": 11
+     }
+    ],
+    "average": {
+     "club_speed": 71.8,
+     "attack_angle": -1.9,
+     "ball_speed": 89.3,
+     "spin_rate": 6363.0,
+     "carry": 113.2,
+     "side": 0.7
+    },
+    "consistency": {
+     "club_speed": 1.1,
+     "attack_angle": 0.7,
+     "ball_speed": 6.7,
+     "spin_rate": 1067.0,
+     "carry": 12.9,
+     "side": 5.8
+    }
+   }
+  ],
+  "warnings": []
+ },
+ {
   "id": "20260930",
   "date": "2026-09-30",
   "file": "reports/20260930.pdf",

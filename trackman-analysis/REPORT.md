@@ -1,6 +1,6 @@
 # Trackman Progress Report: November 2024 to September 2026
 
-Prepared from 27 range sessions (744 shots) and 5 Trackman Combines (300 scored shots). All figures use Trackman's normalised conditions (Premium ball, 25 C, sea level), so weather and ball type are removed from the comparison. Units are yards and mph throughout; side and curve are signed, positive right and negative left.
+Prepared from 28 range sessions (755 shots) and 6 Trackman Combines (360 scored shots). All figures use Trackman's normalised conditions (Premium ball, 25 C, sea level), so weather and ball type are removed from the comparison. Units are yards and mph throughout; side and curve are signed, positive right and negative left.
 
 ## Summary for listening
 
@@ -10,15 +10,17 @@ Over 22 months of Trackman data, speed has been stable and precision has not imp
 
 What is holding the score back is dispersion. Roughly three in ten eight-irons and five in ten five-irons finish more than 15 yards off line. The eight-iron has become slightly tighter over the past year, with the share of wide shots falling from 35 percent in the summer of 2025 to 17 percent in early 2026. The five-iron has not: it was 49 percent wide in the summer of 2025 and 38 percent in early 2026, still the loosest club in the bag.
 
-The five Combines tell the same story in one number each: 65, 60, 67, 55 and 66. Flat. The average of the non-disaster shots was between 64 and 71 in every Combine, and 68 or better in four of the five. The difference between a good Combine and a bad one was four blow-up shots against eleven. The long targets are the weak category, and the main cause is the club: the shot to 180 yards has been 11 to 28 yards short every single time, because it is being hit with a club that carries 155.
+The first five Combines told the same story in one number each: 65, 60, 67, 55 and 66. Flat. The average of the non-disaster shots was between 64 and 71 in every one, and the difference between a good Combine and a bad one was four blow-up shots against eleven. The long targets were the weak category, and the main cause was the club: the shot to 180 yards was 11 to 28 yards short every time, because it was being hit with a club that carries 155.
+
+The sixth Combine, on September 22nd 2026, scored 71 with an estimated handicap of 5, the best result in the data set, and it happened the way the analysis said it would. Two blow-up shots instead of five to eleven. Twenty-one shots scored 80 or better, the most yet. A longer club at the 180-yard target carried 173 instead of 152 to 169, and the score on that target rose from 36 to 59. The average of the good shots, 73, barely moved from the previous tests. The swing did not get better overnight; the disasters were removed and the club selection was fixed. That is the whole thesis in one round.
 
 Three things stand out for the workout program. First, strike quality on the short irons is worth more than speed. The same eight-iron swing speed produces 136 yards on a centred strike and 108 on a poor one. Second, precision decays in the second half of every long session while speed holds, which points at trunk endurance and balance rather than power. Third, the long irons have shallowed out and the miss has flipped from a fade to a hook, a pattern consistent with the lower body stopping and the hands taking over. That is what the hip mobility, pressure-shift and rotation work in the program is for, and the five-iron attack angle is the number that should move if it works.
 
-The practical program for the next eight weeks: train trunk endurance and single-leg stability as hard as strength; hit fewer balls per club and more wedges and drivers; carry a longer club for the 180-yard shot; and score every Combine by counting the shots under 30, not just the total.
+The practical program for the next eight weeks: train trunk endurance and single-leg stability as hard as strength; hit fewer balls per club and more wedges and drivers; keep the longer club for the 180-yard shot and practise it at a target; and score every Combine by counting the shots under 30, not just the total. The 60-yard wedge is now the most expensive shot left in the test, and its September misses were long, not fat, so partial-wedge distance control is the next practice priority.
 
 ## Core claim
 
-Speed is not the constraint on this golf game. Over 22 months club speed has been stable within a narrow band (8-iron 69 to 80 mph, 5-iron 76 to 83, driver 89 to 96) and the Combine score has been flat around the low 60s. The gap between the current game and a mid-single-digit handicap is dispersion: roughly a third of 8-iron shots and half of 5-iron shots finish more than 15 yards off line, and every Combine has been decided by the number of blow-up shots, not by the quality of the average shot.
+Speed is not the constraint on this golf game. Over 22 months club speed has been stable within a narrow band (8-iron 69 to 80 mph, 5-iron 76 to 83, driver 89 to 96) and the Combine score was flat around the low 60s for five tests before jumping to 71 in September 2026. The gap between the current game and a mid-single-digit handicap is dispersion: roughly a third of 8-iron shots and half of 5-iron shots finish more than 15 yards off line, and every Combine, including the best one, has been decided by the number of blow-up shots, not by the quality of the average shot.
 
 The practical implication is that the physical program should be judged on repeatability first (strike location, face control late in a session, long-iron attack angle) and on speed second.
 
@@ -26,13 +28,13 @@ The practical implication is that the physical program should be judged on repea
 
 | | Sessions | Shots | Period |
 | --- | ---: | ---: | --- |
-| 8-iron | 23 | 415 | Nov 2024 to Jan 2026 |
+| 8-iron | 24 | 426 | Nov 2024 to Sep 2026 |
 | 5-iron | 18 | 219 | Jan 2025 to Jan 2026 |
 | Driver | 8 | 29 | Feb 2025 to Sep 2026 |
 | 3-wood | 5 | 33 | Mar 2025 to Oct 2025 |
 | 7-iron | 2 | 20 | Sep 2026 |
 | Wedges (PW, 58, lob) | 3 | 22 | May to Sep 2025 |
-| Combines | 5 | 300 | Apr 2025 to Aug 2026 |
+| Combines | 6 | 360 | Apr 2025 to Sep 2026 |
 
 Two things about the data shape the interpretation. The Trackman export format changed twice: sessions before August 2025 report curve, club path and face-to-path but not side (finishing position), and sessions after report side but not path. Dispersion statistics below therefore come from August 2025 onward, and path statistics mostly from before. Second, the driver and wedges are barely represented; 56 percent of all recorded shots are 8-irons. That is a finding in itself (see Finding 7).
 
@@ -50,8 +52,9 @@ Pooling every shot by calendar quarter removes the session-to-session noise and 
 | 2025 Q3 | 6 | 101 | 74.3 | 98.1 | 1.31 | 131 | 13.8 | 15.0 | 35% | -2.4 | 5,760 |
 | 2025 Q4 | 8 | 125 | 74.7 | 96.2 | n/a | 123 | 30.1 | 12.9 | 26% | -3.1 | 5,920 |
 | 2026 Q1 | 3 | 63 | 72.6 | 93.7 | 1.31 | 121 | 14.8 | 11.7 | 17% | -2.0 | 5,860 |
+| 2026 Q3 | 1 | 11 | 71.8 | 89.2 | n/a | 113 | 12.9 | 5.8 | 0% | -1.9 | 6,360 |
 
-Reading: speed rose about 4 mph from late 2024 to mid 2025 and has given half of it back. Carry followed. The dispersion trend is the encouraging one: side SD has tightened every quarter it has been measured (15.0, 12.9, 11.7 yards) and the share of shots beyond 15 yards halved (35 to 17 percent). Carry SD has not improved; the 30-yard figure in 2025 Q4 is driven by a handful of fat and thin shots in two sessions, which is the strike-quality problem in Finding 1. The share of well-struck 8-irons (smash 1.35 or better) was 15 percent in late 2024 and 25 percent in early 2026, a gain, but three in four shots are still below that mark.
+Reading: speed rose about 4 mph from late 2024 to mid 2025 and has given it back; the September 2026 session is back at the 2025 Q1 level. The dispersion trend is the encouraging one: side SD has tightened every quarter it has been measured (15.0, 12.9, 11.7, and 5.8 yards in the single September session) and the share of shots beyond 15 yards has gone from 35 percent to zero. Eleven shots is a small sample, but it is the tightest 8-iron session in the data set by a wide margin. Carry SD has not improved; the 30-yard figure in 2025 Q4 is driven by a handful of fat and thin shots in two sessions, and the September session had three heavy strikes (86, 95 and 98 yards) in eleven balls, which is the strike-quality problem in Finding 1. The share of well-struck 8-irons (smash 1.35 or better) was 15 percent in late 2024 and 25 percent in early 2026, a gain, but three in four shots are still below that mark. Smash was not in the September export layout.
 
 ### 5-iron by quarter
 
@@ -73,11 +76,11 @@ Too few shots for quarterly tables (29 and 33 shots respectively). Driver club s
 
 | Club | Metric | First three | Last three | Change |
 | --- | --- | ---: | ---: | ---: |
-| 8-iron (Nov 2024 to Feb 2025 vs Jan 2026) | Club speed | 70.5 | 72.6 | +2.1 mph |
-| | Ball speed | 90.2 | 93.7 | +3.5 mph |
-| | Smash | 1.28 | 1.31 | +0.03 |
-| | Carry | 115.6 | 120.8 | +5.2 yds |
-| | Carry SD | 10.5 | 14.8 | +4.3 yds (worse) |
+| 8-iron (Nov 2024 to Feb 2025 vs Jan to Sep 2026) | Club speed | 70.5 | 71.2 | +0.7 mph |
+| | Ball speed | 90.2 | 89.1 | -1.1 mph |
+| | Smash | 1.28 | n/a | not exported in Sep 2026 |
+| | Carry | 115.6 | 113.0 | -2.6 yds |
+| | Carry SD | 10.5 | 14.1 | +3.6 yds (worse) |
 | 5-iron (Jan to Mar 2025 vs Jan 2026) | Club speed | 80.0 | 80.4 | +0.4 mph |
 | | Ball speed | 108.1 | 110.8 | +2.7 mph |
 | | Smash | 1.35 | 1.41 | +0.06 |
@@ -85,7 +88,7 @@ Too few shots for quarterly tables (29 and 33 shots respectively). Driver club s
 | | Carry SD | 13.1 | 16.8 | +3.7 yds (worse) |
 | | Attack angle | -1.7 | -0.8 | +0.9 deg (shallower) |
 
-Both irons gained five or six yards of carry over the year, almost entirely from strike efficiency rather than speed, and both got looser on distance control. Longer but less predictable is the summary of the year.
+Through January 2026 both irons had gained five or six yards of carry over the year, almost entirely from strike efficiency rather than speed, and both had got looser on distance control. The September 2026 8-iron session, eleven balls with three heavy strikes, gives the 8-iron gain back. Speed is where it was in early 2025; distance control is still the variable. Direction, on the other hand, was the best it has been. Tighter but no longer is the summary of the year for the 8-iron.
 
 ### Combine trajectory
 
@@ -96,8 +99,9 @@ Both irons gained five or six yards of carry over the year, almost entirely from
 | 2025-06-10 | 66.5 | 7 | 4 | 70.2 | 19 | 134.0 | 7.7 |
 | 2025-07-24 | 54.6 | 16 | 11 | 64.4 | 12 | 140.9 | 11.8 |
 | 2026-08-25 | 65.6 | 8 | 5 | 70.5 | 20 | 129.8 | 7.3 |
+| 2026-09-22 | 71.0 | 5 | 2 | 73.1 | 21 | 133.8 | 12.2 |
 
-The column that moves the total is the blow-up count. The mean of the good shots sits at 68 to 71 in four of five tests, and the number of excellent shots (80 or better) was highest in the most recent Combine. The driver has tightened markedly (side SD 21 yards in the first Combine, 7 in the last) at the cost of about 4 mph of ball speed, which is a reasonable trade during a shoulder rebuild and matches the pattern in the range data.
+The column that moves the total is the blow-up count. The mean of the good shots sits at 68 to 73 in five of six tests, and the September 2026 Combine, the best score by 4.5 points, had the fewest blow-ups (2, both at the 60-yard target) and the most excellent shots. The driver tightened markedly across 2025 (side SD 21 yards in the first Combine, 7 in the fifth) at the cost of about 4 mph of ball speed; in September the ball speed came back to 134 and the dispersion widened to 12, with a 19-yard push the only poor drive. Both are within the range of a six-shot sample.
 
 ## Findings
 
@@ -115,7 +119,7 @@ From August 2025 onward (the sessions that report finishing position):
 
 | Club | Shots | Side SD | Beyond 15 yds off line | Bias |
 | --- | ---: | ---: | ---: | --- |
-| 8-iron | 230 | 13.8 yds | 29% | 2.6 yds right |
+| 8-iron | 241 | 13.6 yds | 27% | 2.5 yds right |
 | 5-iron | 124 | 20.8 yds | 48% | 1.8 yds left |
 | 7-iron (2026) | 14 | 9.1 yds | 21% | 7.8 yds right |
 | Driver | 11 | 13.8 yds | 45% | 9.1 yds left |
@@ -123,7 +127,7 @@ From August 2025 onward (the sessions that report finishing position):
 
 A 130-yard 8-iron with a 14-yard side SD means the one-standard-deviation band is 28 yards wide. That is the width of a green. The 5-iron's band is 42 yards. Carry control is similarly loose: 8-iron carry SD is about 10 yards on a good day and 15 to 25 on others, with individual sessions containing 30-to-100-yard mishits.
 
-The bias numbers are small on average but hide a two-way miss. The 8-iron and 7-iron leak right: in ten of the fifteen 8-iron sessions with side data, at least 63 percent of shots finished right of the line. The 5-iron and driver miss left, and the 5-iron's left misses in late 2025 were large: session averages of 17, 21 and 16 yards left in December and January.
+The bias numbers are small on average but hide a two-way miss. The 8-iron and 7-iron leak right: in eleven of the sixteen 8-iron sessions with side data, at least 63 percent of shots finished right of the line. The 5-iron and driver miss left, and the 5-iron's left misses in late 2025 were large: session averages of 17, 21 and 16 yards left in December and January.
 
 ### 3. The miss pattern has flipped since 2024
 
@@ -158,20 +162,24 @@ The driver is the opposite and healthy: attack angle +2 to +4 degrees, spin 2,10
 
 ### 5. The Combine score is a count of blow-ups
 
-Five Combines: 65.2, 59.7, 66.5, 54.6, 65.6 (estimated handicaps 8, 11, 7, 16, 8). Flat over 16 months.
+Six Combines: 65.2, 59.7, 66.5, 54.6, 65.6, 71.0 (estimated handicaps 8, 11, 7, 16, 8, 5). Flat for five tests over 16 months, then a 4.5-point jump in September 2026.
 
-Removing every shot scored below 30, the five Combines would read 70.6, 68.0, 70.2, 64.4 and 70.5. The best Combine had 4 blow-ups; the worst had 11. Everything separating a 66 from a 55 lives in those shots. The median shot was 66 to 72 in four of the five Combines; the typical shot has not changed, and the average is set by how many disasters happen.
+Removing every shot scored below 30, the six Combines read 70.6, 68.0, 70.2, 64.4, 70.5 and 73.1. The best Combine had 2 blow-ups; the worst had 11. Everything separating a 71 from a 55 lives in those shots. The median shot was 66 to 72 in five of the six Combines; the typical shot has barely changed, and the average is set by how many disasters happen.
 
 By distance category:
 
-| Category | Apr 2025 | May 2025 | Jun 2025 | Jul 2025 | Aug 2026 |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| 60 to 100 yds | 67 | 60 | 66 | 52 | 71 |
-| 120 to 140 yds | 75 | 64 | 64 | 53 | 74 |
-| 160 to 180 yds | 54 | 56 | 67 | 59 | 44 |
-| Driver | 57 | 60 | 74 | 61 | 66 |
+| Category | Apr 2025 | May 2025 | Jun 2025 | Jul 2025 | Aug 2026 | Sep 2026 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 60 to 100 yds | 67 | 60 | 66 | 52 | 71 | 73 |
+| 120 to 140 yds | 75 | 64 | 64 | 53 | 74 | 71 |
+| 160 to 180 yds | 54 | 56 | 67 | 59 | 44 | 68 |
+| Driver | 57 | 60 | 74 | 61 | 66 | 67 |
 
-The wedge and mid-iron categories improved in the most recent test. The long category got worse, and it has a specific cause: distance, not direction. The average shot at the 180-yard target carried 152, 160, 169, 167 and 159 yards, short by 11 to 28 yards every time. The 160-yard target was short by 7 to 10 yards in four of five tests. The club being used for 180 (club speed 80 to 85 mph, which matches the 5-iron) carries 155 yards. The 180 shot needs a 4-iron, hybrid or 3-wood, and the Combine has been penalising a club-selection decision for over a year.
+Through August 2026 the wedge and mid-iron categories had improved while the long category got worse, and the long category had a specific cause: distance, not direction. The average shot at the 180-yard target carried 152, 160, 169, 167 and 159 yards in the first five Combines, short by 11 to 28 yards every time. The 160-yard target was short by 7 to 10 yards in four of five tests. The club being used for 180 (club speed 80 to 85 mph, which matches the 5-iron) carries 155 yards.
+
+In September 2026 the 180-yard shot was hit with a faster club (83 mph, 119 mph ball speed) and carried 173.5 on average, short by 6. The target score went from 36 to 59, the 160-yard target from 53 to 76, and the long category from 44 to 68, the best it has been. Nothing about the swing needed to change for that; the Combine had been penalising a club-selection decision for over a year and the decision was corrected. The remaining long-target gap is direction: side SD of 16 yards at 180, the widest on the card.
+
+The two blow-ups in September were both at 60 yards and both were long, not fat: carries of 74 and 72 to a 60-yard target, scored 4 and 13. The other four shots at that target carried 57 to 59 and scored 77 to 96. The 60-yard wedge remains the most expensive single shot in the test, with 9 of the 35 blow-ups across all six Combines, and the September pattern (two flyers, four good ones) points at a distance-control problem with the partial wedge rather than a contact problem.
 
 ### 6. Speed holds up within a session. Precision does not.
 
@@ -188,7 +196,7 @@ In practice this means the body is not running out of speed; it is running out o
 | Driver | 4% | 57 to 74, two-way miss |
 | Wedges | 3% | 60 to 100 yds: 52 to 71, most blow-ups by count |
 
-The 60 to 100 yard targets produced 16 of the 33 blow-up shots across all five Combines (the 60-yard target alone produced 7), and the wedges have 22 recorded practice shots in 22 months. The 8-iron, which receives the majority of practice, is the club the Combine rewards most. The allocation is inverted relative to where the score is lost.
+The 60 to 100 yard targets produced 18 of the 35 blow-up shots across all six Combines (the 60-yard target alone produced 9), and the wedges have 22 recorded practice shots in 22 months. The 8-iron, which receives the majority of practice, is the club the Combine rewards most. The allocation is inverted relative to where the score is lost.
 
 ## Implications
 
@@ -228,7 +236,7 @@ These stay inside the program's existing exercise catalogue and safety rules (so
 ### For practice
 
 1. Make face control the technical priority. Path is already repeatable; face-to-path variance is the source of the two-way miss. Any drill that gives face feedback at impact (alignment stick gate, impact tape, a coach's face-angle read) is the right kind.
-2. Fix the 180-yard club. Carry the 4-iron, a hybrid or the 3-wood on the Combine's 180 target and hit that club in practice. This is the single cheapest Combine improvement available.
+2. Keep the longer club at 180. The September 2026 Combine used one (83 mph club speed, 173-yard average carry) and the long category went from 44 to 68. The remaining issue at that target is direction (side SD 16 yards), so that club needs range time with a target, not just a slot in the bag.
 3. Restore a downward strike with the 5-iron. Ball position and weight forward at setup are the usual first checks; the target is an attack angle of -2 to -4 with spin back above 4,500 rpm.
 4. Rebalance practice toward 60 to 100 yard wedges and the driver. Move to roughly one Combine-style session in three: random targets, six balls each, scored.
 5. Cap block practice at 8 to 10 balls per club and rotate. Dispersion widens after that point, so a 40-ball 8-iron block trains the loose pattern as much as the good one.
@@ -247,16 +255,17 @@ Filling in the "Baseline" column of the program's eight-metric scorecard from th
 
 | Metric | Baseline | Source |
 | --- | ---: | --- |
-| Combine score | 65.6 | 2026-08-25 |
-| Combine shots below 30 | 5 of 60 | 2026-08-25 |
+| Combine score | 71.0 (previous 65.6) | 2026-09-22 |
+| Combine shots below 30 | 2 of 60 (previous 5) | 2026-09-22 |
 | 7-iron carry (controlled effort) | 130 yds | Sep 2026, 20 shots |
 | 7-iron side SD | 9.1 yds | Sep 2026, 14 shots with side data |
 | 7-iron smash factor | 1.31 | Sep 2026 |
-| Driver ball speed | 132.7 mph | Sep 2026, 4 shots |
-| Driver side SD | 23.6 yds | Sep 2026, 2 shots with side data |
+| Driver ball speed | 133.8 mph | 2026-09-22 Combine, 6 shots |
+| Driver side SD | 12.2 yds | 2026-09-22 Combine, 6 shots |
+| 8-iron side SD | 5.8 yds (0% beyond 15 yds) | 2026-09-22, 11 shots |
 | 5-iron attack angle | -1.2 deg (Jan 2026), target below -2 | Jan 2026 |
 
-The driver baseline needs a proper 10-ball test; 4 shots is not a baseline.
+The driver baseline still deserves a proper 10-ball test at controlled effort; six Combine drives under test pressure are a useful reference but not the same measurement.
 
 ## Data notes
 

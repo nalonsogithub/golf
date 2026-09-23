@@ -1,0 +1,30 @@
+{
+  "name": "trackman-dashboard",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "vite build --mode single && node -e \"import('fs').then(fs=>fs.copyFileSync('dist-single/index.html','trackman-dashboard.html'))\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vite-plugin-singlefile": "^2.2.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

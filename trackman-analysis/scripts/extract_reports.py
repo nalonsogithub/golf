@@ -861,16 +861,16 @@ def write_csvs(sessions, combines):
 
     with (DATA_DIR / "shots.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["session_id", "date", "club", "shot", "row_type"] + [f"{k}" for k in SHOT_COLUMNS])
-        w.writerow(["", "", "", "", ""] + [CSV_UNITS.get(k, "") for k in SHOT_COLUMNS])
+        w.writerow(["session_id", "date", "club", "shot", "row_type", "warmup"] + [f"{k}" for k in SHOT_COLUMNS])
+        w.writerow(["", "", "", "", "", ""] + [CSV_UNITS.get(k, "") for k in SHOT_COLUMNS])
         for s in sessions:
             for c in s["clubs"]:
                 for sh in c["shots"]:
-                    w.writerow([s["id"], s["date"], c["club"], sh["shot"], "shot"] + [cell(sh.get(k)) for k in SHOT_COLUMNS])
+                    w.writerow([s["id"], s["date"], c["club"], sh["shot"], "shot", int(bool(sh.get("warmup")))] + [cell(sh.get(k)) for k in SHOT_COLUMNS])
                 if c["average"]:
-                    w.writerow([s["id"], s["date"], c["club"], "", "average"] + [cell(c["average"].get(k)) for k in SHOT_COLUMNS])
+                    w.writerow([s["id"], s["date"], c["club"], "", "average", ""] + [cell(c["average"].get(k)) for k in SHOT_COLUMNS])
                 if c["consistency"]:
-                    w.writerow([s["id"], s["date"], c["club"], "", "consistency"] + [cell(c["consistency"].get(k)) for k in SHOT_COLUMNS])
+                    w.writerow([s["id"], s["date"], c["club"], "", "consistency", ""] + [cell(c["consistency"].get(k)) for k in SHOT_COLUMNS])
 
     ccols = ["score", "club_speed", "ball_speed", "spin_rate", "attack_angle", "carry", "total", "side", "from_pin"]
     with (DATA_DIR / "combine_shots.csv").open("w", newline="", encoding="utf-8") as f:
@@ -883,6 +883,70 @@ def write_csvs(sessions, combines):
                     w.writerow([c["id"], c["date"], c["score"], c["estimated_handicap"], t["target"], t["target_score"], sh["shot"], "shot"] + [cell(sh.get(k)) for k in ccols])
                 if t["average"]:
                     w.writerow([c["id"], c["date"], c["score"], c["estimated_handicap"], t["target"], t["target_score"], "", "average"] + [cell(t["average"].get(k)) for k in ccols])
+
+
+# Least to most loft. Used to find "the loftiest club of the day" for the warm-up rule.
+LOFT_ORDER = [
+    "Driver", "3Wood", "5Wood", "7Wood", "2Hybrid", "3Hybrid", "4Hybrid", "5Hybrid",
+    "2Iron", "3Iron", "4Iron", "5Iron", "6Iron", "7Iron", "8Iron", "9Iron",
+    "PitchingWedge", "PW", "GapWedge", "48Wedge", "50Wedge", "52Wedge", "54Wedge",
+    "SandWedge", "56Wedge", "58Wedge", "LobWedge", "60Wedge", "62Wedge",
+]
+DEFAULT_WARMUP_SHOTS = 4
+NOTES_FILE = REPORTS_DIR / "session-notes.csv"
+
+
+def loft_rank(club: str) -> int:
+    try:
+        return LOFT_ORDER.index(club)
+    except ValueError:
+        m = re.match(r"(\d{2})Wedge", club)
+        return 100 + int(m.group(1)) if m else -1
+
+
+def read_session_notes() -> dict:
+    """reports/session-notes.csv -> {session_id: {warmup_club, warmup_shots, note}}.
+
+    Columns: session_id, warmup_club, warmup_shots, note.
+    warmup_shots may be a number or 'all'; blank warmup_club means 'apply the default rule'.
+    """
+    import csv
+
+    notes = {}
+    if not NOTES_FILE.exists():
+        return notes
+    with NOTES_FILE.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            sid = (row.get("session_id") or "").strip()
+            if not sid or sid.startswith("#"):
+                continue
+            notes[sid] = {
+                "warmup_club": (row.get("warmup_club") or "").strip() or None,
+                "warmup_shots": (row.get("warmup_shots") or "").strip() or None,
+                "note": (row.get("note") or "").strip() or None,
+            }
+    return notes
+
+
+def tag_warmups(sessions: list[dict]) -> None:
+    """Mark warm-up shots: by default the first DEFAULT_WARMUP_SHOTS of the loftiest club in
+    the session; reports/session-notes.csv can override the club and count ('all' allowed)."""
+    notes = read_session_notes()
+    for s in sessions:
+        if not s["clubs"]:
+            continue
+        n = notes.get(s["id"], {})
+        s["note"] = n.get("note")
+        club = n.get("warmup_club") or max((c["club"] for c in s["clubs"]), key=loft_rank)
+        shots_spec = n.get("warmup_shots") or str(DEFAULT_WARMUP_SHOTS)
+        for c in s["clubs"]:
+            is_target = c["club"] == club
+            k = len(c["shots"]) if shots_spec.lower() == "all" else int(shots_spec)
+            for i, sh in enumerate(c["shots"]):
+                sh["warmup"] = bool(is_target and i < k)
+        s["warmup_rule"] = f"{club}: {'all' if shots_spec.lower() == 'all' else 'first ' + shots_spec} shots"
+        if club not in {c["club"] for c in s["clubs"]}:
+            s["warnings"].append(f"session-notes warmup_club {club} not in this session")
 
 
 def md_to_html(md: str) -> str:
@@ -993,6 +1057,8 @@ def main():
             + (f"  WARN: {'; '.join(w)}" if w else "")
         )
         problems += [f"combine {c['id']}: {x}" for x in w]
+
+    tag_warmups(sessions)
 
     DATA_DIR.mkdir(exist_ok=True)
     DASHBOARD_DIR.mkdir(exist_ok=True)

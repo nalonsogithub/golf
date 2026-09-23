@@ -66,7 +66,13 @@
 </header>
 <main>
   <div class="controls" style="margin:0 0 4px">
-    <label title="Range sessions only. The first N shots of every club block are treated as warm-up and dropped from the Overview, Trends, Dispersion, Path &amp; face and All-sessions views. The Within-a-session view always shows every shot.">Warm-up: exclude first <input type="number" id="warmup-n" value="0" min="0" max="10" style="width:56px"> shots of each club block</label>
+    <label title="Range sessions only. Warm-up shots are dropped from the Overview, Trends, Dispersion, Path &amp; face and All-sessions views. The Within-a-session view always shows every shot and marks warm-ups.">Warm-up shots:
+      <select id="warmup-mode">
+        <option value="tagged">exclude tagged warm-ups (first 4 of the loftiest club, plus session-notes overrides)</option>
+        <option value="none">include everything</option>
+        <option value="first">exclude first N shots of every club block</option>
+      </select></label>
+    <label id="warmup-n-wrap" style="display:none">N <input type="number" id="warmup-n" value="3" min="0" max="10" style="width:56px"></label>
     <span class="note" id="warmup-note" style="margin:0"></span>
   </div>
   <nav class="tabs" id="tabs">
@@ -174,6 +180,7 @@
         <label>Metric <select id="se-metric"></select></label>
         <label>Rolling window <input type="number" id="se-win" value="5" min="1" max="15" style="width:64px"></label>
       </div>
+      <div class="note" id="se-note"></div>
       <div class="chart-wrap"><canvas id="se-chart"></canvas></div>
       <div class="grid two" style="margin-top:14px">
         <div><h3>First half vs second half</h3><div id="se-halves"></div></div>
@@ -283,14 +290,16 @@
     o.pctLeft = side.length ? 100 * side.filter(v => v < 0).length / side.length : null;
     return o;
   }
-  let WARMUP = 0; // number of leading shots per club block treated as warm-up
-  const analysed = shots => shots.slice(WARMUP);
+  let WARMUP_MODE = 'tagged', WARMUP_N = 3;
+  const analysed = shots => WARMUP_MODE === 'none' ? shots : WARMUP_MODE === 'first' ? shots.slice(WARMUP_N) : shots.filter(x => !x.warmup);
   let rows = []; // flat list of {session, club, shots, sum}; shots = analysed shots
   function buildRows() {
     rows = [];
     for (const s of sessions) for (const c of s.clubs) { const sh = analysed(c.shots); if (sh.length) rows.push({ session: s, club: c.club, shots: sh, allShots: c.shots, sum: summarize(sh), report: c }); }
     const totalShots = rows.reduce((a, r) => a + r.shots.length, 0);
-    document.getElementById('warmup-note').textContent = WARMUP ? `${totalShots} of ${sessions.reduce((a, s) => a + s.clubs.reduce((b, c) => b + c.shots.length, 0), 0)} range shots analysed` : '';
+    const all = sessions.reduce((a, s) => a + s.clubs.reduce((b, c) => b + c.shots.length, 0), 0);
+    document.getElementById('warmup-note').textContent = WARMUP_MODE === 'none' ? '' : `${totalShots} of ${all} range shots analysed (${all - totalShots} warm-up)`;
+    document.getElementById('warmup-n-wrap').style.display = WARMUP_MODE === 'first' ? '' : 'none';
   }
   buildRows();
 
@@ -477,11 +486,13 @@
 
   function renderSession() {
     const s = sessions.find(x => x.id === seSession.value); const c = s.clubs.find(x => x.club === seClub.value); const k = seMetric.value; const win = Math.max(1, parseInt(document.getElementById('se-win').value || '5'));
-    const pts = c.shots.map(x => ({ x: x.shot, y: x[k] === undefined ? null : x[k] }));
+    const pts = c.shots.map(x => ({ x: x.shot, y: x[k] === undefined ? null : x[k], warm: !!x.warmup }));
     const roll = pts.map((p, i) => { const w = pts.slice(Math.max(0, i - win + 1), i + 1).map(q => q.y).filter(v => v !== null); return { x: p.x, y: w.length ? mean(w) : null }; });
     const col = clubColor[c.club];
+    const nWarm = c.shots.filter(x => x.warmup).length;
+    document.getElementById('se-note').innerHTML = (s.note ? `<b>Note:</b> ${s.note} ` : '') + (s.warmup_rule ? `<span class="badge">warm-up rule: ${s.warmup_rule}</span>` : '') + (nWarm ? ` <span class="badge">${nWarm} warm-up shot(s) in this block, hollow points</span>` : '');
     makeChart('se-chart', { type: 'line', data: { datasets: [
-      { label: METRICS[k].label, data: pts, borderColor: col + '88', backgroundColor: col, pointRadius: 4, showLine: false },
+      { label: METRICS[k].label, data: pts, borderColor: col, backgroundColor: ctx => ctx.raw && ctx.raw.warm ? '#ffffff' : col, pointRadius: 4, pointBorderWidth: 2, showLine: false },
       { label: `rolling mean (${win})`, data: roll, borderColor: col, pointRadius: 0, tension: .3, spanGaps: true },
     ] }, options: { maintainAspectRatio: false, scales: { x: { type: 'linear', title: { display: true, text: 'shot number' }, ticks: { stepSize: 1 } }, y: { title: { display: true, text: METRICS[k].label } } } } });
     const h = Math.floor(c.shots.length / 2); const A = summarize(c.shots.slice(0, h)), B = summarize(c.shots.slice(h));
@@ -489,7 +500,7 @@
     document.getElementById('se-halves').innerHTML = `<table><thead><tr><th class="l">Metric</th><th>Shots 1-${h}</th><th>Shots ${h + 1}-${c.shots.length}</th><th>Change</th></tr></thead><tbody>
       ${row('Carry mean', 'carry', 'mean', r1)}${row('Carry SD', 'carry', 'sd', r1)}${row('Ball speed mean', 'ball_speed', 'mean', r1)}${row('Club speed mean', 'club_speed', 'mean', r1)}${row('Smash mean', 'smash', 'mean', r2)}${row('Side mean (+R)', 'side', 'mean', r1)}${row('Side SD', 'side', 'sd', r1)}${row('Attack angle mean', 'attack_angle', 'mean', r1)}${row('Attack angle SD', 'attack_angle', 'sd', r1)}${row('Spin mean', 'spin_rate', 'mean', r0)}</tbody></table>`;
     const keys = c.columns.map(x => x.key);
-    document.getElementById('se-table').innerHTML = `<table><thead><tr><th>#</th>${keys.map(x => `<th>${(METRICS[x] || { label: x }).label.split(' (')[0]}</th>`).join('')}</tr></thead><tbody>${c.shots.map(x => `<tr><td>${x.shot}</td>${keys.map(kk => `<td>${x[kk] === null || x[kk] === undefined ? '-' : (kk === 'spin_rate' ? r0(x[kk]) : kk === 'smash' ? r2(x[kk]) : r1(x[kk]))}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+    document.getElementById('se-table').innerHTML = `<table><thead><tr><th>#</th>${keys.map(x => `<th>${(METRICS[x] || { label: x }).label.split(' (')[0]}</th>`).join('')}</tr></thead><tbody>${c.shots.map(x => `<tr${x.warmup ? ' style="color:#9ca3af"' : ''}><td>${x.shot}${x.warmup ? ' (warm-up)' : ''}</td>${keys.map(kk => `<td>${x[kk] === null || x[kk] === undefined ? '-' : (kk === 'spin_rate' ? r0(x[kk]) : kk === 'smash' ? r2(x[kk]) : r1(x[kk]))}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
   }
 
   // ---------- COMBINE ----------
@@ -533,9 +544,10 @@
   document.getElementById('findings-body').innerHTML = window.TRACKMAN_FINDINGS || '<p>findings.js not found.</p>';
 
   function renderAllViews() { renderOverview(); renderTrends(); renderDispersion(); renderDelivery(); renderAll(); }
-  document.getElementById('warmup-n').onchange = e => { WARMUP = Math.max(0, parseInt(e.target.value || '0')); buildRows(); renderAllViews(); };
-  const qsWarm = parseInt(new URLSearchParams(location.search).get('warmup') || '0');
-  if (qsWarm > 0) { WARMUP = qsWarm; document.getElementById('warmup-n').value = qsWarm; buildRows(); }
+  document.getElementById('warmup-n').onchange = e => { WARMUP_N = Math.max(0, parseInt(e.target.value || '0')); buildRows(); renderAllViews(); };
+  document.getElementById('warmup-mode').onchange = e => { WARMUP_MODE = e.target.value; buildRows(); renderAllViews(); };
+  const qs = new URLSearchParams(location.search);
+  if (qs.get('warmup')) { const v = qs.get('warmup'); if (v === 'none' || v === 'tagged') WARMUP_MODE = v; else if (parseInt(v) >= 0) { WARMUP_MODE = 'first'; WARMUP_N = parseInt(v); document.getElementById('warmup-n').value = WARMUP_N; } document.getElementById('warmup-mode').value = WARMUP_MODE; buildRows(); }
   renderAllViews(); renderSession(); renderCombine();
   if (location.hash) showTab(location.hash.slice(1));
 })();

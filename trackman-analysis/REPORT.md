@@ -1,6 +1,6 @@
 # Trackman Progress Report: November 2024 to September 2026
 
-Prepared from 28 range sessions (755 shots) and 6 Trackman Combines (360 scored shots). All figures use Trackman's normalised conditions (Premium ball, 25 C, sea level), so weather and ball type are removed from the comparison. Units are yards and mph throughout; side and curve are signed, positive right and negative left.
+Prepared from 29 range sessions (804 shots) and 6 Trackman Combines (360 scored shots). All figures use Trackman's normalised conditions (Premium ball, 25 C, sea level), so weather and ball type are removed from the comparison. Units are yards and mph throughout; side and curve are signed, positive right and negative left.
 
 ## Summary for listening
 
@@ -29,11 +29,12 @@ The practical implication is that the physical program should be judged on repea
 | | Sessions | Shots | Period |
 | --- | ---: | ---: | --- |
 | 8-iron | 24 | 426 | Nov 2024 to Sep 2026 |
-| 5-iron | 18 | 219 | Jan 2025 to Jan 2026 |
-| Driver | 8 | 29 | Feb 2025 to Sep 2026 |
+| 5-iron | 19 | 240 | Jan 2025 to Sep 2026 |
+| Driver | 9 | 34 | Feb 2025 to Sep 2026 |
 | 3-wood | 5 | 33 | Mar 2025 to Oct 2025 |
-| 7-iron | 2 | 20 | Sep 2026 |
+| 7-iron | 3 | 35 | Sep 2026 |
 | Wedges (PW, 58, lob) | 3 | 22 | May to Sep 2025 |
+| 4-iron, 6-iron, 9-iron | 4 | 14 | occasional |
 | Combines | 6 | 360 | Apr 2025 to Sep 2026 |
 
 Two things about the data shape the interpretation. The Trackman export format changed twice: sessions before August 2025 report curve, club path and face-to-path but not side (finishing position), and sessions after report side but not path. Dispersion statistics below therefore come from August 2025 onward, and path statistics mostly from before. Second, the driver and wedges are barely represented; 56 percent of all recorded shots are 8-irons. That is a finding in itself (see Finding 7).
@@ -124,7 +125,7 @@ Grouping the same post-warm-up shots by period:
 
 The accuracy improvement is genuine. Once the cold-start shots are excluded, lateral dispersion on the 8-iron has fallen by roughly a third in each of the last two periods, with a correlation against time of -0.84, which is about as clean a trend as sixteen sessions can produce. Distance control has improved in step. Speed and carry have not moved at all on any version of the filter, which is the pattern the Combine confirmed: the same swing, hitting the target more often. The caveat is the sample: 19 post-warm-up 8-iron shots in 2026 across three sessions, and too few 5-iron shots since November to say anything about that club. Two or three more 8-iron and 5-iron sessions would settle it.
 
-The dashboard has a warm-up control that drops the first N shots of every club block from the range-session views, so this comparison can be re-run as sessions are added.
+Since this section was written, warm-up shots are tagged in the data itself using the actual routine: the first four shots of the loftiest club in each session, with per-session overrides in `reports/session-notes.csv` for days that differ (for example, an entire 9-iron block used as warm-up on 2026-09-23). The dashboard excludes tagged warm-ups by default and can switch to "include everything" or "first N of every block" for comparison. The tables above use the first-N-per-block method and are left as computed.
 
 ### Combine trajectory
 

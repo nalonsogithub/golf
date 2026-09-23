@@ -47,10 +47,35 @@ Open `dashboard/index.html`. Tabs:
 
 Tabs can be linked directly, e.g. `index.html#combine`.
 
-The warm-up control above the tabs drops the first N shots of every club block in range
-sessions from the Overview, Trends, Dispersion, Path & face and All-sessions views (the
-Within-a-session view always shows every shot). It can also be set in the URL:
-`index.html?warmup=3#trends`.
+### Warm-up shots
+
+Warm-up shots are tagged in the data by `scripts/extract_reports.py`:
+
+- Default rule: the first 4 shots of the loftiest club in the session.
+- Overrides: `reports/session-notes.csv`, one row per session that differs, columns
+  `session_id, warmup_club, warmup_shots, note`. `warmup_shots` is a number or `all`.
+  The `note` column is free text and shows up in the dashboard's Within-a-session view,
+  so it is also the place to record what you were working on.
+
+Every shot in `sessions.json` and `shots.csv` carries a `warmup` flag. The control above the
+dashboard tabs excludes tagged warm-ups by default; it can switch to "include everything" or
+"first N of every club block". The Within-a-session view always shows every shot and draws
+warm-ups as hollow points. URL forms: `index.html?warmup=none`, `?warmup=tagged`,
+`?warmup=3` (first 3 per block).
+
+### Hosting on Vercel
+
+`dashboard/` is a static site: no build step, no server. To publish it:
+
+1. In Vercel, import the GitHub repo `nalonsogithub/golf`.
+2. Set **Root Directory** to `trackman-analysis/dashboard`, Framework Preset "Other",
+   leave Build Command and Output Directory empty.
+3. Deploy. Every `git push` that changes `dashboard/data.js` redeploys automatically, so
+   the routine stays: drop PDF, run the extractor, commit, push.
+4. Under Settings > Deployment Protection, turn on Vercel Authentication (or Password
+   Protection on paid plans). The dashboard has no login of its own and contains your
+   personal data; `vercel.json` already sets `noindex` so search engines skip it, but that
+   is not access control.
 
 ## Adding a new report
 

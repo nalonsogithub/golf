@@ -71,7 +71,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 106.3,
@@ -84,7 +85,8 @@
       "attack_angle": -0.8,
       "club_path": -0.2,
       "face_to_path": 9.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 108.2,
@@ -97,7 +99,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 98.0,
@@ -110,7 +113,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 112.8,
@@ -123,7 +127,8 @@
       "attack_angle": -0.8,
       "club_path": -4.2,
       "face_to_path": 1.6,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 94.8,
@@ -136,7 +141,8 @@
       "attack_angle": 1.8,
       "club_path": -0.2,
       "face_to_path": -2.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 99.4,
@@ -149,7 +155,8 @@
       "attack_angle": -1.2,
       "club_path": -3.8,
       "face_to_path": 10.3,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 109.2,
@@ -162,7 +169,8 @@
       "attack_angle": -0.6,
       "club_path": -2.8,
       "face_to_path": -3.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 109.7,
@@ -175,7 +183,8 @@
       "attack_angle": -2.0,
       "club_path": -4.6,
       "face_to_path": 3.1,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 103.1,
@@ -188,7 +197,8 @@
       "attack_angle": -0.4,
       "club_path": -5.2,
       "face_to_path": 1.8,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 111.6,
@@ -201,7 +211,8 @@
       "attack_angle": -2.2,
       "club_path": -6.8,
       "face_to_path": 6.0,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 119.3,
@@ -214,7 +225,8 @@
       "attack_angle": -2.6,
       "club_path": 1.2,
       "face_to_path": -1.2,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "carry": 102.2,
@@ -227,7 +239,8 @@
       "attack_angle": -1.1,
       "club_path": 0.3,
       "face_to_path": 5.4,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "carry": 120.7,
@@ -240,7 +253,8 @@
       "attack_angle": -2.2,
       "club_path": 0.2,
       "face_to_path": 1.6,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "carry": 111.5,
@@ -253,7 +267,8 @@
       "attack_angle": -2.0,
       "club_path": -2.2,
       "face_to_path": 4.6,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "carry": 127.4,
@@ -266,7 +281,8 @@
       "attack_angle": -1.8,
       "club_path": 2.0,
       "face_to_path": -1.1,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "carry": 107.0,
@@ -279,7 +295,8 @@
       "attack_angle": -0.4,
       "club_path": 0.2,
       "face_to_path": 6.0,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "carry": 107.4,
@@ -292,7 +309,8 @@
       "attack_angle": 1.2,
       "club_path": -3.0,
       "face_to_path": 0.5,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "carry": 107.1,
@@ -305,7 +323,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "carry": 115.1,
@@ -318,7 +337,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "carry": 111.7,
@@ -331,7 +351,8 @@
       "attack_angle": 0.0,
       "club_path": 7.0,
       "face_to_path": -1.6,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "carry": 118.8,
@@ -344,7 +365,8 @@
       "attack_angle": 3.6,
       "club_path": 4.6,
       "face_to_path": -5.7,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "carry": 99.4,
@@ -357,7 +379,8 @@
       "attack_angle": 1.8,
       "club_path": 4.2,
       "face_to_path": -7.5,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "carry": 110.3,
@@ -370,7 +393,8 @@
       "attack_angle": -2.0,
       "club_path": -5.6,
       "face_to_path": 9.5,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "carry": 127.0,
@@ -383,7 +407,8 @@
       "attack_angle": -1.4,
       "club_path": 3.0,
       "face_to_path": -2.1,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "carry": 120.6,
@@ -396,7 +421,8 @@
       "attack_angle": -2.6,
       "club_path": 0.8,
       "face_to_path": 2.7,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "carry": 119.9,
@@ -409,7 +435,8 @@
       "attack_angle": -1.8,
       "club_path": 0.0,
       "face_to_path": -6.1,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      },
      {
       "carry": 106.9,
@@ -422,7 +449,8 @@
       "attack_angle": 0.0,
       "club_path": -5.4,
       "face_to_path": 4.0,
-      "shot": 28
+      "shot": 28,
+      "warmup": false
      },
      {
       "carry": 112.4,
@@ -435,7 +463,8 @@
       "attack_angle": -3.0,
       "club_path": 0.6,
       "face_to_path": 5.7,
-      "shot": 29
+      "shot": 29,
+      "warmup": false
      },
      {
       "carry": 123.7,
@@ -448,7 +477,8 @@
       "attack_angle": 0.0,
       "club_path": 0.0,
       "face_to_path": -2.0,
-      "shot": 30
+      "shot": 30,
+      "warmup": false
      },
      {
       "carry": 115.1,
@@ -461,7 +491,8 @@
       "attack_angle": 0.2,
       "club_path": 5.2,
       "face_to_path": -2.2,
-      "shot": 31
+      "shot": 31,
+      "warmup": false
      },
      {
       "carry": 112.8,
@@ -474,7 +505,8 @@
       "attack_angle": -0.6,
       "club_path": 2.2,
       "face_to_path": -0.3,
-      "shot": 32
+      "shot": 32,
+      "warmup": false
      },
      {
       "carry": 122.9,
@@ -487,7 +519,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 33
+      "shot": 33,
+      "warmup": false
      },
      {
       "carry": 113.6,
@@ -500,7 +533,8 @@
       "attack_angle": -0.6,
       "club_path": 2.4,
       "face_to_path": -1.3,
-      "shot": 34
+      "shot": 34,
+      "warmup": false
      },
      {
       "carry": 108.2,
@@ -513,7 +547,8 @@
       "attack_angle": -2.2,
       "club_path": -3.8,
       "face_to_path": 1.9,
-      "shot": 35
+      "shot": 35,
+      "warmup": false
      },
      {
       "carry": 123.5,
@@ -526,7 +561,8 @@
       "attack_angle": -1.6,
       "club_path": -1.0,
       "face_to_path": 1.0,
-      "shot": 36
+      "shot": 36,
+      "warmup": false
      },
      {
       "carry": 133.9,
@@ -539,7 +575,8 @@
       "attack_angle": -1.6,
       "club_path": 6.0,
       "face_to_path": -8.4,
-      "shot": 37
+      "shot": 37,
+      "warmup": false
      },
      {
       "carry": 118.9,
@@ -552,7 +589,8 @@
       "attack_angle": -1.2,
       "club_path": 4.4,
       "face_to_path": -3.0,
-      "shot": 38
+      "shot": 38,
+      "warmup": false
      },
      {
       "carry": 109.2,
@@ -565,7 +603,8 @@
       "attack_angle": 0.6,
       "club_path": 4.8,
       "face_to_path": -6.2,
-      "shot": 39
+      "shot": 39,
+      "warmup": false
      },
      {
       "carry": 110.9,
@@ -578,7 +617,8 @@
       "attack_angle": -0.4,
       "club_path": 1.2,
       "face_to_path": 6.7,
-      "shot": 40
+      "shot": 40,
+      "warmup": false
      },
      {
       "carry": 108.9,
@@ -591,7 +631,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 41
+      "shot": 41,
+      "warmup": false
      },
      {
       "carry": 99.1,
@@ -604,7 +645,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 42
+      "shot": 42,
+      "warmup": false
      },
      {
       "carry": 120.3,
@@ -617,7 +659,8 @@
       "attack_angle": -3.0,
       "club_path": 0.8,
       "face_to_path": 2.3,
-      "shot": 43
+      "shot": 43,
+      "warmup": false
      },
      {
       "carry": 124.5,
@@ -630,7 +673,8 @@
       "attack_angle": -1.0,
       "club_path": 0.4,
       "face_to_path": -0.4,
-      "shot": 44
+      "shot": 44,
+      "warmup": false
      },
      {
       "carry": 118.6,
@@ -643,7 +687,8 @@
       "attack_angle": -0.8,
       "club_path": 0.4,
       "face_to_path": 0.5,
-      "shot": 45
+      "shot": 45,
+      "warmup": false
      },
      {
       "carry": 118.3,
@@ -656,7 +701,8 @@
       "attack_angle": -3.0,
       "club_path": -0.4,
       "face_to_path": -0.0,
-      "shot": 46
+      "shot": 46,
+      "warmup": false
      },
      {
       "carry": 113.4,
@@ -669,7 +715,8 @@
       "attack_angle": -1.6,
       "club_path": -1.0,
       "face_to_path": 2.6,
-      "shot": 47
+      "shot": 47,
+      "warmup": false
      },
      {
       "carry": 88.3,
@@ -682,7 +729,8 @@
       "attack_angle": 4.2,
       "club_path": 5.2,
       "face_to_path": null,
-      "shot": 48
+      "shot": 48,
+      "warmup": false
      },
      {
       "carry": 118.9,
@@ -695,7 +743,8 @@
       "attack_angle": 0.0,
       "club_path": 1.4,
       "face_to_path": -2.5,
-      "shot": 49
+      "shot": 49,
+      "warmup": false
      },
      {
       "carry": 126.0,
@@ -708,7 +757,8 @@
       "attack_angle": -1.6,
       "club_path": 3.6,
       "face_to_path": -1.9,
-      "shot": 50
+      "shot": 50,
+      "warmup": false
      }
     ],
     "average": {
@@ -737,7 +787,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20241218",
@@ -811,7 +863,8 @@
       "attack_angle": -1.4,
       "club_path": -8.0,
       "face_to_path": 8.7,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 115.2,
@@ -824,7 +877,8 @@
       "attack_angle": 1.4,
       "club_path": -8.4,
       "face_to_path": 5.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 105.4,
@@ -837,7 +891,8 @@
       "attack_angle": -2.2,
       "club_path": -9.4,
       "face_to_path": 11.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 122.2,
@@ -850,7 +905,8 @@
       "attack_angle": -1.6,
       "club_path": -11.6,
       "face_to_path": 4.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 111.9,
@@ -863,7 +919,8 @@
       "attack_angle": -3.0,
       "club_path": -9.4,
       "face_to_path": 9.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 115.9,
@@ -876,7 +933,8 @@
       "attack_angle": -0.6,
       "club_path": -10.6,
       "face_to_path": 0.6,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 111.2,
@@ -889,7 +947,8 @@
       "attack_angle": -1.2,
       "club_path": -10.4,
       "face_to_path": 6.4,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 128.5,
@@ -902,7 +961,8 @@
       "attack_angle": -2.4,
       "club_path": -12.0,
       "face_to_path": 4.6,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 119.0,
@@ -915,7 +975,8 @@
       "attack_angle": -3.7,
       "club_path": -6.9,
       "face_to_path": 1.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 111.4,
@@ -928,7 +989,8 @@
       "attack_angle": -1.6,
       "club_path": -9.2,
       "face_to_path": 5.8,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 132.1,
@@ -941,7 +1003,8 @@
       "attack_angle": -3.2,
       "club_path": -10.8,
       "face_to_path": 0.6,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 102.9,
@@ -954,7 +1017,8 @@
       "attack_angle": -3.4,
       "club_path": -8.2,
       "face_to_path": 6.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "carry": 109.4,
@@ -967,7 +1031,8 @@
       "attack_angle": -1.6,
       "club_path": -9.2,
       "face_to_path": 3.2,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "carry": 124.3,
@@ -980,7 +1045,8 @@
       "attack_angle": -1.8,
       "club_path": -9.2,
       "face_to_path": 3.6,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "carry": 111.2,
@@ -993,7 +1059,8 @@
       "attack_angle": -2.2,
       "club_path": -10.0,
       "face_to_path": 6.2,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "carry": 112.0,
@@ -1006,7 +1073,8 @@
       "attack_angle": -3.6,
       "club_path": -10.4,
       "face_to_path": 9.4,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "carry": 104.6,
@@ -1019,7 +1087,8 @@
       "attack_angle": -2.8,
       "club_path": -8.4,
       "face_to_path": 10.1,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "carry": 114.1,
@@ -1032,7 +1101,8 @@
       "attack_angle": -3.8,
       "club_path": -10.2,
       "face_to_path": 2.4,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "carry": 101.2,
@@ -1045,7 +1115,8 @@
       "attack_angle": -4.0,
       "club_path": -12.2,
       "face_to_path": 10.4,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "carry": 116.1,
@@ -1058,7 +1129,8 @@
       "attack_angle": -2.8,
       "club_path": -12.0,
       "face_to_path": 8.4,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "carry": 114.6,
@@ -1071,7 +1143,8 @@
       "attack_angle": -3.0,
       "club_path": -9.6,
       "face_to_path": 10.4,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "carry": 118.0,
@@ -1084,7 +1157,8 @@
       "attack_angle": -2.8,
       "club_path": -9.8,
       "face_to_path": 9.4,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "carry": 140.2,
@@ -1097,7 +1171,8 @@
       "attack_angle": -2.0,
       "club_path": -8.4,
       "face_to_path": -3.5,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "carry": 124.7,
@@ -1110,7 +1185,8 @@
       "attack_angle": -2.8,
       "club_path": -6.4,
       "face_to_path": 2.4,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "carry": 132.4,
@@ -1123,7 +1199,8 @@
       "attack_angle": -0.6,
       "club_path": -4.6,
       "face_to_path": -4.5,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "carry": 125.4,
@@ -1136,7 +1213,8 @@
       "attack_angle": -3.3,
       "club_path": -3.3,
       "face_to_path": 2.3,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "carry": 123.5,
@@ -1149,7 +1227,8 @@
       "attack_angle": -2.0,
       "club_path": -7.8,
       "face_to_path": 6.9,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      },
      {
       "carry": 138.3,
@@ -1162,7 +1241,8 @@
       "attack_angle": -1.2,
       "club_path": -6.4,
       "face_to_path": 0.9,
-      "shot": 28
+      "shot": 28,
+      "warmup": false
      },
      {
       "carry": 125.2,
@@ -1175,7 +1255,8 @@
       "attack_angle": -3.3,
       "club_path": -4.5,
       "face_to_path": 2.2,
-      "shot": 29
+      "shot": 29,
+      "warmup": false
      }
     ],
     "average": {
@@ -1204,7 +1285,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250130",
@@ -1272,7 +1355,8 @@
       "total": 182.5,
       "attack_angle": -1.9,
       "dynamic_loft": 17.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "smash": 1.36,
@@ -1284,7 +1368,8 @@
       "total": 163.8,
       "attack_angle": -2.4,
       "dynamic_loft": 22.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "smash": 1.16,
@@ -1296,7 +1381,8 @@
       "total": 156.8,
       "attack_angle": 2.4,
       "dynamic_loft": 17.2,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "smash": 1.43,
@@ -1308,7 +1394,8 @@
       "total": 192.5,
       "attack_angle": -1.2,
       "dynamic_loft": 17.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "smash": 1.44,
@@ -1320,7 +1407,8 @@
       "total": 177.7,
       "attack_angle": -2.4,
       "dynamic_loft": 20.6,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "smash": 1.41,
@@ -1332,7 +1420,8 @@
       "total": 190.6,
       "attack_angle": 0.4,
       "dynamic_loft": 17.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "smash": 1.39,
@@ -1344,7 +1433,8 @@
       "total": 182.5,
       "attack_angle": -1.6,
       "dynamic_loft": 18.0,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "smash": 1.35,
@@ -1356,7 +1446,8 @@
       "total": 175.3,
       "attack_angle": 0.2,
       "dynamic_loft": 19.7,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "smash": 1.43,
@@ -1368,7 +1459,8 @@
       "total": 175.8,
       "attack_angle": -0.6,
       "dynamic_loft": 22.8,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "smash": 1.36,
@@ -1380,7 +1472,8 @@
       "total": 177.4,
       "attack_angle": -1.6,
       "dynamic_loft": 18.4,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "smash": 1.27,
@@ -1392,7 +1485,8 @@
       "total": 168.4,
       "attack_angle": -1.2,
       "dynamic_loft": 19.2,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "smash": 1.34,
@@ -1404,7 +1498,8 @@
       "total": 171.7,
       "attack_angle": 0.0,
       "dynamic_loft": 20.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "smash": 1.32,
@@ -1416,7 +1511,8 @@
       "total": 178.0,
       "attack_angle": 0.4,
       "dynamic_loft": 19.1,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "smash": 1.34,
@@ -1428,7 +1524,8 @@
       "total": 179.8,
       "attack_angle": 0.0,
       "dynamic_loft": 16.5,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "smash": 1.17,
@@ -1440,7 +1537,8 @@
       "total": 162.4,
       "attack_angle": 0.8,
       "dynamic_loft": 17.8,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "smash": 1.4,
@@ -1452,7 +1550,8 @@
       "total": 176.8,
       "attack_angle": 0.0,
       "dynamic_loft": 22.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "smash": 1.24,
@@ -1464,7 +1563,8 @@
       "total": 172.8,
       "attack_angle": -0.6,
       "dynamic_loft": 16.7,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "smash": 1.32,
@@ -1476,7 +1576,8 @@
       "total": 178.3,
       "attack_angle": 0.0,
       "dynamic_loft": 19.2,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      }
     ],
     "average": {
@@ -1503,7 +1604,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "5Iron: first 4 shots"
  },
  {
   "id": "20250226",
@@ -1577,7 +1680,8 @@
       "attack_angle": -0.6,
       "club_path": 6.4,
       "face_to_path": 2.4,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 211.2,
@@ -1590,7 +1694,8 @@
       "attack_angle": 0.0,
       "club_path": 7.4,
       "face_to_path": -2.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 221.9,
@@ -1603,7 +1708,8 @@
       "attack_angle": 0.4,
       "club_path": 7.0,
       "face_to_path": -4.0,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 208.2,
@@ -1616,7 +1722,8 @@
       "attack_angle": 1.0,
       "club_path": 7.6,
       "face_to_path": -4.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 219.9,
@@ -1629,7 +1736,8 @@
       "attack_angle": -0.6,
       "club_path": 9.4,
       "face_to_path": -0.2,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 229.5,
@@ -1642,7 +1750,8 @@
       "attack_angle": 1.6,
       "club_path": 8.8,
       "face_to_path": -0.1,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 220.7,
@@ -1655,7 +1764,8 @@
       "attack_angle": 1.2,
       "club_path": 6.2,
       "face_to_path": 0.3,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      }
     ],
     "average": {
@@ -1749,7 +1859,8 @@
       "attack_angle": -4.0,
       "club_path": -4.2,
       "face_to_path": 10.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 137.4,
@@ -1762,7 +1873,8 @@
       "attack_angle": -1.6,
       "club_path": -2.4,
       "face_to_path": -1.6,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 155.3,
@@ -1775,7 +1887,8 @@
       "attack_angle": -3.0,
       "club_path": -3.4,
       "face_to_path": 5.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 144.4,
@@ -1788,7 +1901,8 @@
       "attack_angle": -2.6,
       "club_path": -5.2,
       "face_to_path": 7.5,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 160.3,
@@ -1801,7 +1915,8 @@
       "attack_angle": -3.0,
       "club_path": -4.8,
       "face_to_path": 2.8,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 129.1,
@@ -1814,7 +1929,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 149.5,
@@ -1827,7 +1943,8 @@
       "attack_angle": -1.2,
       "club_path": -2.4,
       "face_to_path": 1.8,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 155.0,
@@ -1840,7 +1957,8 @@
       "attack_angle": -2.0,
       "club_path": -5.8,
       "face_to_path": 3.1,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 138.5,
@@ -1853,7 +1971,8 @@
       "attack_angle": -1.2,
       "club_path": -2.0,
       "face_to_path": -0.3,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 146.4,
@@ -1866,7 +1985,8 @@
       "attack_angle": -2.4,
       "club_path": -3.4,
       "face_to_path": 6.6,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 147.5,
@@ -1879,7 +1999,8 @@
       "attack_angle": -2.4,
       "club_path": -5.8,
       "face_to_path": 3.2,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 158.7,
@@ -1892,7 +2013,8 @@
       "attack_angle": -2.2,
       "club_path": -0.4,
       "face_to_path": 4.8,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "carry": 147.2,
@@ -1905,7 +2027,8 @@
       "attack_angle": -2.0,
       "club_path": -3.6,
       "face_to_path": 0.3,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "carry": 167.5,
@@ -1918,7 +2041,8 @@
       "attack_angle": -2.4,
       "club_path": -1.4,
       "face_to_path": -2.0,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "carry": 171.2,
@@ -1931,7 +2055,8 @@
       "attack_angle": -2.0,
       "club_path": 1.0,
       "face_to_path": -2.6,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "carry": 165.2,
@@ -1944,7 +2069,8 @@
       "attack_angle": -2.0,
       "club_path": 1.0,
       "face_to_path": 3.3,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "carry": 158.6,
@@ -1957,7 +2083,8 @@
       "attack_angle": -1.2,
       "club_path": -0.6,
       "face_to_path": -1.3,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "carry": 165.8,
@@ -1970,7 +2097,8 @@
       "attack_angle": -2.4,
       "club_path": 0.0,
       "face_to_path": 1.2,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "carry": 138.9,
@@ -1983,7 +2111,8 @@
       "attack_angle": -2.4,
       "club_path": -2.2,
       "face_to_path": 8.8,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "carry": 167.2,
@@ -1996,7 +2125,8 @@
       "attack_angle": -1.6,
       "club_path": -3.0,
       "face_to_path": 0.5,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "carry": 152.8,
@@ -2009,7 +2139,8 @@
       "attack_angle": -2.8,
       "club_path": -3.2,
       "face_to_path": 3.3,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "carry": 140.8,
@@ -2022,7 +2153,8 @@
       "attack_angle": -0.6,
       "club_path": -1.8,
       "face_to_path": 3.0,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "carry": 174.8,
@@ -2035,7 +2167,8 @@
       "attack_angle": -1.6,
       "club_path": -3.2,
       "face_to_path": -1.7,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "carry": 156.9,
@@ -2048,7 +2181,8 @@
       "attack_angle": -1.4,
       "club_path": -1.4,
       "face_to_path": 3.0,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "carry": 143.2,
@@ -2061,7 +2195,8 @@
       "attack_angle": 0.2,
       "club_path": 0.4,
       "face_to_path": -2.6,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "carry": 147.9,
@@ -2074,7 +2209,8 @@
       "attack_angle": -1.8,
       "club_path": -1.0,
       "face_to_path": 4.1,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "carry": 147.4,
@@ -2087,7 +2223,8 @@
       "attack_angle": -2.6,
       "club_path": -4.0,
       "face_to_path": 4.0,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      },
      {
       "carry": 149.3,
@@ -2100,7 +2237,8 @@
       "attack_angle": -1.4,
       "club_path": -4.4,
       "face_to_path": -0.5,
-      "shot": 28
+      "shot": 28,
+      "warmup": false
      },
      {
       "carry": 158.8,
@@ -2113,7 +2251,8 @@
       "attack_angle": -3.8,
       "club_path": 0.0,
       "face_to_path": 2.5,
-      "shot": 29
+      "shot": 29,
+      "warmup": false
      },
      {
       "carry": 154.7,
@@ -2126,7 +2265,8 @@
       "attack_angle": -0.6,
       "club_path": -2.8,
       "face_to_path": 3.0,
-      "shot": 30
+      "shot": 30,
+      "warmup": false
      },
      {
       "carry": 167.3,
@@ -2139,7 +2279,8 @@
       "attack_angle": -1.6,
       "club_path": -5.4,
       "face_to_path": 1.3,
-      "shot": 31
+      "shot": 31,
+      "warmup": false
      },
      {
       "carry": 171.8,
@@ -2152,7 +2293,8 @@
       "attack_angle": -1.4,
       "club_path": -1.4,
       "face_to_path": 0.6,
-      "shot": 32
+      "shot": 32,
+      "warmup": false
      }
     ],
     "average": {
@@ -2246,7 +2388,8 @@
       "attack_angle": -1.7,
       "club_path": 3.9,
       "face_to_path": -7.0,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 121.0,
@@ -2259,7 +2402,8 @@
       "attack_angle": -1.0,
       "club_path": 2.4,
       "face_to_path": 1.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 132.0,
@@ -2272,7 +2416,8 @@
       "attack_angle": -2.2,
       "club_path": 4.8,
       "face_to_path": 0.8,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 129.9,
@@ -2285,7 +2430,8 @@
       "attack_angle": -2.2,
       "club_path": 1.2,
       "face_to_path": 1.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 127.5,
@@ -2298,7 +2444,8 @@
       "attack_angle": -2.4,
       "club_path": -1.8,
       "face_to_path": 0.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 119.1,
@@ -2311,7 +2458,8 @@
       "attack_angle": -0.6,
       "club_path": 0.8,
       "face_to_path": -2.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 121.8,
@@ -2324,7 +2472,8 @@
       "attack_angle": -4.2,
       "club_path": -0.6,
       "face_to_path": 4.6,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 128.4,
@@ -2337,7 +2486,8 @@
       "attack_angle": -3.6,
       "club_path": -2.8,
       "face_to_path": 3.6,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 124.6,
@@ -2350,7 +2500,8 @@
       "attack_angle": -4.8,
       "club_path": -2.8,
       "face_to_path": 1.1,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 126.0,
@@ -2363,7 +2514,8 @@
       "attack_angle": -4.2,
       "club_path": -2.2,
       "face_to_path": 5.2,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      }
     ],
     "average": {
@@ -2392,7 +2544,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250305",
@@ -2466,7 +2620,8 @@
       "attack_angle": -1.2,
       "club_path": -3.2,
       "face_to_path": 5.4,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 148.6,
@@ -2479,7 +2634,8 @@
       "attack_angle": -1.6,
       "club_path": 0.2,
       "face_to_path": -5.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 195.7,
@@ -2492,7 +2648,8 @@
       "attack_angle": -2.2,
       "club_path": -1.2,
       "face_to_path": 2.2,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 183.4,
@@ -2505,7 +2662,8 @@
       "attack_angle": -1.2,
       "club_path": -2.2,
       "face_to_path": -4.0,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 178.9,
@@ -2518,7 +2676,8 @@
       "attack_angle": -0.8,
       "club_path": -1.6,
       "face_to_path": 0.3,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 146.2,
@@ -2531,7 +2690,8 @@
       "attack_angle": 2.4,
       "club_path": 6.4,
       "face_to_path": -6.4,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 197.7,
@@ -2544,7 +2704,8 @@
       "attack_angle": -0.2,
       "club_path": 6.4,
       "face_to_path": -6.6,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 213.3,
@@ -2557,7 +2718,8 @@
       "attack_angle": -0.2,
       "club_path": 5.6,
       "face_to_path": 1.9,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      }
     ],
     "average": {
@@ -2651,7 +2813,8 @@
       "attack_angle": -1.8,
       "club_path": -3.0,
       "face_to_path": -0.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 136.5,
@@ -2664,7 +2827,8 @@
       "attack_angle": -2.6,
       "club_path": -3.2,
       "face_to_path": 6.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 131.3,
@@ -2677,7 +2841,8 @@
       "attack_angle": -4.4,
       "club_path": -7.0,
       "face_to_path": 8.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 128.9,
@@ -2690,7 +2855,8 @@
       "attack_angle": 0.0,
       "club_path": -5.0,
       "face_to_path": 2.6,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 160.4,
@@ -2703,7 +2869,8 @@
       "attack_angle": -2.4,
       "club_path": -7.2,
       "face_to_path": 4.5,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 126.8,
@@ -2716,7 +2883,8 @@
       "attack_angle": -2.8,
       "club_path": -4.8,
       "face_to_path": 8.0,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 158.5,
@@ -2729,7 +2897,8 @@
       "attack_angle": -4.0,
       "club_path": -7.2,
       "face_to_path": 5.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 148.8,
@@ -2742,7 +2911,8 @@
       "attack_angle": -4.2,
       "club_path": -6.8,
       "face_to_path": 3.5,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 158.6,
@@ -2755,7 +2925,8 @@
       "attack_angle": -3.4,
       "club_path": -5.8,
       "face_to_path": 2.7,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 154.6,
@@ -2768,7 +2939,8 @@
       "attack_angle": -3.0,
       "club_path": -5.6,
       "face_to_path": 3.9,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      }
     ],
     "average": {
@@ -2862,7 +3034,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 121.1,
@@ -2875,7 +3048,8 @@
       "attack_angle": -1.0,
       "club_path": -1.6,
       "face_to_path": -6.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 118.6,
@@ -2888,7 +3062,8 @@
       "attack_angle": -2.0,
       "club_path": 1.0,
       "face_to_path": 0.4,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 116.7,
@@ -2901,7 +3076,8 @@
       "attack_angle": -4.0,
       "club_path": -1.8,
       "face_to_path": 1.7,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 120.6,
@@ -2914,7 +3090,8 @@
       "attack_angle": -4.6,
       "club_path": -3.0,
       "face_to_path": 3.3,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 135.1,
@@ -2927,7 +3104,8 @@
       "attack_angle": -3.2,
       "club_path": -2.6,
       "face_to_path": -1.4,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 118.8,
@@ -2940,7 +3118,8 @@
       "attack_angle": -4.2,
       "club_path": -2.4,
       "face_to_path": -1.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 128.3,
@@ -2953,7 +3132,8 @@
       "attack_angle": -3.2,
       "club_path": -1.2,
       "face_to_path": 4.0,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 126.9,
@@ -2966,7 +3146,8 @@
       "attack_angle": -3.0,
       "club_path": -4.2,
       "face_to_path": -3.9,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 122.0,
@@ -2979,7 +3160,8 @@
       "attack_angle": -3.2,
       "club_path": -1.8,
       "face_to_path": 4.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 122.2,
@@ -2992,7 +3174,8 @@
       "attack_angle": -3.6,
       "club_path": -4.8,
       "face_to_path": 2.8,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 132.8,
@@ -3005,7 +3188,8 @@
       "attack_angle": -2.4,
       "club_path": -0.8,
       "face_to_path": -1.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      }
     ],
     "average": {
@@ -3034,7 +3218,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250416",
@@ -3108,7 +3294,8 @@
       "spin_rate": 3471.0,
       "smash": 1.44,
       "launch_angle": 13.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 171.1,
@@ -3121,7 +3308,8 @@
       "spin_rate": 4592.0,
       "smash": 1.35,
       "launch_angle": 15.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 181.6,
@@ -3134,7 +3322,8 @@
       "spin_rate": 2918.0,
       "smash": 1.38,
       "launch_angle": 14.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 190.6,
@@ -3147,7 +3336,8 @@
       "spin_rate": 3122.0,
       "smash": 1.43,
       "launch_angle": 14.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 186.4,
@@ -3160,7 +3350,8 @@
       "spin_rate": 3310.0,
       "smash": 1.48,
       "launch_angle": 11.0,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 186.5,
@@ -3173,7 +3364,8 @@
       "spin_rate": 2180.0,
       "smash": 1.38,
       "launch_angle": 15.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 210.9,
@@ -3186,7 +3378,8 @@
       "spin_rate": 2042.0,
       "smash": 1.49,
       "launch_angle": 10.7,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 207.7,
@@ -3199,7 +3392,8 @@
       "spin_rate": 2350.0,
       "smash": 1.46,
       "launch_angle": 13.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      }
     ],
     "average": {
@@ -3293,7 +3487,8 @@
       "spin_rate": 5046.0,
       "smash": 1.36,
       "launch_angle": 13.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 130.4,
@@ -3306,7 +3501,8 @@
       "spin_rate": 3920.0,
       "smash": 1.34,
       "launch_angle": 11.7,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 156.9,
@@ -3319,7 +3515,8 @@
       "spin_rate": 4190.0,
       "smash": 1.47,
       "launch_angle": 12.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 157.6,
@@ -3332,7 +3529,8 @@
       "spin_rate": 3621.0,
       "smash": 1.48,
       "launch_angle": 12.3,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 153.9,
@@ -3345,7 +3543,8 @@
       "spin_rate": 4428.0,
       "smash": 1.43,
       "launch_angle": 13.2,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 152.0,
@@ -3358,7 +3557,8 @@
       "spin_rate": 4634.0,
       "smash": 1.42,
       "launch_angle": 13.5,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 145.5,
@@ -3371,7 +3571,8 @@
       "spin_rate": 4608.0,
       "smash": 1.4,
       "launch_angle": 11.7,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 147.4,
@@ -3384,7 +3585,8 @@
       "spin_rate": 3513.0,
       "smash": 1.39,
       "launch_angle": 12.7,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 151.3,
@@ -3397,7 +3599,8 @@
       "spin_rate": 4261.0,
       "smash": 1.41,
       "launch_angle": 12.1,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 150.9,
@@ -3410,7 +3613,8 @@
       "spin_rate": 4602.0,
       "smash": 1.37,
       "launch_angle": 13.6,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      }
     ],
     "average": {
@@ -3504,7 +3708,8 @@
       "spin_rate": 5754.0,
       "smash": 1.33,
       "launch_angle": 18.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 87.2,
@@ -3517,7 +3722,8 @@
       "spin_rate": 5147.0,
       "smash": 1.08,
       "launch_angle": 18.5,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 120.1,
@@ -3530,7 +3736,8 @@
       "spin_rate": 4895.0,
       "smash": 1.28,
       "launch_angle": 18.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 87.5,
@@ -3543,7 +3750,8 @@
       "spin_rate": 1594.0,
       "smash": 1.13,
       "launch_angle": 17.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 113.9,
@@ -3556,7 +3764,8 @@
       "spin_rate": 6502.0,
       "smash": 1.24,
       "launch_angle": 19.2,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 123.2,
@@ -3569,7 +3778,8 @@
       "spin_rate": 4817.0,
       "smash": 1.31,
       "launch_angle": 17.0,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 130.1,
@@ -3582,7 +3792,8 @@
       "spin_rate": 5163.0,
       "smash": 1.36,
       "launch_angle": 16.7,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 136.6,
@@ -3595,7 +3806,8 @@
       "spin_rate": 5525.0,
       "smash": 1.4,
       "launch_angle": 15.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 137.4,
@@ -3608,7 +3820,8 @@
       "spin_rate": 5318.0,
       "smash": 1.41,
       "launch_angle": 16.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      }
     ],
     "average": {
@@ -3637,7 +3850,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250530",
@@ -3705,7 +3920,8 @@
       "attack_angle": -3.3,
       "club_path": 3.5,
       "face_to_path": 3.0,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 182.8,
@@ -3717,7 +3933,8 @@
       "attack_angle": -4.3,
       "club_path": 4.1,
       "face_to_path": 3.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 193.6,
@@ -3729,7 +3946,8 @@
       "attack_angle": -5.0,
       "club_path": -1.8,
       "face_to_path": 5.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 208.5,
@@ -3741,7 +3959,8 @@
       "attack_angle": -3.7,
       "club_path": 3.3,
       "face_to_path": -0.5,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      }
     ],
     "average": {
@@ -3827,7 +4046,8 @@
       "attack_angle": -3.4,
       "club_path": -0.2,
       "face_to_path": 1.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 174.3,
@@ -3839,7 +4059,8 @@
       "attack_angle": -4.6,
       "club_path": -1.6,
       "face_to_path": 1.4,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      }
     ],
     "average": {
@@ -3925,7 +4146,8 @@
       "attack_angle": -5.6,
       "club_path": -3.6,
       "face_to_path": 4.7,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 149.4,
@@ -3937,7 +4159,8 @@
       "attack_angle": -5.6,
       "club_path": -2.6,
       "face_to_path": 2.8,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 162.5,
@@ -3949,7 +4172,8 @@
       "attack_angle": -5.0,
       "club_path": -2.4,
       "face_to_path": -1.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 159.6,
@@ -3961,7 +4185,8 @@
       "attack_angle": -6.6,
       "club_path": -1.4,
       "face_to_path": 2.8,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      }
     ],
     "average": {
@@ -4047,7 +4272,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 91.3,
@@ -4059,7 +4285,8 @@
       "attack_angle": 0.4,
       "club_path": 2.4,
       "face_to_path": -10.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 105.6,
@@ -4071,7 +4298,8 @@
       "attack_angle": -3.4,
       "club_path": 2.4,
       "face_to_path": 0.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 114.6,
@@ -4083,7 +4311,8 @@
       "attack_angle": -5.0,
       "club_path": 1.4,
       "face_to_path": -5.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 109.2,
@@ -4095,7 +4324,8 @@
       "attack_angle": -6.2,
       "club_path": 2.4,
       "face_to_path": -3.9,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 114.4,
@@ -4107,7 +4337,8 @@
       "attack_angle": -3.8,
       "club_path": 0.0,
       "face_to_path": -3.4,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 110.9,
@@ -4119,7 +4350,8 @@
       "attack_angle": -7.0,
       "club_path": -1.0,
       "face_to_path": -2.7,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 115.8,
@@ -4131,7 +4363,8 @@
       "attack_angle": -6.0,
       "club_path": -0.2,
       "face_to_path": -4.0,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 119.9,
@@ -4143,7 +4376,8 @@
       "attack_angle": -7.0,
       "club_path": 0.2,
       "face_to_path": -0.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      }
     ],
     "average": {
@@ -4170,7 +4404,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "PitchingWedge: first 4 shots"
  },
  {
   "id": "20250612",
@@ -4238,7 +4474,8 @@
       "attack_angle": -2.0,
       "club_path": 0.6,
       "face_to_path": -2.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 174.7,
@@ -4250,7 +4487,8 @@
       "attack_angle": -3.2,
       "club_path": 0.2,
       "face_to_path": 3.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 159.6,
@@ -4262,7 +4500,8 @@
       "attack_angle": -2.6,
       "club_path": -1.6,
       "face_to_path": -0.4,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 173.7,
@@ -4274,7 +4513,8 @@
       "attack_angle": -3.0,
       "club_path": -1.4,
       "face_to_path": -2.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 178.3,
@@ -4286,7 +4526,8 @@
       "attack_angle": -2.8,
       "club_path": 2.8,
       "face_to_path": -1.6,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      }
     ],
     "average": {
@@ -4372,7 +4613,8 @@
       "attack_angle": -3.9,
       "club_path": 1.9,
       "face_to_path": -6.3,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 121.4,
@@ -4384,7 +4626,8 @@
       "attack_angle": -3.6,
       "club_path": 0.0,
       "face_to_path": 0.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 146.7,
@@ -4396,7 +4639,8 @@
       "attack_angle": -4.2,
       "club_path": 0.0,
       "face_to_path": -0.5,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 133.3,
@@ -4408,7 +4652,8 @@
       "attack_angle": -2.4,
       "club_path": 0.4,
       "face_to_path": -2.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 139.4,
@@ -4420,7 +4665,8 @@
       "attack_angle": -2.8,
       "club_path": 0.4,
       "face_to_path": -2.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 141.9,
@@ -4432,7 +4678,8 @@
       "attack_angle": -1.4,
       "club_path": -0.4,
       "face_to_path": -4.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 145.5,
@@ -4444,7 +4691,8 @@
       "attack_angle": -4.0,
       "club_path": 3.0,
       "face_to_path": -3.3,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 155.8,
@@ -4456,7 +4704,8 @@
       "attack_angle": -3.8,
       "club_path": 1.2,
       "face_to_path": -3.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 151.1,
@@ -4468,7 +4717,8 @@
       "attack_angle": -2.8,
       "club_path": 0.6,
       "face_to_path": -1.3,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 148.6,
@@ -4480,7 +4730,8 @@
       "attack_angle": -0.8,
       "club_path": 4.0,
       "face_to_path": -4.5,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 28.1,
@@ -4492,7 +4743,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 147.1,
@@ -4504,7 +4756,8 @@
       "attack_angle": -3.6,
       "club_path": -2.8,
       "face_to_path": -1.7,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "carry": 143.8,
@@ -4516,7 +4769,8 @@
       "attack_angle": -2.8,
       "club_path": 3.6,
       "face_to_path": -3.3,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "carry": 138.9,
@@ -4528,7 +4782,8 @@
       "attack_angle": -2.6,
       "club_path": -1.2,
       "face_to_path": -2.7,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "carry": 135.6,
@@ -4540,7 +4795,8 @@
       "attack_angle": -3.6,
       "club_path": 0.0,
       "face_to_path": 1.4,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "carry": 150.2,
@@ -4552,7 +4808,8 @@
       "attack_angle": -3.2,
       "club_path": 1.2,
       "face_to_path": -3.2,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      }
     ],
     "average": {
@@ -4579,7 +4836,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250724",
@@ -4647,7 +4906,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 193.0,
@@ -4659,7 +4919,8 @@
       "attack_angle": 1.9,
       "club_path": 4.1,
       "face_to_path": -0.7,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 166.6,
@@ -4671,7 +4932,8 @@
       "attack_angle": 0.9,
       "club_path": 0.9,
       "face_to_path": -1.5,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 197.9,
@@ -4683,7 +4945,8 @@
       "attack_angle": 1.7,
       "club_path": 6.3,
       "face_to_path": -3.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 153.5,
@@ -4695,7 +4958,8 @@
       "attack_angle": 1.1,
       "club_path": 5.9,
       "face_to_path": -9.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 155.0,
@@ -4707,7 +4971,8 @@
       "attack_angle": 3.5,
       "club_path": 6.7,
       "face_to_path": -9.1,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 214.2,
@@ -4719,7 +4984,8 @@
       "attack_angle": 1.1,
       "club_path": 8.5,
       "face_to_path": -1.3,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 166.8,
@@ -4731,7 +4997,8 @@
       "attack_angle": 2.3,
       "club_path": 5.3,
       "face_to_path": -8.6,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 209.7,
@@ -4743,7 +5010,8 @@
       "attack_angle": 4.7,
       "club_path": 8.7,
       "face_to_path": -5.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      }
     ],
     "average": {
@@ -4829,7 +5097,8 @@
       "attack_angle": -4.8,
       "club_path": -7.0,
       "face_to_path": 3.2,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 108.7,
@@ -4841,7 +5110,8 @@
       "attack_angle": 0.0,
       "club_path": -6.2,
       "face_to_path": 7.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 143.0,
@@ -4853,7 +5123,8 @@
       "attack_angle": -2.2,
       "club_path": -8.8,
       "face_to_path": 9.0,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 172.5,
@@ -4865,7 +5136,8 @@
       "attack_angle": -1.2,
       "club_path": -8.6,
       "face_to_path": -1.1,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 149.4,
@@ -4877,7 +5149,8 @@
       "attack_angle": -1.4,
       "club_path": -2.6,
       "face_to_path": 2.3,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 160.1,
@@ -4889,7 +5162,8 @@
       "attack_angle": 0.2,
       "club_path": -4.2,
       "face_to_path": 5.9,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 161.3,
@@ -4901,7 +5175,8 @@
       "attack_angle": 0.2,
       "club_path": -4.6,
       "face_to_path": -1.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 150.6,
@@ -4913,7 +5188,8 @@
       "attack_angle": 0.0,
       "club_path": -2.4,
       "face_to_path": 0.1,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 158.4,
@@ -4925,7 +5201,8 @@
       "attack_angle": -3.2,
       "club_path": -4.2,
       "face_to_path": 7.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 176.0,
@@ -4937,7 +5214,8 @@
       "attack_angle": -1.0,
       "club_path": -3.8,
       "face_to_path": -2.9,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 160.1,
@@ -4949,7 +5227,8 @@
       "attack_angle": -0.6,
       "club_path": -3.4,
       "face_to_path": 2.7,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 163.8,
@@ -4961,7 +5240,8 @@
       "attack_angle": -1.2,
       "club_path": -6.8,
       "face_to_path": 4.1,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      }
     ],
     "average": {
@@ -5047,7 +5327,8 @@
       "attack_angle": -3.0,
       "club_path": -3.8,
       "face_to_path": 2.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 117.8,
@@ -5059,7 +5340,8 @@
       "attack_angle": -3.2,
       "club_path": -1.0,
       "face_to_path": 0.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 128.7,
@@ -5071,7 +5353,8 @@
       "attack_angle": -4.4,
       "club_path": -3.6,
       "face_to_path": 3.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 115.9,
@@ -5083,7 +5366,8 @@
       "attack_angle": -5.4,
       "club_path": -5.6,
       "face_to_path": 5.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 119.3,
@@ -5095,7 +5379,8 @@
       "attack_angle": -2.6,
       "club_path": -3.4,
       "face_to_path": -4.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 117.1,
@@ -5107,7 +5392,8 @@
       "attack_angle": -3.2,
       "club_path": -4.2,
       "face_to_path": 7.5,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 120.0,
@@ -5119,7 +5405,8 @@
       "attack_angle": -3.0,
       "club_path": -5.8,
       "face_to_path": 7.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 126.6,
@@ -5131,7 +5418,8 @@
       "attack_angle": -3.4,
       "club_path": -7.0,
       "face_to_path": 4.1,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 127.6,
@@ -5143,7 +5431,8 @@
       "attack_angle": -3.2,
       "club_path": -2.6,
       "face_to_path": 0.0,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 133.3,
@@ -5155,7 +5444,8 @@
       "attack_angle": 0.0,
       "club_path": -3.8,
       "face_to_path": -1.4,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 148.0,
@@ -5167,7 +5457,8 @@
       "attack_angle": -2.4,
       "club_path": -4.4,
       "face_to_path": 1.7,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 121.4,
@@ -5179,7 +5470,8 @@
       "attack_angle": -1.4,
       "club_path": -0.6,
       "face_to_path": -0.7,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "carry": 134.0,
@@ -5191,7 +5483,8 @@
       "attack_angle": -3.4,
       "club_path": -2.8,
       "face_to_path": 2.5,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "carry": 112.5,
@@ -5203,7 +5496,8 @@
       "attack_angle": -4.3,
       "club_path": -2.3,
       "face_to_path": 6.4,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "carry": 138.7,
@@ -5215,7 +5509,8 @@
       "attack_angle": -2.2,
       "club_path": -3.6,
       "face_to_path": -3.6,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "carry": 131.3,
@@ -5227,7 +5522,8 @@
       "attack_angle": -2.0,
       "club_path": -1.6,
       "face_to_path": 3.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "carry": 142.3,
@@ -5239,7 +5535,8 @@
       "attack_angle": -1.2,
       "club_path": -2.8,
       "face_to_path": -3.5,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "carry": 121.7,
@@ -5251,7 +5548,8 @@
       "attack_angle": -0.6,
       "club_path": -1.2,
       "face_to_path": 2.8,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "carry": 141.6,
@@ -5263,7 +5561,8 @@
       "attack_angle": -2.6,
       "club_path": -3.8,
       "face_to_path": 0.4,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      }
     ],
     "average": {
@@ -5290,7 +5589,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250826",
@@ -5340,7 +5641,8 @@
       "spin_rate": 2040.0,
       "carry": 205.4,
       "side": -8.7,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 94.6,
@@ -5349,7 +5651,8 @@
       "spin_rate": 2150.0,
       "carry": 220.4,
       "side": -11.4,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      }
     ],
     "average": {
@@ -5411,7 +5714,8 @@
       "spin_rate": 4828.0,
       "carry": 135.6,
       "side": -9.4,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 79.2,
@@ -5420,7 +5724,8 @@
       "spin_rate": 5465.0,
       "carry": 155.5,
       "side": -4.6,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 78.5,
@@ -5429,7 +5734,8 @@
       "spin_rate": 5638.0,
       "carry": 152.7,
       "side": -8.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 77.0,
@@ -5438,7 +5744,8 @@
       "spin_rate": 7321.0,
       "carry": 129.5,
       "side": 25.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 78.3,
@@ -5447,7 +5754,8 @@
       "spin_rate": 7841.0,
       "carry": 122.4,
       "side": 24.6,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 79.4,
@@ -5456,7 +5764,8 @@
       "spin_rate": 6373.0,
       "carry": 144.9,
       "side": 19.7,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 79.4,
@@ -5465,7 +5774,8 @@
       "spin_rate": 6035.0,
       "carry": 141.2,
       "side": 15.6,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 78.7,
@@ -5474,7 +5784,8 @@
       "spin_rate": 5886.0,
       "carry": 150.8,
       "side": -2.8,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 79.2,
@@ -5483,7 +5794,8 @@
       "spin_rate": 7182.0,
       "carry": 132.0,
       "side": 15.3,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      }
     ],
     "average": {
@@ -5545,7 +5857,8 @@
       "spin_rate": 4000.0,
       "carry": 155.4,
       "side": -10.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 83.0,
@@ -5554,7 +5867,8 @@
       "spin_rate": 4637.0,
       "carry": 175.0,
       "side": 20.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 83.4,
@@ -5563,7 +5877,8 @@
       "spin_rate": 2969.0,
       "carry": 128.9,
       "side": 36.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 84.3,
@@ -5572,7 +5887,8 @@
       "spin_rate": 3132.0,
       "carry": 163.9,
       "side": -32.3,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 83.0,
@@ -5581,7 +5897,8 @@
       "spin_rate": 4491.0,
       "carry": 176.4,
       "side": 20.8,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 83.4,
@@ -5590,7 +5907,8 @@
       "spin_rate": 4153.0,
       "carry": 164.8,
       "side": 2.1,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 84.3,
@@ -5599,7 +5917,8 @@
       "spin_rate": 4228.0,
       "carry": 155.3,
       "side": 20.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 82.8,
@@ -5608,7 +5927,8 @@
       "spin_rate": 3392.0,
       "carry": 183.2,
       "side": -27.7,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -5617,7 +5937,8 @@
       "spin_rate": 3636.0,
       "carry": 170.5,
       "side": 12.2,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -5626,7 +5947,8 @@
       "spin_rate": 3920.0,
       "carry": 149.9,
       "side": -18.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 85.2,
@@ -5635,7 +5957,8 @@
       "spin_rate": 4160.0,
       "carry": 179.4,
       "side": -35.5,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 83.9,
@@ -5644,7 +5967,8 @@
       "spin_rate": 5020.0,
       "carry": 172.7,
       "side": 13.5,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 83.4,
@@ -5653,7 +5977,8 @@
       "spin_rate": 5096.0,
       "carry": 159.9,
       "side": 8.5,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 82.3,
@@ -5662,7 +5987,8 @@
       "spin_rate": 3569.0,
       "carry": 165.0,
       "side": -8.1,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 83.9,
@@ -5671,7 +5997,8 @@
       "spin_rate": 2692.0,
       "carry": 145.3,
       "side": -18.8,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 82.8,
@@ -5680,7 +6007,8 @@
       "spin_rate": 1855.0,
       "carry": 109.8,
       "side": -11.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      }
     ],
     "average": {
@@ -5742,7 +6070,8 @@
       "spin_rate": 9121.0,
       "carry": 59.5,
       "side": 7.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 64.0,
@@ -5751,7 +6080,8 @@
       "spin_rate": 8034.0,
       "carry": 53.3,
       "side": 4.5,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 60.6,
@@ -5760,7 +6090,8 @@
       "spin_rate": 8917.0,
       "carry": 65.3,
       "side": 8.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 54.4,
@@ -5769,7 +6100,8 @@
       "spin_rate": 3771.0,
       "carry": 45.9,
       "side": 17.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 61.1,
@@ -5778,7 +6110,8 @@
       "spin_rate": 6974.0,
       "carry": 49.8,
       "side": 6.8,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      }
     ],
     "average": {
@@ -5799,7 +6132,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "58Wedge: first 4 shots"
  },
  {
   "id": "20250826b",
@@ -5849,7 +6184,8 @@
       "spin_rate": 2030.0,
       "carry": 133.6,
       "side": -7.2,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 94.8,
@@ -5858,7 +6194,8 @@
       "spin_rate": 2320.0,
       "carry": 209.5,
       "side": -19.6,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 95.5,
@@ -5867,7 +6204,8 @@
       "spin_rate": 2079.0,
       "carry": 201.7,
       "side": -17.6,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 94.2,
@@ -5876,7 +6214,8 @@
       "spin_rate": 1680.0,
       "carry": 164.6,
       "side": -24.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 94.8,
@@ -5885,7 +6224,8 @@
       "spin_rate": 1850.0,
       "carry": 201.4,
       "side": -11.3,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      }
     ],
     "average": {
@@ -5947,7 +6287,8 @@
       "spin_rate": 5083.0,
       "carry": 117.5,
       "side": 17.0,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 74.5,
@@ -5956,7 +6297,8 @@
       "spin_rate": 6070.0,
       "carry": 127.2,
       "side": 9.7,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 77.2,
@@ -5965,7 +6307,8 @@
       "spin_rate": 5417.0,
       "carry": 150.6,
       "side": -6.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 76.7,
@@ -5974,7 +6317,8 @@
       "spin_rate": 5302.0,
       "carry": 143.0,
       "side": 11.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 74.9,
@@ -5983,7 +6327,8 @@
       "spin_rate": 6446.0,
       "carry": 126.3,
       "side": 11.4,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -5992,7 +6337,8 @@
       "spin_rate": 5483.0,
       "carry": 138.3,
       "side": 7.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -6001,7 +6347,8 @@
       "spin_rate": 5233.0,
       "carry": 135.1,
       "side": -11.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 75.8,
@@ -6010,7 +6357,8 @@
       "spin_rate": 4594.0,
       "carry": 140.0,
       "side": -6.3,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 74.9,
@@ -6019,7 +6367,8 @@
       "spin_rate": 4572.0,
       "carry": 139.5,
       "side": -6.9,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 74.5,
@@ -6028,7 +6377,8 @@
       "spin_rate": 4910.0,
       "carry": 127.5,
       "side": -3.2,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 77.6,
@@ -6037,7 +6387,8 @@
       "spin_rate": 4381.0,
       "carry": 148.0,
       "side": -43.1,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 75.2,
@@ -6046,7 +6397,8 @@
       "spin_rate": 6056.0,
       "carry": 134.3,
       "side": 11.8,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 73.1,
@@ -6055,7 +6407,8 @@
       "spin_rate": 6638.0,
       "carry": 126.9,
       "side": 22.0,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -6064,7 +6417,8 @@
       "spin_rate": 4602.0,
       "carry": 152.0,
       "side": -22.4,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 77.2,
@@ -6073,7 +6427,8 @@
       "spin_rate": 4542.0,
       "carry": 138.9,
       "side": -8.3,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 73.6,
@@ -6082,7 +6437,8 @@
       "spin_rate": 4098.0,
       "carry": 122.6,
       "side": -7.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -6091,7 +6447,8 @@
       "spin_rate": 3798.0,
       "carry": 128.2,
       "side": -15.3,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -6100,7 +6457,8 @@
       "spin_rate": 4882.0,
       "carry": 152.4,
       "side": -18.6,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "club_speed": 76.5,
@@ -6109,7 +6467,8 @@
       "spin_rate": 4785.0,
       "carry": 154.4,
       "side": -29.9,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "club_speed": 74.9,
@@ -6118,7 +6477,8 @@
       "spin_rate": 5131.0,
       "carry": 137.7,
       "side": 3.4,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "club_speed": 76.1,
@@ -6127,7 +6487,8 @@
       "spin_rate": 4668.0,
       "carry": 154.9,
       "side": -9.1,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "club_speed": 72.7,
@@ -6136,7 +6497,8 @@
       "spin_rate": 6187.0,
       "carry": 125.7,
       "side": 8.6,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -6145,7 +6507,8 @@
       "spin_rate": 5705.0,
       "carry": 133.4,
       "side": -2.3,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -6154,7 +6517,8 @@
       "spin_rate": 6631.0,
       "carry": 124.1,
       "side": 24.6,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "club_speed": 72.9,
@@ -6163,7 +6527,8 @@
       "spin_rate": 4859.0,
       "carry": 130.6,
       "side": 4.3,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "club_speed": 75.2,
@@ -6172,7 +6537,8 @@
       "spin_rate": 5724.0,
       "carry": 145.7,
       "side": -5.8,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "club_speed": 75.2,
@@ -6181,7 +6547,8 @@
       "spin_rate": 4993.0,
       "carry": 129.7,
       "side": -14.3,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -6190,7 +6557,8 @@
       "spin_rate": 7368.0,
       "carry": 121.6,
       "side": 24.8,
-      "shot": 28
+      "shot": 28,
+      "warmup": false
      },
      {
       "club_speed": 74.7,
@@ -6199,7 +6567,8 @@
       "spin_rate": 5549.0,
       "carry": 140.2,
       "side": 8.3,
-      "shot": 29
+      "shot": 29,
+      "warmup": false
      },
      {
       "club_speed": 74.7,
@@ -6208,7 +6577,8 @@
       "spin_rate": 4723.0,
       "carry": 138.6,
       "side": -26.6,
-      "shot": 30
+      "shot": 30,
+      "warmup": false
      },
      {
       "club_speed": 75.6,
@@ -6217,7 +6587,8 @@
       "spin_rate": 5210.0,
       "carry": 136.0,
       "side": -25.5,
-      "shot": 31
+      "shot": 31,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -6226,7 +6597,8 @@
       "spin_rate": 5671.0,
       "carry": 141.3,
       "side": 8.1,
-      "shot": 32
+      "shot": 32,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -6235,7 +6607,8 @@
       "spin_rate": 6159.0,
       "carry": 128.7,
       "side": 17.1,
-      "shot": 33
+      "shot": 33,
+      "warmup": false
      },
      {
       "club_speed": 76.7,
@@ -6244,7 +6617,8 @@
       "spin_rate": 5091.0,
       "carry": 145.5,
       "side": -1.1,
-      "shot": 34
+      "shot": 34,
+      "warmup": false
      },
      {
       "club_speed": 75.8,
@@ -6253,7 +6627,8 @@
       "spin_rate": 5168.0,
       "carry": 146.5,
       "side": 4.6,
-      "shot": 35
+      "shot": 35,
+      "warmup": false
      },
      {
       "club_speed": 71.8,
@@ -6262,7 +6637,8 @@
       "spin_rate": 5311.0,
       "carry": 113.8,
       "side": 14.4,
-      "shot": 36
+      "shot": 36,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -6271,7 +6647,8 @@
       "spin_rate": 5231.0,
       "carry": 145.1,
       "side": -6.0,
-      "shot": 37
+      "shot": 37,
+      "warmup": false
      }
     ],
     "average": {
@@ -6333,7 +6710,8 @@
       "spin_rate": 4289.0,
       "carry": 158.9,
       "side": 8.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -6342,7 +6720,8 @@
       "spin_rate": 3307.0,
       "carry": 144.1,
       "side": -44.5,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 79.0,
@@ -6351,7 +6730,8 @@
       "spin_rate": 3649.0,
       "carry": 165.9,
       "side": 14.2,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 81.2,
@@ -6360,7 +6740,8 @@
       "spin_rate": 3271.0,
       "carry": 183.0,
       "side": -8.6,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 81.2,
@@ -6369,7 +6750,8 @@
       "spin_rate": 3271.0,
       "carry": 167.9,
       "side": -35.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 79.4,
@@ -6378,7 +6760,8 @@
       "spin_rate": 3940.0,
       "carry": 164.8,
       "side": -14.9,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 81.0,
@@ -6387,7 +6770,8 @@
       "spin_rate": 4563.0,
       "carry": 162.7,
       "side": 25.8,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -6396,7 +6780,8 @@
       "spin_rate": 3462.0,
       "carry": 177.4,
       "side": -2.1,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 83.7,
@@ -6405,7 +6790,8 @@
       "spin_rate": 4089.0,
       "carry": 182.0,
       "side": 17.2,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 79.4,
@@ -6414,7 +6800,8 @@
       "spin_rate": 3902.0,
       "carry": 166.4,
       "side": 16.6,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 77.0,
@@ -6423,7 +6810,8 @@
       "spin_rate": 3036.0,
       "carry": 164.6,
       "side": 6.3,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 81.2,
@@ -6432,7 +6820,8 @@
       "spin_rate": 4569.0,
       "carry": 167.9,
       "side": 21.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 81.6,
@@ -6441,7 +6830,8 @@
       "spin_rate": 3888.0,
       "carry": 179.5,
       "side": 11.2,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 81.4,
@@ -6450,7 +6840,8 @@
       "spin_rate": 3821.0,
       "carry": 177.7,
       "side": -16.6,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -6459,7 +6850,8 @@
       "spin_rate": 3364.0,
       "carry": 166.8,
       "side": -36.2,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -6468,7 +6860,8 @@
       "spin_rate": 3127.0,
       "carry": 170.1,
       "side": -3.9,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 82.8,
@@ -6477,7 +6870,8 @@
       "spin_rate": 4731.0,
       "carry": 163.7,
       "side": 15.0,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "club_speed": 80.8,
@@ -6486,7 +6880,8 @@
       "spin_rate": 4139.0,
       "carry": 172.8,
       "side": 13.2,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "club_speed": 84.1,
@@ -6495,7 +6890,8 @@
       "spin_rate": 3496.0,
       "carry": 185.4,
       "side": -28.1,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "club_speed": 82.3,
@@ -6504,7 +6900,8 @@
       "spin_rate": 2147.0,
       "carry": 99.7,
       "side": -13.6,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "club_speed": 84.3,
@@ -6513,7 +6910,8 @@
       "spin_rate": 3876.0,
       "carry": 175.2,
       "side": 18.5,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -6522,7 +6920,8 @@
       "spin_rate": 6228.0,
       "carry": 106.7,
       "side": 46.6,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "club_speed": 80.8,
@@ -6531,7 +6930,8 @@
       "spin_rate": 3630.0,
       "carry": 154.6,
       "side": -28.0,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -6540,7 +6940,8 @@
       "spin_rate": 4915.0,
       "carry": 169.5,
       "side": 21.4,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "club_speed": null,
@@ -6549,7 +6950,8 @@
       "spin_rate": 2860.0,
       "carry": 55.6,
       "side": 9.5,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "club_speed": 84.8,
@@ -6558,7 +6960,8 @@
       "spin_rate": 3306.0,
       "carry": 175.5,
       "side": -9.1,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "club_speed": 82.5,
@@ -6567,7 +6970,8 @@
       "spin_rate": 3337.0,
       "carry": 166.8,
       "side": 8.7,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -6576,7 +6980,8 @@
       "spin_rate": 3820.0,
       "carry": 167.3,
       "side": -35.1,
-      "shot": 28
+      "shot": 28,
+      "warmup": false
      },
      {
       "club_speed": 81.4,
@@ -6585,7 +6990,8 @@
       "spin_rate": 2852.0,
       "carry": 143.8,
       "side": -37.1,
-      "shot": 29
+      "shot": 29,
+      "warmup": false
      },
      {
       "club_speed": 81.9,
@@ -6594,7 +7000,8 @@
       "spin_rate": 3810.0,
       "carry": 160.5,
       "side": -42.0,
-      "shot": 30
+      "shot": 30,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -6603,7 +7010,8 @@
       "spin_rate": 3119.0,
       "carry": 149.4,
       "side": -21.1,
-      "shot": 31
+      "shot": 31,
+      "warmup": false
      },
      {
       "club_speed": 76.3,
@@ -6612,7 +7020,8 @@
       "spin_rate": 4705.0,
       "carry": 146.3,
       "side": 49.3,
-      "shot": 32
+      "shot": 32,
+      "warmup": false
      },
      {
       "club_speed": 80.3,
@@ -6621,7 +7030,8 @@
       "spin_rate": 3285.0,
       "carry": 171.7,
       "side": 6.0,
-      "shot": 33
+      "shot": 33,
+      "warmup": false
      },
      {
       "club_speed": 79.9,
@@ -6630,7 +7040,8 @@
       "spin_rate": 3439.0,
       "carry": 172.6,
       "side": -19.6,
-      "shot": 34
+      "shot": 34,
+      "warmup": false
      },
      {
       "club_speed": 81.4,
@@ -6639,7 +7050,8 @@
       "spin_rate": 3976.0,
       "carry": 177.2,
       "side": 21.0,
-      "shot": 35
+      "shot": 35,
+      "warmup": false
      },
      {
       "club_speed": 82.3,
@@ -6648,7 +7060,8 @@
       "spin_rate": 3534.0,
       "carry": 178.0,
       "side": -23.7,
-      "shot": 36
+      "shot": 36,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -6657,7 +7070,8 @@
       "spin_rate": 6404.0,
       "carry": 142.2,
       "side": 49.9,
-      "shot": 37
+      "shot": 37,
+      "warmup": false
      },
      {
       "club_speed": 80.5,
@@ -6666,7 +7080,8 @@
       "spin_rate": 3301.0,
       "carry": 167.7,
       "side": -22.7,
-      "shot": 38
+      "shot": 38,
+      "warmup": false
      },
      {
       "club_speed": 83.0,
@@ -6675,7 +7090,8 @@
       "spin_rate": 4609.0,
       "carry": 171.7,
       "side": 17.5,
-      "shot": 39
+      "shot": 39,
+      "warmup": false
      },
      {
       "club_speed": 82.5,
@@ -6684,7 +7100,8 @@
       "spin_rate": 3073.0,
       "carry": 174.8,
       "side": -6.1,
-      "shot": 40
+      "shot": 40,
+      "warmup": false
      },
      {
       "club_speed": 81.0,
@@ -6693,7 +7110,8 @@
       "spin_rate": 2749.0,
       "carry": 139.7,
       "side": -11.3,
-      "shot": 41
+      "shot": 41,
+      "warmup": false
      },
      {
       "club_speed": 79.9,
@@ -6702,7 +7120,8 @@
       "spin_rate": 3588.0,
       "carry": 168.2,
       "side": 16.7,
-      "shot": 42
+      "shot": 42,
+      "warmup": false
      },
      {
       "club_speed": 77.6,
@@ -6711,7 +7130,8 @@
       "spin_rate": 4922.0,
       "carry": 150.6,
       "side": 18.3,
-      "shot": 43
+      "shot": 43,
+      "warmup": false
      },
      {
       "club_speed": 82.8,
@@ -6720,7 +7140,8 @@
       "spin_rate": 4036.0,
       "carry": 183.6,
       "side": 5.7,
-      "shot": 44
+      "shot": 44,
+      "warmup": false
      },
      {
       "club_speed": 83.9,
@@ -6729,7 +7150,8 @@
       "spin_rate": 3834.0,
       "carry": 179.8,
       "side": -1.1,
-      "shot": 45
+      "shot": 45,
+      "warmup": false
      },
      {
       "club_speed": 81.0,
@@ -6738,7 +7160,8 @@
       "spin_rate": 3477.0,
       "carry": 161.5,
       "side": 11.6,
-      "shot": 46
+      "shot": 46,
+      "warmup": false
      },
      {
       "club_speed": 80.5,
@@ -6747,7 +7170,8 @@
       "spin_rate": 4402.0,
       "carry": 151.8,
       "side": 23.1,
-      "shot": 47
+      "shot": 47,
+      "warmup": false
      },
      {
       "club_speed": 81.0,
@@ -6756,7 +7180,8 @@
       "spin_rate": 3940.0,
       "carry": 165.0,
       "side": -30.0,
-      "shot": 48
+      "shot": 48,
+      "warmup": false
      }
     ],
     "average": {
@@ -6818,7 +7243,8 @@
       "spin_rate": 5856.0,
       "carry": 55.4,
       "side": -1.4,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 61.1,
@@ -6827,7 +7253,8 @@
       "spin_rate": 8430.0,
       "carry": 51.0,
       "side": 3.5,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      }
     ],
     "average": {
@@ -6848,7 +7275,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "58Wedge: first 4 shots"
  },
  {
   "id": "20250915",
@@ -6898,7 +7327,8 @@
       "spin_rate": 5728.0,
       "carry": 129.2,
       "side": -12.6,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 69.3,
@@ -6907,7 +7337,8 @@
       "spin_rate": 5683.0,
       "carry": 122.8,
       "side": 1.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 68.0,
@@ -6916,7 +7347,8 @@
       "spin_rate": 6091.0,
       "carry": 114.7,
       "side": -4.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 70.2,
@@ -6925,7 +7357,8 @@
       "spin_rate": 5857.0,
       "carry": 129.3,
       "side": -1.7,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 69.3,
@@ -6934,7 +7367,8 @@
       "spin_rate": 3846.0,
       "carry": 92.6,
       "side": -1.3,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 68.7,
@@ -6943,7 +7377,8 @@
       "spin_rate": 5771.0,
       "carry": 121.7,
       "side": -5.0,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      }
     ],
     "average": {
@@ -7005,7 +7440,8 @@
       "spin_rate": 3893.0,
       "carry": 150.8,
       "side": -14.8,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -7014,7 +7450,8 @@
       "spin_rate": 4162.0,
       "carry": 141.3,
       "side": 7.8,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -7023,7 +7460,8 @@
       "spin_rate": 3976.0,
       "carry": 142.6,
       "side": -4.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 78.1,
@@ -7032,7 +7470,8 @@
       "spin_rate": 5807.0,
       "carry": 140.0,
       "side": -7.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 85.5,
@@ -7041,7 +7480,8 @@
       "spin_rate": 5791.0,
       "carry": 159.2,
       "side": -11.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 85.5,
@@ -7050,7 +7490,8 @@
       "spin_rate": 6733.0,
       "carry": 121.2,
       "side": 39.0,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 82.5,
@@ -7059,7 +7500,8 @@
       "spin_rate": 5937.0,
       "carry": 154.3,
       "side": -3.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 75.8,
@@ -7068,7 +7510,8 @@
       "spin_rate": 3931.0,
       "carry": 137.4,
       "side": 8.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -7077,7 +7520,8 @@
       "spin_rate": 3292.0,
       "carry": 148.5,
       "side": -13.6,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 81.2,
@@ -7086,7 +7530,8 @@
       "spin_rate": 10653.0,
       "carry": 87.1,
       "side": 48.2,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 75.8,
@@ -7095,7 +7540,8 @@
       "spin_rate": 3522.0,
       "carry": 152.7,
       "side": -9.0,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 86.3,
@@ -7104,7 +7550,8 @@
       "spin_rate": 6368.0,
       "carry": 159.1,
       "side": -0.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 85.2,
@@ -7113,7 +7560,8 @@
       "spin_rate": 5789.0,
       "carry": 160.5,
       "side": -4.6,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -7122,7 +7570,8 @@
       "spin_rate": 3942.0,
       "carry": 144.8,
       "side": -3.6,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 81.0,
@@ -7131,7 +7580,8 @@
       "spin_rate": 2476.0,
       "carry": 173.0,
       "side": -8.2,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -7140,7 +7590,8 @@
       "spin_rate": 4627.0,
       "carry": 168.1,
       "side": -3.5,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      }
     ],
     "average": {
@@ -7161,7 +7612,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20250921",
@@ -7211,7 +7664,8 @@
       "spin_rate": 5427.0,
       "carry": 75.3,
       "side": -6.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 66.7,
@@ -7220,7 +7674,8 @@
       "spin_rate": 8123.0,
       "carry": 77.8,
       "side": -0.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 65.8,
@@ -7229,7 +7684,8 @@
       "spin_rate": 8776.0,
       "carry": 76.0,
       "side": -4.9,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 67.8,
@@ -7238,7 +7694,8 @@
       "spin_rate": 9228.0,
       "carry": 81.1,
       "side": -6.6,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 65.8,
@@ -7247,7 +7704,8 @@
       "spin_rate": 9162.0,
       "carry": 72.4,
       "side": 4.0,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 68.2,
@@ -7256,7 +7714,8 @@
       "spin_rate": 7956.0,
       "carry": 93.8,
       "side": 1.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      }
     ],
     "average": {
@@ -7318,7 +7777,8 @@
       "spin_rate": 6386.0,
       "carry": 144.1,
       "side": -21.2,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 69.3,
@@ -7327,7 +7787,8 @@
       "spin_rate": 6416.0,
       "carry": 115.5,
       "side": 3.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -7336,7 +7797,8 @@
       "spin_rate": 6855.0,
       "carry": 129.4,
       "side": 16.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -7345,7 +7807,8 @@
       "spin_rate": 6752.0,
       "carry": 126.3,
       "side": 7.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -7354,7 +7817,8 @@
       "spin_rate": 6223.0,
       "carry": 129.0,
       "side": 3.2,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 74.7,
@@ -7363,7 +7827,8 @@
       "spin_rate": 6236.0,
       "carry": 123.7,
       "side": 4.0,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -7372,7 +7837,8 @@
       "spin_rate": 5893.0,
       "carry": 136.2,
       "side": -1.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 74.7,
@@ -7381,7 +7847,8 @@
       "spin_rate": 5505.0,
       "carry": 103.5,
       "side": 13.3,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -7390,7 +7857,8 @@
       "spin_rate": 6048.0,
       "carry": 140.9,
       "side": 3.0,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 75.2,
@@ -7399,7 +7867,8 @@
       "spin_rate": 3162.0,
       "carry": 91.6,
       "side": -17.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 71.1,
@@ -7408,7 +7877,8 @@
       "spin_rate": 3634.0,
       "carry": 96.2,
       "side": -24.6,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 71.8,
@@ -7417,7 +7887,8 @@
       "spin_rate": 5674.0,
       "carry": 134.1,
       "side": -10.0,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 75.8,
@@ -7426,7 +7897,8 @@
       "spin_rate": 5692.0,
       "carry": 146.4,
       "side": -20.5,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 76.3,
@@ -7435,7 +7907,8 @@
       "spin_rate": 5101.0,
       "carry": 138.9,
       "side": -36.3,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 77.8,
@@ -7444,7 +7917,8 @@
       "spin_rate": 5941.0,
       "carry": 143.3,
       "side": -16.7,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 73.1,
@@ -7453,7 +7927,8 @@
       "spin_rate": 5957.0,
       "carry": 137.1,
       "side": -2.6,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      }
     ],
     "average": {
@@ -7515,7 +7990,8 @@
       "spin_rate": 3115.0,
       "carry": 144.8,
       "side": -0.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 89.5,
@@ -7524,7 +8000,8 @@
       "spin_rate": 3578.0,
       "carry": 200.0,
       "side": -26.5,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 89.5,
@@ -7533,7 +8010,8 @@
       "spin_rate": 5692.0,
       "carry": 156.4,
       "side": 23.6,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 89.0,
@@ -7542,7 +8020,8 @@
       "spin_rate": 1671.0,
       "carry": 15.1,
       "side": -0.7,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 88.1,
@@ -7551,7 +8030,8 @@
       "spin_rate": 3842.0,
       "carry": 191.6,
       "side": -4.8,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 88.1,
@@ -7560,7 +8040,8 @@
       "spin_rate": 3763.0,
       "carry": 178.5,
       "side": -22.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 91.3,
@@ -7569,7 +8050,8 @@
       "spin_rate": 2954.0,
       "carry": 203.6,
       "side": 40.0,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 88.6,
@@ -7578,7 +8060,8 @@
       "spin_rate": 4806.0,
       "carry": 78.1,
       "side": -19.9,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 90.4,
@@ -7587,7 +8070,8 @@
       "spin_rate": 5575.0,
       "carry": 128.7,
       "side": -35.8,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 91.3,
@@ -7596,7 +8080,8 @@
       "spin_rate": 4802.0,
       "carry": 183.0,
       "side": 10.3,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 90.1,
@@ -7605,7 +8090,8 @@
       "spin_rate": 4005.0,
       "carry": 196.0,
       "side": -5.5,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      }
     ],
     "average": {
@@ -7667,7 +8153,8 @@
       "spin_rate": 4232.0,
       "carry": 163.1,
       "side": 7.2,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 77.8,
@@ -7676,7 +8163,8 @@
       "spin_rate": 4557.0,
       "carry": 160.7,
       "side": 8.4,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 76.7,
@@ -7685,7 +8173,8 @@
       "spin_rate": 4061.0,
       "carry": 153.0,
       "side": -16.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      }
     ],
     "average": {
@@ -7706,7 +8195,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "LobWedge: first 4 shots"
  },
  {
   "id": "20250922",
@@ -7756,7 +8247,8 @@
       "spin_rate": 6456.0,
       "carry": 137.4,
       "side": -4.4,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 68.7,
@@ -7765,7 +8257,8 @@
       "spin_rate": 8042.0,
       "carry": 105.2,
       "side": 21.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 73.4,
@@ -7774,7 +8267,8 @@
       "spin_rate": 6932.0,
       "carry": 100.7,
       "side": 10.4,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 74.3,
@@ -7783,7 +8277,8 @@
       "spin_rate": 6509.0,
       "carry": 121.7,
       "side": 3.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 72.5,
@@ -7792,7 +8287,8 @@
       "spin_rate": 5710.0,
       "carry": 128.6,
       "side": -2.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 65.5,
@@ -7801,7 +8297,8 @@
       "spin_rate": 7724.0,
       "carry": 101.6,
       "side": 15.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -7810,7 +8307,8 @@
       "spin_rate": 2751.0,
       "carry": 120.5,
       "side": -12.4,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -7819,7 +8317,8 @@
       "spin_rate": 5693.0,
       "carry": 140.1,
       "side": -21.8,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 69.6,
@@ -7828,7 +8327,8 @@
       "spin_rate": 6104.0,
       "carry": 117.6,
       "side": -5.9,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 76.7,
@@ -7837,7 +8337,8 @@
       "spin_rate": 6688.0,
       "carry": 139.8,
       "side": 0.2,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 77.4,
@@ -7846,7 +8347,8 @@
       "spin_rate": 7077.0,
       "carry": 133.1,
       "side": 7.4,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -7855,7 +8357,8 @@
       "spin_rate": 6443.0,
       "carry": 126.5,
       "side": 10.0,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 76.3,
@@ -7864,7 +8367,8 @@
       "spin_rate": 7535.0,
       "carry": 128.8,
       "side": 16.3,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 73.6,
@@ -7873,7 +8377,8 @@
       "spin_rate": 8583.0,
       "carry": 110.8,
       "side": 26.0,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      }
     ],
     "average": {
@@ -7935,7 +8440,8 @@
       "spin_rate": 3644.0,
       "carry": 140.4,
       "side": -12.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 80.8,
@@ -7944,7 +8450,8 @@
       "spin_rate": 6825.0,
       "carry": 140.3,
       "side": 30.1,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 84.8,
@@ -7953,7 +8460,8 @@
       "spin_rate": 4387.0,
       "carry": 186.6,
       "side": -30.6,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -7962,7 +8470,8 @@
       "spin_rate": 6249.0,
       "carry": 151.0,
       "side": 22.9,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 85.7,
@@ -7971,7 +8480,8 @@
       "spin_rate": 5297.0,
       "carry": 172.1,
       "side": 12.8,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -7980,7 +8490,8 @@
       "spin_rate": 5743.0,
       "carry": 157.9,
       "side": 11.4,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -7989,7 +8500,8 @@
       "spin_rate": 5239.0,
       "carry": 162.9,
       "side": 15.9,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      }
     ],
     "average": {
@@ -8010,7 +8522,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251018",
@@ -8060,7 +8574,8 @@
       "spin_rate": 3743.0,
       "carry": 182.6,
       "side": 7.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 77.6,
@@ -8069,7 +8584,8 @@
       "spin_rate": 7445.0,
       "carry": 128.1,
       "side": 22.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 74.3,
@@ -8078,7 +8594,8 @@
       "spin_rate": 4245.0,
       "carry": 112.9,
       "side": -15.5,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": null,
@@ -8087,7 +8604,8 @@
       "spin_rate": 1660.0,
       "carry": 3.2,
       "side": -1.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": null,
@@ -8096,7 +8614,8 @@
       "spin_rate": 2870.0,
       "carry": 55.2,
       "side": -4.8,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 76.1,
@@ -8105,7 +8624,8 @@
       "spin_rate": 4378.0,
       "carry": 131.6,
       "side": -14.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 71.8,
@@ -8114,7 +8634,8 @@
       "spin_rate": 4470.0,
       "carry": 21.7,
       "side": 3.0,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 72.5,
@@ -8123,7 +8644,8 @@
       "spin_rate": 6499.0,
       "carry": 123.9,
       "side": 19.6,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 67.3,
@@ -8132,7 +8654,8 @@
       "spin_rate": 7234.0,
       "carry": 82.7,
       "side": 6.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -8141,7 +8664,8 @@
       "spin_rate": 7031.0,
       "carry": 113.0,
       "side": 23.3,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 68.0,
@@ -8150,7 +8674,8 @@
       "spin_rate": 5743.0,
       "carry": 97.9,
       "side": 9.6,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 59.7,
@@ -8159,7 +8684,8 @@
       "spin_rate": 6546.0,
       "carry": 74.1,
       "side": 9.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 80.3,
@@ -8168,7 +8694,8 @@
       "spin_rate": 3814.0,
       "carry": 156.7,
       "side": 12.2,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 69.8,
@@ -8177,7 +8704,8 @@
       "spin_rate": 6214.0,
       "carry": 109.1,
       "side": 7.1,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 82.8,
@@ -8186,7 +8714,8 @@
       "spin_rate": 2777.0,
       "carry": 185.7,
       "side": -27.7,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -8195,7 +8724,8 @@
       "spin_rate": 8745.0,
       "carry": 72.2,
       "side": 23.3,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 75.6,
@@ -8204,7 +8734,8 @@
       "spin_rate": 8820.0,
       "carry": 113.5,
       "side": 24.2,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "club_speed": 72.5,
@@ -8213,7 +8744,8 @@
       "spin_rate": 5710.0,
       "carry": 104.8,
       "side": 26.4,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "club_speed": 68.2,
@@ -8222,7 +8754,8 @@
       "spin_rate": 5280.0,
       "carry": 104.2,
       "side": 16.7,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "club_speed": 72.3,
@@ -8231,7 +8764,8 @@
       "spin_rate": 4030.0,
       "carry": 71.4,
       "side": -24.8,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "club_speed": 70.9,
@@ -8240,7 +8774,8 @@
       "spin_rate": 5270.0,
       "carry": 126.4,
       "side": 9.0,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "club_speed": 54.8,
@@ -8249,7 +8784,8 @@
       "spin_rate": 6254.0,
       "carry": 31.5,
       "side": 6.7,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "club_speed": 68.0,
@@ -8258,7 +8794,8 @@
       "spin_rate": 4870.0,
       "carry": 108.8,
       "side": 10.4,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "club_speed": 70.5,
@@ -8267,7 +8804,8 @@
       "spin_rate": 6103.0,
       "carry": 115.3,
       "side": 10.3,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -8276,7 +8814,8 @@
       "spin_rate": 2261.0,
       "carry": 106.7,
       "side": -14.7,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "club_speed": null,
@@ -8285,7 +8824,8 @@
       "spin_rate": 4151.0,
       "carry": 16.7,
       "side": -0.2,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "club_speed": 74.5,
@@ -8294,7 +8834,8 @@
       "spin_rate": 6042.0,
       "carry": 134.0,
       "side": 4.2,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      }
     ],
     "average": {
@@ -8315,7 +8856,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251031",
@@ -8365,7 +8908,8 @@
       "spin_rate": 4249.0,
       "carry": 106.4,
       "side": 3.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 74.7,
@@ -8374,7 +8918,8 @@
       "spin_rate": 5746.0,
       "carry": 126.4,
       "side": 8.6,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 73.8,
@@ -8383,7 +8928,8 @@
       "spin_rate": 4457.0,
       "carry": 78.4,
       "side": 28.2,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 74.7,
@@ -8392,7 +8938,8 @@
       "spin_rate": 7974.0,
       "carry": 114.4,
       "side": 30.6,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 73.1,
@@ -8401,7 +8948,8 @@
       "spin_rate": 6190.0,
       "carry": 121.8,
       "side": -0.4,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -8410,7 +8958,8 @@
       "spin_rate": 6360.0,
       "carry": 107.9,
       "side": 32.9,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -8419,7 +8968,8 @@
       "spin_rate": 5794.0,
       "carry": 132.7,
       "side": -2.4,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 72.3,
@@ -8428,7 +8978,8 @@
       "spin_rate": 6401.0,
       "carry": 124.2,
       "side": 4.0,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -8437,7 +8988,8 @@
       "spin_rate": 6658.0,
       "carry": 126.2,
       "side": 6.3,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -8446,7 +8998,8 @@
       "spin_rate": 4740.0,
       "carry": 124.9,
       "side": -22.5,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 72.3,
@@ -8455,7 +9008,8 @@
       "spin_rate": 8067.0,
       "carry": 106.0,
       "side": 23.8,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      }
     ],
     "average": {
@@ -8517,7 +9071,8 @@
       "spin_rate": 2470.0,
       "carry": 147.5,
       "side": -5.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 85.7,
@@ -8526,7 +9081,8 @@
       "spin_rate": 3762.0,
       "carry": 182.4,
       "side": 27.7,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      }
     ],
     "average": {
@@ -8588,7 +9144,8 @@
       "spin_rate": 5476.0,
       "carry": 139.1,
       "side": 22.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 78.3,
@@ -8597,7 +9154,8 @@
       "spin_rate": 4241.0,
       "carry": 158.0,
       "side": -0.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 78.3,
@@ -8606,7 +9164,8 @@
       "spin_rate": 5340.0,
       "carry": 142.5,
       "side": 13.6,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 79.6,
@@ -8615,7 +9174,8 @@
       "spin_rate": 4453.0,
       "carry": 161.6,
       "side": 20.8,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      }
     ],
     "average": {
@@ -8636,7 +9196,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251110",
@@ -8686,7 +9248,8 @@
       "spin_rate": 7286.0,
       "carry": 103.7,
       "side": 6.6,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 70.9,
@@ -8695,7 +9258,8 @@
       "spin_rate": 6397.0,
       "carry": 121.4,
       "side": 1.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 82.1,
@@ -8704,7 +9268,8 @@
       "spin_rate": 6594.0,
       "carry": 157.0,
       "side": -9.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 69.8,
@@ -8713,7 +9278,8 @@
       "spin_rate": 7365.0,
       "carry": 113.4,
       "side": 15.5,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 83.7,
@@ -8722,7 +9288,8 @@
       "spin_rate": 6506.0,
       "carry": 162.6,
       "side": 5.9,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 82.5,
@@ -8731,7 +9298,8 @@
       "spin_rate": 6359.0,
       "carry": 158.0,
       "side": 4.4,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 79.4,
@@ -8740,7 +9308,8 @@
       "spin_rate": 7194.0,
       "carry": 146.2,
       "side": 20.7,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 79.0,
@@ -8749,7 +9318,8 @@
       "spin_rate": 4064.0,
       "carry": 147.5,
       "side": 43.1,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 81.9,
@@ -8758,7 +9328,8 @@
       "spin_rate": 6349.0,
       "carry": 147.2,
       "side": 7.3,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 70.5,
@@ -8767,7 +9338,8 @@
       "spin_rate": 5428.0,
       "carry": 115.8,
       "side": 3.5,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 86.1,
@@ -8776,7 +9348,8 @@
       "spin_rate": 6123.0,
       "carry": 168.5,
       "side": 12.7,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 82.1,
@@ -8785,7 +9358,8 @@
       "spin_rate": 6478.0,
       "carry": 158.7,
       "side": 7.5,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 69.1,
@@ -8794,7 +9368,8 @@
       "spin_rate": 4866.0,
       "carry": 76.7,
       "side": 7.5,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -8803,7 +9378,8 @@
       "spin_rate": 5293.0,
       "carry": 129.8,
       "side": -16.1,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 65.1,
@@ -8812,7 +9388,8 @@
       "spin_rate": 5592.0,
       "carry": 112.1,
       "side": 1.7,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 78.3,
@@ -8821,7 +9398,8 @@
       "spin_rate": 3495.0,
       "carry": 164.7,
       "side": 21.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 80.1,
@@ -8830,7 +9408,8 @@
       "spin_rate": 6032.0,
       "carry": 148.3,
       "side": 0.3,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "club_speed": 82.8,
@@ -8839,7 +9418,8 @@
       "spin_rate": 7085.0,
       "carry": 150.5,
       "side": 4.2,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "club_speed": 68.0,
@@ -8848,7 +9428,8 @@
       "spin_rate": 6241.0,
       "carry": 105.1,
       "side": 4.0,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      }
     ],
     "average": {
@@ -8869,7 +9450,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251114",
@@ -8919,7 +9502,8 @@
       "spin_rate": 2880.0,
       "carry": 191.2,
       "side": -11.2,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      }
     ],
     "average": {
@@ -8981,7 +9565,8 @@
       "spin_rate": 5695.0,
       "carry": 132.4,
       "side": -2.5,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 66.7,
@@ -8990,7 +9575,8 @@
       "spin_rate": 6304.0,
       "carry": 104.7,
       "side": 8.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 68.7,
@@ -8999,7 +9585,8 @@
       "spin_rate": 5991.0,
       "carry": 108.0,
       "side": 4.9,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 69.3,
@@ -9008,7 +9595,8 @@
       "spin_rate": 6491.0,
       "carry": 114.6,
       "side": 5.0,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 70.9,
@@ -9017,7 +9605,8 @@
       "spin_rate": 5553.0,
       "carry": 129.8,
       "side": 1.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 68.5,
@@ -9026,7 +9615,8 @@
       "spin_rate": 7749.0,
       "carry": 103.2,
       "side": 21.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 70.0,
@@ -9035,7 +9625,8 @@
       "spin_rate": 5931.0,
       "carry": 127.1,
       "side": 15.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 70.7,
@@ -9044,7 +9635,8 @@
       "spin_rate": 6649.0,
       "carry": 117.9,
       "side": 3.4,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 70.5,
@@ -9053,7 +9645,8 @@
       "spin_rate": 5608.0,
       "carry": 121.9,
       "side": -2.4,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 69.8,
@@ -9062,7 +9655,8 @@
       "spin_rate": 4525.0,
       "carry": 112.1,
       "side": -11.5,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 70.0,
@@ -9071,7 +9665,8 @@
       "spin_rate": 6339.0,
       "carry": 111.8,
       "side": -0.3,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 66.4,
@@ -9080,7 +9675,8 @@
       "spin_rate": 6238.0,
       "carry": 106.0,
       "side": 3.6,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 70.9,
@@ -9089,7 +9685,8 @@
       "spin_rate": 5338.0,
       "carry": 108.8,
       "side": 5.2,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 70.5,
@@ -9098,7 +9695,8 @@
       "spin_rate": 5681.0,
       "carry": 110.2,
       "side": 6.1,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 70.5,
@@ -9107,7 +9705,8 @@
       "spin_rate": 5913.0,
       "carry": 102.9,
       "side": 7.4,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 70.7,
@@ -9116,7 +9715,8 @@
       "spin_rate": 4756.0,
       "carry": 119.2,
       "side": -21.3,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 72.9,
@@ -9125,7 +9725,8 @@
       "spin_rate": 5499.0,
       "carry": 131.5,
       "side": -15.1,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "club_speed": 71.6,
@@ -9134,7 +9735,8 @@
       "spin_rate": 5815.0,
       "carry": 118.4,
       "side": 2.4,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "club_speed": 69.8,
@@ -9143,7 +9745,8 @@
       "spin_rate": 4545.0,
       "carry": 120.6,
       "side": -13.7,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      }
     ],
     "average": {
@@ -9205,7 +9808,8 @@
       "spin_rate": 3724.0,
       "carry": 143.8,
       "side": -16.2,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 74.5,
@@ -9214,7 +9818,8 @@
       "spin_rate": 5085.0,
       "carry": 138.2,
       "side": 8.1,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 76.3,
@@ -9223,7 +9828,8 @@
       "spin_rate": 5121.0,
       "carry": 149.3,
       "side": -2.2,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 77.4,
@@ -9232,7 +9838,8 @@
       "spin_rate": 4667.0,
       "carry": 142.6,
       "side": -8.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -9241,7 +9848,8 @@
       "spin_rate": 5563.0,
       "carry": 136.7,
       "side": 8.6,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 75.2,
@@ -9250,7 +9858,8 @@
       "spin_rate": 3489.0,
       "carry": 131.9,
       "side": -30.9,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      }
     ],
     "average": {
@@ -9271,7 +9880,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251201",
@@ -9321,7 +9932,8 @@
       "spin_rate": 7836.0,
       "carry": 119.4,
       "side": 8.0,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 76.7,
@@ -9330,7 +9942,8 @@
       "spin_rate": 5682.0,
       "carry": 142.7,
       "side": -19.6,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 81.9,
@@ -9339,7 +9952,8 @@
       "spin_rate": 5886.0,
       "carry": 156.8,
       "side": 8.3,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 75.8,
@@ -9348,7 +9962,8 @@
       "spin_rate": 7653.0,
       "carry": 124.8,
       "side": 4.5,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 85.2,
@@ -9357,7 +9972,8 @@
       "spin_rate": 5907.0,
       "carry": 156.5,
       "side": 2.4,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 76.1,
@@ -9366,7 +9982,8 @@
       "spin_rate": 6141.0,
       "carry": 130.4,
       "side": -8.4,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -9375,7 +9992,8 @@
       "spin_rate": 4997.0,
       "carry": 125.1,
       "side": 6.7,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 85.9,
@@ -9384,7 +10002,8 @@
       "spin_rate": 6426.0,
       "carry": 149.7,
       "side": 12.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 83.0,
@@ -9393,7 +10012,8 @@
       "spin_rate": 5836.0,
       "carry": 159.3,
       "side": 3.6,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 84.1,
@@ -9402,7 +10022,8 @@
       "spin_rate": 5727.0,
       "carry": 165.0,
       "side": -6.3,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 75.2,
@@ -9411,7 +10032,8 @@
       "spin_rate": 7219.0,
       "carry": 127.0,
       "side": 10.5,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -9420,7 +10042,8 @@
       "spin_rate": 8426.0,
       "carry": 108.4,
       "side": 17.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 84.8,
@@ -9429,7 +10052,8 @@
       "spin_rate": 6275.0,
       "carry": 144.1,
       "side": 8.1,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 78.5,
@@ -9438,7 +10062,8 @@
       "spin_rate": 5121.0,
       "carry": 140.1,
       "side": -8.7,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 76.3,
@@ -9447,7 +10072,8 @@
       "spin_rate": 7489.0,
       "carry": 130.5,
       "side": 13.6,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 74.3,
@@ -9456,7 +10082,8 @@
       "spin_rate": 5586.0,
       "carry": 140.9,
       "side": -10.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 77.8,
@@ -9465,7 +10092,8 @@
       "spin_rate": 5995.0,
       "carry": 135.2,
       "side": -2.3,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "club_speed": 84.8,
@@ -9474,7 +10102,8 @@
       "spin_rate": 5915.0,
       "carry": 159.7,
       "side": -1.0,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "club_speed": 85.2,
@@ -9483,7 +10112,8 @@
       "spin_rate": 6628.0,
       "carry": 150.2,
       "side": 13.5,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "club_speed": 86.6,
@@ -9492,7 +10122,8 @@
       "spin_rate": 5909.0,
       "carry": 165.7,
       "side": 0.4,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "club_speed": 85.5,
@@ -9501,7 +10132,8 @@
       "spin_rate": 6138.0,
       "carry": 161.7,
       "side": 3.8,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "club_speed": 74.5,
@@ -9510,7 +10142,8 @@
       "spin_rate": 6775.0,
       "carry": 117.9,
       "side": 13.2,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      }
     ],
     "average": {
@@ -9531,7 +10164,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251203",
@@ -9581,7 +10216,8 @@
       "spin_rate": 1660.0,
       "carry": 177.1,
       "side": 6.8,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      }
     ],
     "average": {
@@ -9643,7 +10279,8 @@
       "spin_rate": 7001.0,
       "carry": 123.6,
       "side": 14.8,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 74.0,
@@ -9652,7 +10289,8 @@
       "spin_rate": 6421.0,
       "carry": 133.0,
       "side": -9.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 75.2,
@@ -9661,7 +10299,8 @@
       "spin_rate": 7371.0,
       "carry": 122.9,
       "side": 3.7,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 74.3,
@@ -9670,7 +10309,8 @@
       "spin_rate": 7414.0,
       "carry": 125.3,
       "side": 2.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 74.0,
@@ -9679,7 +10319,8 @@
       "spin_rate": 6824.0,
       "carry": 128.4,
       "side": 1.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -9688,7 +10329,8 @@
       "spin_rate": 5995.0,
       "carry": 113.1,
       "side": -1.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -9697,7 +10339,8 @@
       "spin_rate": 7913.0,
       "carry": 115.4,
       "side": 13.8,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 72.9,
@@ -9706,7 +10349,8 @@
       "spin_rate": 6248.0,
       "carry": 111.2,
       "side": -1.4,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 71.8,
@@ -9715,7 +10359,8 @@
       "spin_rate": 6852.0,
       "carry": 119.1,
       "side": 3.5,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 75.6,
@@ -9724,7 +10369,8 @@
       "spin_rate": 5202.0,
       "carry": 104.0,
       "side": 30.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -9733,7 +10379,8 @@
       "spin_rate": 6979.0,
       "carry": 119.0,
       "side": 2.5,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 74.5,
@@ -9742,7 +10389,8 @@
       "spin_rate": 7234.0,
       "carry": 124.7,
       "side": 4.6,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 75.4,
@@ -9751,7 +10399,8 @@
       "spin_rate": 5682.0,
       "carry": 125.3,
       "side": -14.3,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -9760,7 +10409,8 @@
       "spin_rate": 5814.0,
       "carry": 115.3,
       "side": -17.9,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      }
     ],
     "average": {
@@ -9822,7 +10472,8 @@
       "spin_rate": 4583.0,
       "carry": 170.8,
       "side": -7.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 78.7,
@@ -9831,7 +10482,8 @@
       "spin_rate": 4262.0,
       "carry": 138.3,
       "side": -25.3,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 77.6,
@@ -9840,7 +10492,8 @@
       "spin_rate": 3393.0,
       "carry": 116.3,
       "side": -18.5,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 78.5,
@@ -9849,7 +10502,8 @@
       "spin_rate": 4781.0,
       "carry": 149.6,
       "side": -14.1,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 77.4,
@@ -9858,7 +10512,8 @@
       "spin_rate": 4321.0,
       "carry": 159.9,
       "side": -26.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 79.6,
@@ -9867,7 +10522,8 @@
       "spin_rate": 4159.0,
       "carry": 171.7,
       "side": -10.8,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      }
     ],
     "average": {
@@ -9888,7 +10544,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251208",
@@ -9938,7 +10596,8 @@
       "spin_rate": 8532.0,
       "carry": 115.2,
       "side": 23.3,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 74.3,
@@ -9947,7 +10606,8 @@
       "spin_rate": 5901.0,
       "carry": 136.2,
       "side": -9.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 73.4,
@@ -9956,7 +10616,8 @@
       "spin_rate": 6983.0,
       "carry": 123.5,
       "side": 2.4,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 74.0,
@@ -9965,7 +10626,8 @@
       "spin_rate": 5542.0,
       "carry": 115.9,
       "side": -9.7,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      }
     ],
     "average": {
@@ -10027,7 +10689,8 @@
       "spin_rate": 3859.0,
       "carry": 164.5,
       "side": -28.8,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 88.4,
@@ -10036,7 +10699,8 @@
       "spin_rate": 2271.0,
       "carry": 197.9,
       "side": -17.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 87.9,
@@ -10045,7 +10709,8 @@
       "spin_rate": 2992.0,
       "carry": 161.0,
       "side": -46.6,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 76.7,
@@ -10054,7 +10719,8 @@
       "spin_rate": 5071.0,
       "carry": 149.9,
       "side": -3.4,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 85.9,
@@ -10063,7 +10729,8 @@
       "spin_rate": 1857.0,
       "carry": 151.2,
       "side": -10.4,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      }
     ],
     "average": {
@@ -10084,7 +10751,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20251216",
@@ -10134,7 +10803,8 @@
       "spin_rate": 6357.0,
       "carry": 116.7,
       "side": 1.7,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 78.1,
@@ -10143,7 +10813,8 @@
       "spin_rate": 2574.0,
       "carry": 146.5,
       "side": -15.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 71.6,
@@ -10152,7 +10823,8 @@
       "spin_rate": 5465.0,
       "carry": 128.5,
       "side": 2.6,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 79.2,
@@ -10161,7 +10833,8 @@
       "spin_rate": 4748.0,
       "carry": 143.8,
       "side": 11.3,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 78.1,
@@ -10170,7 +10843,8 @@
       "spin_rate": 5404.0,
       "carry": 142.7,
       "side": 27.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -10179,7 +10853,8 @@
       "spin_rate": 6532.0,
       "carry": 124.3,
       "side": 4.0,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 85.0,
@@ -10188,7 +10863,8 @@
       "spin_rate": 4092.0,
       "carry": 184.1,
       "side": -7.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 80.1,
@@ -10197,7 +10873,8 @@
       "spin_rate": 6182.0,
       "carry": 142.2,
       "side": 34.4,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 85.7,
@@ -10206,7 +10883,8 @@
       "spin_rate": 5388.0,
       "carry": 175.3,
       "side": 21.1,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      }
     ],
     "average": {
@@ -10227,7 +10905,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20260106",
@@ -10295,7 +10975,8 @@
       "attack_angle": -3.7,
       "club_path": 2.5,
       "face_to_path": -4.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "carry": 128.5,
@@ -10307,7 +10988,8 @@
       "attack_angle": -0.5,
       "club_path": 4.7,
       "face_to_path": -7.4,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "carry": 136.3,
@@ -10319,7 +11001,8 @@
       "attack_angle": -1.7,
       "club_path": 3.7,
       "face_to_path": -9.1,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "carry": 115.1,
@@ -10331,7 +11014,8 @@
       "attack_angle": -4.1,
       "club_path": -0.9,
       "face_to_path": 6.5,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "carry": 121.2,
@@ -10343,7 +11027,8 @@
       "attack_angle": -2.1,
       "club_path": -2.1,
       "face_to_path": -1.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 130.2,
@@ -10355,7 +11040,8 @@
       "attack_angle": -1.1,
       "club_path": 5.1,
       "face_to_path": -3.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 127.3,
@@ -10367,7 +11053,8 @@
       "attack_angle": -2.1,
       "club_path": -1.5,
       "face_to_path": -2.9,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 120.4,
@@ -10379,7 +11066,8 @@
       "attack_angle": -1.5,
       "club_path": 5.7,
       "face_to_path": -10.0,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "carry": 122.9,
@@ -10391,7 +11079,8 @@
       "attack_angle": -1.5,
       "club_path": 5.3,
       "face_to_path": -2.9,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "carry": 126.1,
@@ -10403,7 +11092,8 @@
       "attack_angle": -3.5,
       "club_path": -0.9,
       "face_to_path": 1.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "carry": 142.3,
@@ -10415,7 +11105,8 @@
       "attack_angle": -1.5,
       "club_path": 7.5,
       "face_to_path": -7.3,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "carry": 90.3,
@@ -10427,7 +11118,8 @@
       "attack_angle": -3.3,
       "club_path": -2.3,
       "face_to_path": 8.4,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "carry": 120.2,
@@ -10439,7 +11131,8 @@
       "attack_angle": -2.3,
       "club_path": 1.3,
       "face_to_path": -5.8,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "carry": 127.2,
@@ -10451,7 +11144,8 @@
       "attack_angle": -3.1,
       "club_path": 6.1,
       "face_to_path": 2.5,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "carry": 135.0,
@@ -10463,7 +11157,8 @@
       "attack_angle": -2.3,
       "club_path": 5.9,
       "face_to_path": -2.5,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "carry": 109.7,
@@ -10475,7 +11170,8 @@
       "attack_angle": -4.9,
       "club_path": 2.7,
       "face_to_path": 3.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "carry": 122.5,
@@ -10487,7 +11183,8 @@
       "attack_angle": -5.5,
       "club_path": 3.3,
       "face_to_path": -1.4,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      },
      {
       "carry": 116.5,
@@ -10499,7 +11196,8 @@
       "attack_angle": -4.5,
       "club_path": 0.7,
       "face_to_path": 6.1,
-      "shot": 18
+      "shot": 18,
+      "warmup": false
      },
      {
       "carry": 116.0,
@@ -10511,7 +11209,8 @@
       "attack_angle": -3.1,
       "club_path": 1.9,
       "face_to_path": 6.9,
-      "shot": 19
+      "shot": 19,
+      "warmup": false
      },
      {
       "carry": 128.6,
@@ -10523,7 +11222,8 @@
       "attack_angle": -3.1,
       "club_path": -0.5,
       "face_to_path": -1.9,
-      "shot": 20
+      "shot": 20,
+      "warmup": false
      },
      {
       "carry": 142.4,
@@ -10535,7 +11235,8 @@
       "attack_angle": -1.5,
       "club_path": 8.9,
       "face_to_path": -9.4,
-      "shot": 21
+      "shot": 21,
+      "warmup": false
      },
      {
       "carry": 123.4,
@@ -10547,7 +11248,8 @@
       "attack_angle": -2.3,
       "club_path": 6.9,
       "face_to_path": -6.7,
-      "shot": 22
+      "shot": 22,
+      "warmup": false
      },
      {
       "carry": 136.5,
@@ -10559,7 +11261,8 @@
       "attack_angle": -2.1,
       "club_path": 8.5,
       "face_to_path": -6.8,
-      "shot": 23
+      "shot": 23,
+      "warmup": false
      },
      {
       "carry": 118.3,
@@ -10571,7 +11274,8 @@
       "attack_angle": -4.3,
       "club_path": -1.3,
       "face_to_path": 3.7,
-      "shot": 24
+      "shot": 24,
+      "warmup": false
      },
      {
       "carry": 143.6,
@@ -10583,7 +11287,8 @@
       "attack_angle": -1.7,
       "club_path": 5.3,
       "face_to_path": -8.4,
-      "shot": 25
+      "shot": 25,
+      "warmup": false
      },
      {
       "carry": 136.9,
@@ -10595,7 +11300,8 @@
       "attack_angle": -2.9,
       "club_path": 8.1,
       "face_to_path": -5.5,
-      "shot": 26
+      "shot": 26,
+      "warmup": false
      },
      {
       "carry": 77.6,
@@ -10607,7 +11313,8 @@
       "attack_angle": 0.1,
       "club_path": -0.1,
       "face_to_path": 14.4,
-      "shot": 27
+      "shot": 27,
+      "warmup": false
      },
      {
       "carry": 126.1,
@@ -10619,7 +11326,8 @@
       "attack_angle": -3.5,
       "club_path": 4.9,
       "face_to_path": -3.8,
-      "shot": 28
+      "shot": 28,
+      "warmup": false
      },
      {
       "carry": 130.8,
@@ -10631,7 +11339,8 @@
       "attack_angle": -1.9,
       "club_path": 3.5,
       "face_to_path": -1.3,
-      "shot": 29
+      "shot": 29,
+      "warmup": false
      },
      {
       "carry": 132.8,
@@ -10643,7 +11352,8 @@
       "attack_angle": -2.7,
       "club_path": 2.5,
       "face_to_path": -7.4,
-      "shot": 30
+      "shot": 30,
+      "warmup": false
      },
      {
       "carry": 113.2,
@@ -10655,7 +11365,8 @@
       "attack_angle": null,
       "club_path": null,
       "face_to_path": null,
-      "shot": 31
+      "shot": 31,
+      "warmup": false
      },
      {
       "carry": 137.2,
@@ -10667,7 +11378,8 @@
       "attack_angle": -2.5,
       "club_path": 4.5,
       "face_to_path": -1.0,
-      "shot": 32
+      "shot": 32,
+      "warmup": false
      },
      {
       "carry": 133.9,
@@ -10679,7 +11391,8 @@
       "attack_angle": -2.3,
       "club_path": 5.1,
       "face_to_path": 1.0,
-      "shot": 33
+      "shot": 33,
+      "warmup": false
      },
      {
       "carry": 114.6,
@@ -10691,7 +11404,8 @@
       "attack_angle": -1.9,
       "club_path": 1.5,
       "face_to_path": 2.1,
-      "shot": 34
+      "shot": 34,
+      "warmup": false
      },
      {
       "carry": 121.4,
@@ -10703,7 +11417,8 @@
       "attack_angle": -3.3,
       "club_path": 3.3,
       "face_to_path": 0.3,
-      "shot": 35
+      "shot": 35,
+      "warmup": false
      },
      {
       "carry": 129.2,
@@ -10715,7 +11430,8 @@
       "attack_angle": -4.1,
       "club_path": 5.1,
       "face_to_path": -3.0,
-      "shot": 36
+      "shot": 36,
+      "warmup": false
      },
      {
       "carry": 124.9,
@@ -10727,7 +11443,8 @@
       "attack_angle": -2.3,
       "club_path": 7.9,
       "face_to_path": -4.7,
-      "shot": 37
+      "shot": 37,
+      "warmup": false
      },
      {
       "carry": 128.5,
@@ -10739,7 +11456,8 @@
       "attack_angle": -0.9,
       "club_path": 5.3,
       "face_to_path": -5.4,
-      "shot": 38
+      "shot": 38,
+      "warmup": false
      },
      {
       "carry": 140.5,
@@ -10751,7 +11469,8 @@
       "attack_angle": -2.1,
       "club_path": 6.1,
       "face_to_path": -9.4,
-      "shot": 39
+      "shot": 39,
+      "warmup": false
      },
      {
       "carry": 132.1,
@@ -10763,7 +11482,8 @@
       "attack_angle": -3.1,
       "club_path": 4.9,
       "face_to_path": -5.5,
-      "shot": 40
+      "shot": 40,
+      "warmup": false
      }
     ],
     "average": {
@@ -10849,7 +11569,8 @@
       "attack_angle": -2.3,
       "club_path": 4.9,
       "face_to_path": 0.6,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "carry": 162.5,
@@ -10861,7 +11582,8 @@
       "attack_angle": -0.9,
       "club_path": 6.1,
       "face_to_path": -1.7,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "carry": 177.4,
@@ -10873,7 +11595,8 @@
       "attack_angle": -1.3,
       "club_path": 4.9,
       "face_to_path": -4.4,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "carry": 171.2,
@@ -10885,7 +11608,8 @@
       "attack_angle": -0.3,
       "club_path": 4.1,
       "face_to_path": -2.3,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "carry": 166.4,
@@ -10897,7 +11621,8 @@
       "attack_angle": -1.5,
       "club_path": 0.7,
       "face_to_path": -3.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "carry": 137.9,
@@ -10909,7 +11634,8 @@
       "attack_angle": -2.5,
       "club_path": 7.1,
       "face_to_path": -12.3,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "carry": 175.0,
@@ -10921,7 +11647,8 @@
       "attack_angle": -1.3,
       "club_path": 6.5,
       "face_to_path": -5.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "carry": 178.2,
@@ -10933,7 +11660,8 @@
       "attack_angle": -2.3,
       "club_path": 4.7,
       "face_to_path": -3.5,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      }
     ],
     "average": {
@@ -10960,7 +11688,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20260108",
@@ -11010,7 +11740,8 @@
       "spin_rate": 4371.0,
       "carry": 69.8,
       "side": 2.7,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 73.6,
@@ -11019,7 +11750,8 @@
       "spin_rate": 3787.0,
       "carry": 127.2,
       "side": -31.4,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 73.1,
@@ -11028,7 +11760,8 @@
       "spin_rate": 4907.0,
       "carry": 111.2,
       "side": 5.5,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 72.9,
@@ -11037,7 +11770,8 @@
       "spin_rate": 5883.0,
       "carry": 127.6,
       "side": -3.8,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 70.7,
@@ -11046,7 +11780,8 @@
       "spin_rate": 4405.0,
       "carry": 121.5,
       "side": -11.7,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 74.0,
@@ -11055,7 +11790,8 @@
       "spin_rate": 5798.0,
       "carry": 129.0,
       "side": 0.7,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 72.0,
@@ -11064,7 +11800,8 @@
       "spin_rate": 4592.0,
       "carry": 125.9,
       "side": -14.5,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 70.9,
@@ -11073,7 +11810,8 @@
       "spin_rate": 6787.0,
       "carry": 110.6,
       "side": 10.2,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 67.6,
@@ -11082,7 +11820,8 @@
       "spin_rate": 3918.0,
       "carry": 89.6,
       "side": 17.4,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 66.4,
@@ -11091,7 +11830,8 @@
       "spin_rate": 6324.0,
       "carry": 106.4,
       "side": 5.5,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 69.8,
@@ -11100,7 +11840,8 @@
       "spin_rate": 7011.0,
       "carry": 104.3,
       "side": 13.7,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 66.7,
@@ -11109,7 +11850,8 @@
       "spin_rate": 7059.0,
       "carry": 101.7,
       "side": 20.3,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 66.2,
@@ -11118,7 +11860,8 @@
       "spin_rate": 3966.0,
       "carry": 84.9,
       "side": -5.7,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 71.6,
@@ -11127,7 +11870,8 @@
       "spin_rate": 5778.0,
       "carry": 120.6,
       "side": 5.0,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      },
      {
       "club_speed": 67.3,
@@ -11136,7 +11880,8 @@
       "spin_rate": 4618.0,
       "carry": 110.1,
       "side": -12.0,
-      "shot": 15
+      "shot": 15,
+      "warmup": false
      },
      {
       "club_speed": 69.8,
@@ -11145,7 +11890,8 @@
       "spin_rate": 6193.0,
       "carry": 112.6,
       "side": 6.0,
-      "shot": 16
+      "shot": 16,
+      "warmup": false
      },
      {
       "club_speed": 72.5,
@@ -11154,7 +11900,8 @@
       "spin_rate": 5551.0,
       "carry": 124.9,
       "side": 9.4,
-      "shot": 17
+      "shot": 17,
+      "warmup": false
      }
     ],
     "average": {
@@ -11216,7 +11963,8 @@
       "spin_rate": 4005.0,
       "carry": 158.1,
       "side": -14.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 76.1,
@@ -11225,7 +11973,8 @@
       "spin_rate": 2679.0,
       "carry": 128.0,
       "side": -35.9,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 77.8,
@@ -11234,7 +11983,8 @@
       "spin_rate": 3552.0,
       "carry": 169.0,
       "side": -4.4,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 76.7,
@@ -11243,7 +11993,8 @@
       "spin_rate": 2924.0,
       "carry": 131.3,
       "side": -0.5,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 78.1,
@@ -11252,7 +12003,8 @@
       "spin_rate": 3015.0,
       "carry": 151.7,
       "side": -26.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      }
     ],
     "average": {
@@ -11273,7 +12025,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20260116",
@@ -11323,7 +12077,8 @@
       "spin_rate": 7144.0,
       "carry": 120.3,
       "side": 6.8,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 72.7,
@@ -11332,7 +12087,8 @@
       "spin_rate": 6427.0,
       "carry": 116.4,
       "side": -3.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 73.4,
@@ -11341,7 +12097,8 @@
       "spin_rate": 7426.0,
       "carry": 125.9,
       "side": 10.0,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 73.4,
@@ -11350,7 +12107,8 @@
       "spin_rate": 6524.0,
       "carry": 124.5,
       "side": 2.3,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 73.6,
@@ -11359,7 +12117,8 @@
       "spin_rate": 6690.0,
       "carry": 115.2,
       "side": 16.4,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 73.6,
@@ -11368,7 +12127,8 @@
       "spin_rate": 4830.0,
       "carry": 115.0,
       "side": -8.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      }
     ],
     "average": {
@@ -11430,7 +12190,8 @@
       "spin_rate": 5730.0,
       "carry": 134.7,
       "side": -8.1,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 85.0,
@@ -11439,7 +12200,8 @@
       "spin_rate": 4130.0,
       "carry": 170.7,
       "side": -15.1,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      },
      {
       "club_speed": 77.0,
@@ -11448,7 +12210,8 @@
       "spin_rate": 4900.0,
       "carry": 155.3,
       "side": 14.2,
-      "shot": 3
+      "shot": 3,
+      "warmup": false
      },
      {
       "club_speed": 86.1,
@@ -11457,7 +12220,8 @@
       "spin_rate": 4810.0,
       "carry": 179.2,
       "side": 16.8,
-      "shot": 4
+      "shot": 4,
+      "warmup": false
      },
      {
       "club_speed": 79.6,
@@ -11466,7 +12230,8 @@
       "spin_rate": 4000.0,
       "carry": 128.7,
       "side": -7.4,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 77.6,
@@ -11475,7 +12240,8 @@
       "spin_rate": 4280.0,
       "carry": 143.8,
       "side": -2.5,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 83.2,
@@ -11484,7 +12250,8 @@
       "spin_rate": 5530.0,
       "carry": 161.1,
       "side": 1.9,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 82.5,
@@ -11493,7 +12260,8 @@
       "spin_rate": 4850.0,
       "carry": 171.9,
       "side": 30.4,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      }
     ],
     "average": {
@@ -11514,7 +12282,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
  },
  {
   "id": "20260921",
@@ -11564,7 +12334,8 @@
       "spin_rate": 2535.0,
       "carry": 201.3,
       "side": 26.0,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "club_speed": 90.6,
@@ -11573,7 +12344,8 @@
       "spin_rate": 1630.0,
       "carry": 172.8,
       "side": -21.2,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      }
     ],
     "average": {
@@ -11635,7 +12407,8 @@
       "spin_rate": 6128.0,
       "carry": 130.6,
       "side": 14.3,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 72.7,
@@ -11644,7 +12417,8 @@
       "spin_rate": 6862.0,
       "carry": 126.9,
       "side": 16.0,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 72.0,
@@ -11653,7 +12427,8 @@
       "spin_rate": 5381.0,
       "carry": 128.0,
       "side": -2.8,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 73.1,
@@ -11662,7 +12437,8 @@
       "spin_rate": 5796.0,
       "carry": 135.6,
       "side": 4.8,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 72.9,
@@ -11671,7 +12447,8 @@
       "spin_rate": 5795.0,
       "carry": 138.1,
       "side": -2.1,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 73.8,
@@ -11680,7 +12457,8 @@
       "spin_rate": 6595.0,
       "carry": 130.9,
       "side": 10.2,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 72.7,
@@ -11689,7 +12467,8 @@
       "spin_rate": 5669.0,
       "carry": 135.3,
       "side": -0.2,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -11698,7 +12477,8 @@
       "spin_rate": 6666.0,
       "carry": 129.9,
       "side": 7.8,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 73.4,
@@ -11707,7 +12487,8 @@
       "spin_rate": 5875.0,
       "carry": 138.2,
       "side": -5.0,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 72.7,
@@ -11716,7 +12497,8 @@
       "spin_rate": 7205.0,
       "carry": 119.9,
       "side": 21.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 73.6,
@@ -11725,7 +12507,8 @@
       "spin_rate": 7379.0,
       "carry": 120.7,
       "side": 24.6,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      },
      {
       "club_speed": 72.3,
@@ -11734,7 +12517,8 @@
       "spin_rate": 5889.0,
       "carry": 135.6,
       "side": -1.4,
-      "shot": 12
+      "shot": 12,
+      "warmup": false
      },
      {
       "club_speed": 73.1,
@@ -11743,7 +12527,8 @@
       "spin_rate": 6528.0,
       "carry": 129.4,
       "side": 7.5,
-      "shot": 13
+      "shot": 13,
+      "warmup": false
      },
      {
       "club_speed": 72.5,
@@ -11752,7 +12537,8 @@
       "spin_rate": 7043.0,
       "carry": 110.8,
       "side": 14.3,
-      "shot": 14
+      "shot": 14,
+      "warmup": false
      }
     ],
     "average": {
@@ -11773,7 +12559,9 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "7Iron: first 4 shots"
  },
  {
   "id": "20260922",
@@ -11823,7 +12611,8 @@
       "spin_rate": 6073.0,
       "carry": 124.3,
       "side": -5.9,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "club_speed": 72.3,
@@ -11832,7 +12621,8 @@
       "spin_rate": 7493.0,
       "carry": 114.4,
       "side": 12.5,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "club_speed": 72.3,
@@ -11841,7 +12631,8 @@
       "spin_rate": 4536.0,
       "carry": 95.3,
       "side": -7.0,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "club_speed": 72.7,
@@ -11850,7 +12641,8 @@
       "spin_rate": 7032.0,
       "carry": 120.3,
       "side": 5.2,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "club_speed": 71.8,
@@ -11859,7 +12651,8 @@
       "spin_rate": 7543.0,
       "carry": 115.6,
       "side": 2.2,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "club_speed": 69.8,
@@ -11868,7 +12661,8 @@
       "spin_rate": 4685.0,
       "carry": 86.1,
       "side": -4.8,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      },
      {
       "club_speed": 68.9,
@@ -11877,7 +12671,8 @@
       "spin_rate": 7950.0,
       "carry": 98.5,
       "side": 4.8,
-      "shot": 7
+      "shot": 7,
+      "warmup": false
      },
      {
       "club_speed": 72.7,
@@ -11886,7 +12681,8 @@
       "spin_rate": 6644.0,
       "carry": 125.3,
       "side": 1.0,
-      "shot": 8
+      "shot": 8,
+      "warmup": false
      },
      {
       "club_speed": 71.8,
@@ -11895,7 +12691,8 @@
       "spin_rate": 6287.0,
       "carry": 121.9,
       "side": -6.1,
-      "shot": 9
+      "shot": 9,
+      "warmup": false
      },
      {
       "club_speed": 72.9,
@@ -11904,7 +12701,8 @@
       "spin_rate": 6088.0,
       "carry": 124.5,
       "side": 4.7,
-      "shot": 10
+      "shot": 10,
+      "warmup": false
      },
      {
       "club_speed": 72.5,
@@ -11913,7 +12711,8 @@
       "spin_rate": 5664.0,
       "carry": 119.3,
       "side": 0.7,
-      "shot": 11
+      "shot": 11,
+      "warmup": false
      }
     ],
     "average": {
@@ -11934,7 +12733,775 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "8Iron: first 4 shots"
+ },
+ {
+  "id": "20260923",
+  "date": "2026-09-23",
+  "file": "reports/20260923.pdf",
+  "pages": 10,
+  "clubs": [
+   {
+    "club": "Driver",
+    "columns": [
+     {
+      "label": "Club Speed",
+      "unit": "m/s",
+      "key": "club_speed"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "m/s",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Carry",
+      "unit": "m",
+      "key": "carry"
+     },
+     {
+      "label": "Side",
+      "unit": "m",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "club_speed": 87.7,
+      "attack_angle": 2.4,
+      "ball_speed": 131.1,
+      "spin_rate": 2901.0,
+      "carry": 192.0,
+      "side": -8.3,
+      "shot": 1,
+      "warmup": false
+     },
+     {
+      "club_speed": 90.8,
+      "attack_angle": 2.6,
+      "ball_speed": 135.6,
+      "spin_rate": 2559.0,
+      "carry": 213.5,
+      "side": -1.0,
+      "shot": 2,
+      "warmup": false
+     },
+     {
+      "club_speed": 86.6,
+      "attack_angle": 3.2,
+      "ball_speed": 128.8,
+      "spin_rate": 1961.0,
+      "carry": 196.2,
+      "side": 8.6,
+      "shot": 3,
+      "warmup": false
+     },
+     {
+      "club_speed": 89.0,
+      "attack_angle": 3.2,
+      "ball_speed": 132.9,
+      "spin_rate": 2335.0,
+      "carry": 208.8,
+      "side": -1.2,
+      "shot": 4,
+      "warmup": false
+     },
+     {
+      "club_speed": 89.3,
+      "attack_angle": 3.2,
+      "ball_speed": 133.5,
+      "spin_rate": 2001.0,
+      "carry": 206.3,
+      "side": 10.3,
+      "shot": 5,
+      "warmup": false
+     }
+    ],
+    "average": {
+     "club_speed": 88.8,
+     "attack_angle": 2.9,
+     "ball_speed": 132.4,
+     "spin_rate": 2351.0,
+     "carry": 203.4,
+     "side": 1.7
+    },
+    "consistency": {
+     "club_speed": 1.6,
+     "attack_angle": 0.3,
+     "ball_speed": 2.2,
+     "spin_rate": 352.0,
+     "carry": 8.0,
+     "side": 6.9
+    }
+   },
+   {
+    "club": "7Iron",
+    "columns": [
+     {
+      "label": "Club Speed",
+      "unit": "m/s",
+      "key": "club_speed"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "m/s",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Carry",
+      "unit": "m",
+      "key": "carry"
+     },
+     {
+      "label": "Side",
+      "unit": "m",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "club_speed": 74.0,
+      "attack_angle": -2.4,
+      "ball_speed": 103.6,
+      "spin_rate": 5489.0,
+      "carry": 142.7,
+      "side": 7.3,
+      "shot": 1,
+      "warmup": false
+     },
+     {
+      "club_speed": 72.0,
+      "attack_angle": -3.0,
+      "ball_speed": 100.4,
+      "spin_rate": 5619.0,
+      "carry": 136.2,
+      "side": -1.3,
+      "shot": 2,
+      "warmup": false
+     },
+     {
+      "club_speed": 73.8,
+      "attack_angle": -0.4,
+      "ball_speed": 94.4,
+      "spin_rate": 4571.0,
+      "carry": 126.3,
+      "side": -9.6,
+      "shot": 3,
+      "warmup": false
+     },
+     {
+      "club_speed": 73.6,
+      "attack_angle": -3.2,
+      "ball_speed": 104.5,
+      "spin_rate": 5189.0,
+      "carry": 142.7,
+      "side": -25.8,
+      "shot": 4,
+      "warmup": false
+     },
+     {
+      "club_speed": 72.5,
+      "attack_angle": -1.6,
+      "ball_speed": 103.3,
+      "spin_rate": 4914.0,
+      "carry": 144.0,
+      "side": -13.0,
+      "shot": 5,
+      "warmup": false
+     },
+     {
+      "club_speed": 72.9,
+      "attack_angle": -1.6,
+      "ball_speed": 90.1,
+      "spin_rate": 5723.0,
+      "carry": 115.6,
+      "side": 2.6,
+      "shot": 6,
+      "warmup": false
+     },
+     {
+      "club_speed": 72.9,
+      "attack_angle": -3.8,
+      "ball_speed": 102.5,
+      "spin_rate": 5556.0,
+      "carry": 139.7,
+      "side": 5.1,
+      "shot": 7,
+      "warmup": false
+     },
+     {
+      "club_speed": 73.6,
+      "attack_angle": -1.6,
+      "ball_speed": 100.7,
+      "spin_rate": 4436.0,
+      "carry": 136.7,
+      "side": -24.1,
+      "shot": 8,
+      "warmup": false
+     },
+     {
+      "club_speed": 73.1,
+      "attack_angle": 1.8,
+      "ball_speed": 84.6,
+      "spin_rate": 2543.0,
+      "carry": 106.1,
+      "side": -9.3,
+      "shot": 9,
+      "warmup": false
+     },
+     {
+      "club_speed": 71.6,
+      "attack_angle": -1.2,
+      "ball_speed": 99.3,
+      "spin_rate": 5206.0,
+      "carry": 135.5,
+      "side": -10.3,
+      "shot": 10,
+      "warmup": false
+     },
+     {
+      "club_speed": 71.8,
+      "attack_angle": -1.6,
+      "ball_speed": 100.7,
+      "spin_rate": 4752.0,
+      "carry": 139.3,
+      "side": -11.7,
+      "shot": 11,
+      "warmup": false
+     },
+     {
+      "club_speed": 73.4,
+      "attack_angle": -1.2,
+      "ball_speed": 104.0,
+      "spin_rate": 4667.0,
+      "carry": 146.8,
+      "side": -11.6,
+      "shot": 12,
+      "warmup": false
+     },
+     {
+      "club_speed": 71.8,
+      "attack_angle": -1.0,
+      "ball_speed": 91.5,
+      "spin_rate": 4742.0,
+      "carry": 118.5,
+      "side": -10.7,
+      "shot": 13,
+      "warmup": false
+     },
+     {
+      "club_speed": 72.7,
+      "attack_angle": -1.4,
+      "ball_speed": 101.8,
+      "spin_rate": 4698.0,
+      "carry": 142.5,
+      "side": -6.7,
+      "shot": 14,
+      "warmup": false
+     },
+     {
+      "club_speed": 73.4,
+      "attack_angle": -1.6,
+      "ball_speed": 102.9,
+      "spin_rate": 5075.0,
+      "carry": 143.0,
+      "side": -7.7,
+      "shot": 15,
+      "warmup": false
+     }
+    ],
+    "average": {
+     "club_speed": 72.9,
+     "attack_angle": -1.6,
+     "ball_speed": 98.9,
+     "spin_rate": 4879.0,
+     "carry": 134.4,
+     "side": -8.4
+    },
+    "consistency": {
+     "club_speed": 0.7,
+     "attack_angle": 1.3,
+     "ball_speed": 5.8,
+     "spin_rate": 739.0,
+     "carry": 11.7,
+     "side": 9.0
+    }
+   },
+   {
+    "club": "5Iron",
+    "columns": [
+     {
+      "label": "Club Speed",
+      "unit": "m/s",
+      "key": "club_speed"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "m/s",
+      "key": "ball_speed"
+     },
+     {
+      "label": "SpinRate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Carry",
+      "unit": "m",
+      "key": "carry"
+     },
+     {
+      "label": "Side",
+      "unit": "m",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "club_speed": 76.3,
+      "attack_angle": -2.2,
+      "ball_speed": 108.7,
+      "spin_rate": 4144.0,
+      "carry": 154.1,
+      "side": -1.9,
+      "shot": 1,
+      "warmup": false
+     },
+     {
+      "club_speed": 76.1,
+      "attack_angle": -2.0,
+      "ball_speed": 106.0,
+      "spin_rate": 4003.0,
+      "carry": 149.2,
+      "side": -9.3,
+      "shot": 2,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.8,
+      "attack_angle": -1.4,
+      "ball_speed": 107.8,
+      "spin_rate": 4542.0,
+      "carry": 149.0,
+      "side": -16.5,
+      "shot": 3,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.2,
+      "attack_angle": -3.0,
+      "ball_speed": 110.1,
+      "spin_rate": 5176.0,
+      "carry": 154.4,
+      "side": 10.6,
+      "shot": 4,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.7,
+      "attack_angle": -2.6,
+      "ball_speed": 112.7,
+      "spin_rate": 5184.0,
+      "carry": 160.0,
+      "side": 14.8,
+      "shot": 5,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.6,
+      "attack_angle": -0.2,
+      "ball_speed": 108.5,
+      "spin_rate": 3595.0,
+      "carry": 148.2,
+      "side": -23.7,
+      "shot": 6,
+      "warmup": false
+     },
+     {
+      "club_speed": 75.4,
+      "attack_angle": -0.2,
+      "ball_speed": 102.9,
+      "spin_rate": 3019.0,
+      "carry": 138.7,
+      "side": -21.9,
+      "shot": 7,
+      "warmup": false
+     },
+     {
+      "club_speed": 76.5,
+      "attack_angle": -0.2,
+      "ball_speed": 97.1,
+      "spin_rate": 3415.0,
+      "carry": 126.6,
+      "side": -6.2,
+      "shot": 8,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.2,
+      "attack_angle": -1.4,
+      "ball_speed": 111.0,
+      "spin_rate": 4677.0,
+      "carry": 159.4,
+      "side": 5.1,
+      "shot": 9,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.1,
+      "attack_angle": -1.6,
+      "ball_speed": 114.8,
+      "spin_rate": 3801.0,
+      "carry": 166.9,
+      "side": -15.5,
+      "shot": 10,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.3,
+      "attack_angle": -2.2,
+      "ball_speed": 110.5,
+      "spin_rate": 4438.0,
+      "carry": 156.1,
+      "side": -14.0,
+      "shot": 11,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.5,
+      "attack_angle": -2.2,
+      "ball_speed": 105.8,
+      "spin_rate": 4432.0,
+      "carry": 137.4,
+      "side": 3.6,
+      "shot": 12,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.0,
+      "attack_angle": -2.0,
+      "ball_speed": 110.3,
+      "spin_rate": 3745.0,
+      "carry": 157.9,
+      "side": -17.4,
+      "shot": 13,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.5,
+      "attack_angle": -2.6,
+      "ball_speed": 112.1,
+      "spin_rate": 4193.0,
+      "carry": 156.2,
+      "side": -13.7,
+      "shot": 14,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.2,
+      "attack_angle": -1.4,
+      "ball_speed": 113.6,
+      "spin_rate": 3909.0,
+      "carry": 166.9,
+      "side": -6.9,
+      "shot": 15,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.5,
+      "attack_angle": -2.4,
+      "ball_speed": 109.6,
+      "spin_rate": 5568.0,
+      "carry": 152.4,
+      "side": 18.7,
+      "shot": 16,
+      "warmup": false
+     },
+     {
+      "club_speed": 78.3,
+      "attack_angle": -0.2,
+      "ball_speed": 105.6,
+      "spin_rate": 4116.0,
+      "carry": 144.6,
+      "side": -8.3,
+      "shot": 17,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.8,
+      "attack_angle": -0.6,
+      "ball_speed": 108.5,
+      "spin_rate": 3414.0,
+      "carry": 155.7,
+      "side": -17.6,
+      "shot": 18,
+      "warmup": false
+     },
+     {
+      "club_speed": 75.2,
+      "attack_angle": -1.0,
+      "ball_speed": 98.4,
+      "spin_rate": 4243.0,
+      "carry": 132.0,
+      "side": 0.5,
+      "shot": 19,
+      "warmup": false
+     },
+     {
+      "club_speed": 76.5,
+      "attack_angle": -1.8,
+      "ball_speed": 106.7,
+      "spin_rate": 4885.0,
+      "carry": 148.0,
+      "side": 15.7,
+      "shot": 20,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.0,
+      "attack_angle": -1.6,
+      "ball_speed": 105.1,
+      "spin_rate": 4831.0,
+      "carry": 147.4,
+      "side": 15.1,
+      "shot": 21,
+      "warmup": false
+     }
+    ],
+    "average": {
+     "club_speed": 77.4,
+     "attack_angle": -1.6,
+     "ball_speed": 107.8,
+     "spin_rate": 4254.0,
+     "carry": 150.5,
+     "side": -4.3
+    },
+    "consistency": {
+     "club_speed": 0.9,
+     "attack_angle": 0.9,
+     "ball_speed": 4.5,
+     "spin_rate": 638.0,
+     "carry": 10.2,
+     "side": 13.1
+    }
+   },
+   {
+    "club": "9Iron",
+    "columns": [
+     {
+      "label": "Club Speed",
+      "unit": "m/s",
+      "key": "club_speed"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "m/s",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Carry",
+      "unit": "m",
+      "key": "carry"
+     },
+     {
+      "label": "Side",
+      "unit": "m",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "club_speed": 65.1,
+      "attack_angle": -2.4,
+      "ball_speed": 82.5,
+      "spin_rate": 6468.0,
+      "carry": 101.8,
+      "side": -7.0,
+      "shot": 1,
+      "warmup": true
+     },
+     {
+      "club_speed": 66.2,
+      "attack_angle": -2.0,
+      "ball_speed": 83.0,
+      "spin_rate": 6357.0,
+      "carry": 103.1,
+      "side": -5.6,
+      "shot": 2,
+      "warmup": true
+     },
+     {
+      "club_speed": 70.0,
+      "attack_angle": -2.4,
+      "ball_speed": 83.0,
+      "spin_rate": 7449.0,
+      "carry": 101.4,
+      "side": -2.3,
+      "shot": 3,
+      "warmup": true
+     },
+     {
+      "club_speed": 64.0,
+      "attack_angle": -3.0,
+      "ball_speed": 79.2,
+      "spin_rate": 7536.0,
+      "carry": 94.4,
+      "side": -2.6,
+      "shot": 4,
+      "warmup": true
+     },
+     {
+      "club_speed": 67.1,
+      "attack_angle": -2.8,
+      "ball_speed": 80.1,
+      "spin_rate": 8737.0,
+      "carry": 95.1,
+      "side": 6.9,
+      "shot": 5,
+      "warmup": true
+     },
+     {
+      "club_speed": 68.7,
+      "attack_angle": -2.6,
+      "ball_speed": 86.6,
+      "spin_rate": 7123.0,
+      "carry": 108.4,
+      "side": -6.5,
+      "shot": 6,
+      "warmup": true
+     }
+    ],
+    "average": {
+     "club_speed": 66.9,
+     "attack_angle": -2.5,
+     "ball_speed": 82.3,
+     "spin_rate": 7278.0,
+     "carry": 100.7,
+     "side": -2.8
+    },
+    "consistency": {
+     "club_speed": 2.0,
+     "attack_angle": 0.3,
+     "ball_speed": 2.5,
+     "spin_rate": 791.0,
+     "carry": 4.8,
+     "side": 4.7
+    }
+   },
+   {
+    "club": "4Iron",
+    "columns": [
+     {
+      "label": "Club Speed",
+      "unit": "m/s",
+      "key": "club_speed"
+     },
+     {
+      "label": "Attack Ang.",
+      "unit": "Deg",
+      "key": "attack_angle"
+     },
+     {
+      "label": "Ball Speed",
+      "unit": "m/s",
+      "key": "ball_speed"
+     },
+     {
+      "label": "Spin Rate",
+      "unit": "Rpm",
+      "key": "spin_rate"
+     },
+     {
+      "label": "Carry",
+      "unit": "m",
+      "key": "carry"
+     },
+     {
+      "label": "Side",
+      "unit": "m",
+      "key": "side"
+     }
+    ],
+    "shots": [
+     {
+      "club_speed": 76.7,
+      "attack_angle": 0.0,
+      "ball_speed": 106.9,
+      "spin_rate": 3211.0,
+      "carry": 152.9,
+      "side": -0.7,
+      "shot": 1,
+      "warmup": false
+     },
+     {
+      "club_speed": 77.4,
+      "attack_angle": -0.2,
+      "ball_speed": 112.1,
+      "spin_rate": 3359.0,
+      "carry": 164.9,
+      "side": -7.9,
+      "shot": 2,
+      "warmup": false
+     }
+    ],
+    "average": {
+     "club_speed": 77.0,
+     "attack_angle": -0.1,
+     "ball_speed": 109.6,
+     "spin_rate": 3285.0,
+     "carry": 158.9,
+     "side": -4.3
+    },
+    "consistency": {
+     "club_speed": 0.2,
+     "attack_angle": 0.1,
+     "ball_speed": 2.5,
+     "spin_rate": 74.0,
+     "carry": 6.0,
+     "side": 3.6
+    }
+   }
+  ],
+  "warnings": [],
+  "note": "Worked on face angle. 9-iron was all warm-up; hit 5-iron and 7-iron and driver.",
+  "warmup_rule": "9Iron: all shots"
  },
  {
   "id": "20260930",
@@ -11996,7 +13563,8 @@
       "curve": -13.5,
       "carry": 208.4,
       "smash": 1.48,
-      "shot": 1
+      "shot": 1,
+      "warmup": false
      },
      {
       "ball_speed": 131.2,
@@ -12007,7 +13575,8 @@
       "curve": -8.7,
       "carry": 194.4,
       "smash": 1.48,
-      "shot": 2
+      "shot": 2,
+      "warmup": false
      }
     ],
     "average": {
@@ -12085,7 +13654,8 @@
       "curve": -6.8,
       "carry": 142.0,
       "smash": 1.38,
-      "shot": 1
+      "shot": 1,
+      "warmup": true
      },
      {
       "ball_speed": 96.8,
@@ -12096,7 +13666,8 @@
       "curve": 4.7,
       "carry": 130.1,
       "smash": 1.32,
-      "shot": 2
+      "shot": 2,
+      "warmup": true
      },
      {
       "ball_speed": 100.3,
@@ -12107,7 +13678,8 @@
       "curve": 9.4,
       "carry": 133.5,
       "smash": 1.34,
-      "shot": 3
+      "shot": 3,
+      "warmup": true
      },
      {
       "ball_speed": 92.9,
@@ -12118,7 +13690,8 @@
       "curve": -0.0,
       "carry": 122.5,
       "smash": 1.24,
-      "shot": 4
+      "shot": 4,
+      "warmup": true
      },
      {
       "ball_speed": 95.6,
@@ -12129,7 +13702,8 @@
       "curve": 0.1,
       "carry": 129.1,
       "smash": 1.29,
-      "shot": 5
+      "shot": 5,
+      "warmup": false
      },
      {
       "ball_speed": 98.8,
@@ -12140,7 +13714,8 @@
       "curve": 2.0,
       "carry": 134.4,
       "smash": 1.29,
-      "shot": 6
+      "shot": 6,
+      "warmup": false
      }
     ],
     "average": {
@@ -12165,6 +13740,8 @@
     }
    }
   ],
-  "warnings": []
+  "warnings": [],
+  "note": null,
+  "warmup_rule": "7Iron: first 4 shots"
  }
 ]
